@@ -4,22 +4,48 @@
   "children" : [ {
     "name" : "mini.local",
     "children" : [ {
-      "name" : "94341@mini.local.main(1)",
+      "name" : "99478@mini.local.main(1)",
       "children" : [ {
-        "name" : "authorization()",
-        "uid" : "1dfccfc57e1ba751",
-        "parentUid" : "071b52c8c49f5e9c01c3a150a6575262",
+        "name" : "geolocation()",
+        "uid" : "d58c3ccb8ea3a0d4",
+        "parentUid" : "b09b820ca668e84f70531b3508dcbe58",
         "status" : "passed",
         "time" : {
-          "start" : 1751452924611,
-          "stop" : 1751453120384,
-          "duration" : 195773
+          "start" : 1751454776823,
+          "stop" : 1751455008513,
+          "duration" : 231690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "authorization()",
+        "uid" : "b8eecb927cf222fd",
+        "parentUid" : "b09b820ca668e84f70531b3508dcbe58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751454226638,
+          "stop" : 1751454406108,
+          "duration" : 179470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "onboardingg()",
+        "uid" : "b5b0e22c5fcb5613",
+        "parentUid" : "b09b820ca668e84f70531b3508dcbe58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751454600614,
+          "stop" : 1751454776771,
+          "duration" : 176157
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "071b52c8c49f5e9c01c3a150a6575262"
+      "uid" : "b09b820ca668e84f70531b3508dcbe58"
     } ],
     "uid" : "e8db958fadb984d65d97521d2a3f1fce"
   } ]

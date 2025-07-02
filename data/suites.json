@@ -5,13 +5,39 @@
     "name" : "MobileTesting.tests.SmokeTest",
     "children" : [ {
       "name" : "authorization()",
-      "uid" : "1dfccfc57e1ba751",
+      "uid" : "b8eecb927cf222fd",
       "parentUid" : "fecbe0f2c320f52e44969adc8a56ef20",
       "status" : "passed",
       "time" : {
-        "start" : 1751452924611,
-        "stop" : 1751453120384,
-        "duration" : 195773
+        "start" : 1751454226638,
+        "stop" : 1751454406108,
+        "duration" : 179470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "onboardingg()",
+      "uid" : "b5b0e22c5fcb5613",
+      "parentUid" : "fecbe0f2c320f52e44969adc8a56ef20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751454600614,
+        "stop" : 1751454776771,
+        "duration" : 176157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "geolocation()",
+      "uid" : "d58c3ccb8ea3a0d4",
+      "parentUid" : "fecbe0f2c320f52e44969adc8a56ef20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751454776823,
+        "stop" : 1751455008513,
+        "duration" : 231690
       },
       "flaky" : false,
       "newFailed" : false,

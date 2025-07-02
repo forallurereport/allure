@@ -1,5 +1,85 @@
 {
-  "dcaecbf20057817e770f4187e6ec9027" : {
+  "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83d2f8a579ba37df",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1751472371830,
+        "stop" : 1751472510735,
+        "duration" : 138905
+      }
+    } ]
+  },
+  "60ad711f96ae91af8fa840af672238e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea891b592849eaea",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825209,
+        "stop" : 1751462825209,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7388c90cca80858f5442f624638b6557" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f141a0b5c792c24",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825202,
+        "stop" : 1751462825202,
+        "duration" : 0
+      }
+    } ]
+  },
+  "877d2ccb612b12db0f1a13f2fbef2991" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6441bec47593c03",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751471140554,
+        "stop" : 1751471294280,
+        "duration" : 153726
+      }
+    } ]
+  },
+  "903836de96a677aa4aecee735017c3f6" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,35 +89,256 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b5b0e22c5fcb5613",
+      "uid" : "abbdc2182706063f",
       "status" : "passed",
       "time" : {
-        "start" : 1751454600614,
-        "stop" : 1751454776771,
-        "duration" : 176157
+        "start" : 1751474818299,
+        "stop" : 1751474966102,
+        "duration" : 147803
+      }
+    } ]
+  },
+  "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d53720d92384a4",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1751472096886,
+        "stop" : 1751472235777,
+        "duration" : 138891
+      }
+    } ]
+  },
+  "f806401a4fe5145ec0e282970490ec1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a2048c6e397ed27",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1]",
+      "time" : {
+        "start" : 1751473438349,
+        "stop" : 1751473587510,
+        "duration" : 149161
+      }
+    } ]
+  },
+  "f67134439d58a9cfb24d3a9c728841eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc4ac77ebfd98f91",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1751472638362,
+        "stop" : 1751472774015,
+        "duration" : 135653
+      }
+    } ]
+  },
+  "97c1be067cb7cc8af2dc2119869babe2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "568a3367d0ec5029",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825214,
+        "stop" : 1751462825214,
+        "duration" : 0
+      }
+    } ]
+  },
+  "43654123208c6e7a3c356c0133360b1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa495625fe961f99",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"2/6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751471905351,
+        "stop" : 1751471955303,
+        "duration" : 49952
+      }
+    } ]
+  },
+  "18ec24184790bbd2571b088796ff69b0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e21a148f93a974bd",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1]",
+      "time" : {
+        "start" : 1751473978327,
+        "stop" : 1751474126492,
+        "duration" : 148165
+      }
+    } ]
+  },
+  "75d4b60cd5c57d88e7622405baf8befb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6d873187a7be00d",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.EditText[@resource-id=\"ru.sogaz.app.stage:id/input_document\"]",
+      "time" : {
+        "start" : 1751475155250,
+        "stop" : 1751475254718,
+        "duration" : 99468
+      }
+    } ]
+  },
+  "d7a09ac00e6080db4671a69b7f8f8d8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7bc103cb52ddee4",
+      "status" : "broken",
+      "statusDetails" : "Ошибка при OCR-клике: OCR не нашёл 'Робб Флинн'' на экране после 3 попыток.",
+      "time" : {
+        "start" : 1751470964735,
+        "stop" : 1751471140539,
+        "duration" : 175804
+      }
+    } ]
+  },
+  "31fef632ec4ee88d6e90966532bf9b1b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f610941b4ca469c2",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.EditText[@resource-id=\"ru.sogaz.app.stage:id/input_document\"]",
+      "time" : {
+        "start" : 1751471693015,
+        "stop" : 1751471791649,
+        "duration" : 98634
+      }
+    } ]
+  },
+  "3456ff090bb6eaaf81ffe6abf3d31071" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc26d44541c2415",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Робб Флинн'",
+      "time" : {
+        "start" : 1751474654049,
+        "stop" : 1751474818266,
+        "duration" : 164217
+      }
+    } ]
+  },
+  "26bac62248ca4bd68ebe8c33827f49f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afe5eb7dfaeb18a4",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1751472235808,
+        "stop" : 1751472371794,
+        "duration" : 135986
+      }
+    } ]
+  },
+  "8b25fd7bd9ed845d19081ee0799ea118" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3a2049d4ec50e38",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1751472907879,
+        "stop" : 1751473045400,
+        "duration" : 137521
       }
     } ]
   },
   "b76a326bd49d768ca63850901cbb024d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d58c3ccb8ea3a0d4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1751454776823,
-        "stop" : 1751455008513,
-        "duration" : 231690
-      }
-    } ]
-  },
-  "97960b3265d6a8cb0001717f51777f6b" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,6 +348,121 @@
       "total" : 2
     },
     "items" : [ {
+      "uid" : "53d9f9b5a78058a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751459052399,
+        "stop" : 1751459288303,
+        "duration" : 235904
+      }
+    }, {
+      "uid" : "d58c3ccb8ea3a0d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751454776823,
+        "stop" : 1751455008513,
+        "duration" : 231690
+      }
+    } ]
+  },
+  "5e94fe62b62986319f169be63613673" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb595acca8ee2153",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 8b3fe6a0-9e91-4c15-ba92-10f2a167bcc5",
+      "time" : {
+        "start" : 1751473045412,
+        "stop" : 1751473129197,
+        "duration" : 83785
+      }
+    } ]
+  },
+  "171f22ce60306c9f366a7b5a1d834ae4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da1a54434d4de710",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/textViewName\" and contains(@text, \"Тест4\")]",
+      "time" : {
+        "start" : 1751470232339,
+        "stop" : 1751470413584,
+        "duration" : 181245
+      }
+    } ]
+  },
+  "d839064510354c59ad3042a75e06a20e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10348881143af829",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAM() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462591853,
+        "stop" : 1751462591853,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e9ea1acc5a05ef13141367b5be0fa5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "988d0a6f5b255854",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.EditText[@resource-id=\"ru.sogaz.app.stage:id/input_document\"]",
+      "time" : {
+        "start" : 1751471593032,
+        "stop" : 1751471692977,
+        "duration" : 99945
+      }
+    } ]
+  },
+  "97960b3265d6a8cb0001717f51777f6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "4a175bf38c4e88fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751458878719,
+        "stop" : 1751459052388,
+        "duration" : 173669
+      }
+    }, {
       "uid" : "b8eecb927cf222fd",
       "status" : "passed",
       "time" : {
@@ -61,6 +477,710 @@
         "start" : 1751452924611,
         "stop" : 1751453120384,
         "duration" : 195773
+      }
+    } ]
+  },
+  "507f3329bcac06196c711d6214e28910" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7689c802784f476c",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825219,
+        "stop" : 1751462825219,
+        "duration" : 0
+      }
+    } ]
+  },
+  "52cb1388c27fcb104d3bf655780ca1b1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ee5cc389d0c6f86",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1]",
+      "time" : {
+        "start" : 1751473283575,
+        "stop" : 1751473438333,
+        "duration" : 154758
+      }
+    } ]
+  },
+  "8c176700601bd05c1972864a7d482183" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccdbab7abd32ab9",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1751472510749,
+        "stop" : 1751472638352,
+        "duration" : 127603
+      }
+    } ]
+  },
+  "fe81c9de9a3b137531503ead196a3e40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad3232a70908adc2",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: d1024306-0b30-4833-a0f4-03f658f3b0cc",
+      "time" : {
+        "start" : 1751474337359,
+        "stop" : 1751474420415,
+        "duration" : 83056
+      }
+    } ]
+  },
+  "b045c964eb716a32b5421d102b3035a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e11e7727ee39c18",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.xpath: //android.widget.ImageView/following-sibling::android.widget.LinearLayout/android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/title\"]' is not linked to the same object in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f10eeaae-4a0e-4f97-b060-e1f5d2e4e511",
+      "time" : {
+        "start" : 1751474966113,
+        "stop" : 1751475155211,
+        "duration" : 189098
+      }
+    } ]
+  },
+  "2ebd030ead2202f2de6f1bad7e5cfed6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9608f158f50cc652",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751461444691,
+        "stop" : 1751461444691,
+        "duration" : 0
+      }
+    } ]
+  },
+  "560ede97c4c2afdae332f33b4e3d1494" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d1ba40f3f3db204",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751461797540,
+        "stop" : 1751461797540,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3b75c42caae7b8bda70cb5b50052d65" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48472a03dc0b0379",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/textViewName\" and contains(@text, \"Тест4\")]",
+      "time" : {
+        "start" : 1751470047649,
+        "stop" : 1751470232324,
+        "duration" : 184675
+      }
+    } ]
+  },
+  "2898282340b486d23243848ed9820086" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f8445c519cb9c8b",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 9bb37108-114a-4cd8-a31d-f0d105e7e569",
+      "time" : {
+        "start" : 1751474569614,
+        "stop" : 1751474654023,
+        "duration" : 84409
+      }
+    } ]
+  },
+  "ba6a924fce26128c6ee2510e73e8a21d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "163404f9fda2ff64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751461444694,
+        "stop" : 1751461609604,
+        "duration" : 164910
+      }
+    } ]
+  },
+  "f7831b04c8295468701941be18dcd5d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c52f2f439d5d3457",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAV() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462591857,
+        "stop" : 1751462591857,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1861d2113478472056474c95422ed11b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ca84b76d2436737",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/textViewName\" and contains(@text, \"Тест4\")]",
+      "time" : {
+        "start" : 1751470599762,
+        "stop" : 1751470780529,
+        "duration" : 180767
+      }
+    } ]
+  },
+  "66c70b389e0fbbe16e554a89f0fb1684" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83c267c05e9368c2",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1751472774032,
+        "stop" : 1751472907865,
+        "duration" : 133833
+      }
+    } ]
+  },
+  "601799a9efc28408ce8bde27845aca08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61f1dfaa4d45db04",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 3d535d3a-2e49-4e5f-ac19-d6548b426f94",
+      "time" : {
+        "start" : 1751473739290,
+        "stop" : 1751473824223,
+        "duration" : 84933
+      }
+    } ]
+  },
+  "1068dfde36f458b4b76be55e159487e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e961af17ae441b3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"2/6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751471791658,
+        "stop" : 1751471848778,
+        "duration" : 57120
+      }
+    } ]
+  },
+  "d0e183c5aea0d02949fbb7f7c8df728f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c53c2110b06b065",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825221,
+        "stop" : 1751462825221,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4d7588b6ca974609f15c061aa465fe80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4228a996fde19665",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751461980419,
+        "stop" : 1751462295284,
+        "duration" : 314865
+      }
+    } ]
+  },
+  "91a94f66aeb0558dc939814d48ff7247" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f1df5c168df7944",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/textViewName\" and contains(@text, \"Тест4\")]",
+      "time" : {
+        "start" : 1751470780542,
+        "stop" : 1751470964726,
+        "duration" : 184184
+      }
+    } ]
+  },
+  "784bb5000701054f526ae1e00939cbfd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f796a44653d5cfbc",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1]",
+      "time" : {
+        "start" : 1751474420428,
+        "stop" : 1751474569599,
+        "duration" : 149171
+      }
+    } ]
+  },
+  "67290ec330cbe4f448f8e0796f878d36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71770ff4afa9a8fa",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1751471955362,
+        "stop" : 1751472096879,
+        "duration" : 141517
+      }
+    } ]
+  },
+  "58ae8a85773b95a7b4345b4c9d4a82bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dda60940e01858e9",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825213,
+        "stop" : 1751462825213,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e5afd0724e8caa80e4cfe53484cc03c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b627ee10834645c",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1]",
+      "time" : {
+        "start" : 1751473129231,
+        "stop" : 1751473283551,
+        "duration" : 154320
+      }
+    } ]
+  },
+  "dcaecbf20057817e770f4187e6ec9027" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6c94f11847fd1d9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751459288314,
+        "stop" : 1751459461274,
+        "duration" : 172960
+      }
+    }, {
+      "uid" : "b5b0e22c5fcb5613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751454600614,
+        "stop" : 1751454776771,
+        "duration" : 176157
+      }
+    } ]
+  },
+  "e03e9d43e0d47c51e5c1200eee81632f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b22dbe624ffef2d",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1]",
+      "time" : {
+        "start" : 1751473587527,
+        "stop" : 1751473739231,
+        "duration" : 151704
+      }
+    } ]
+  },
+  "10c432b313dbf8f39c2d405907abdbdb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36076bb5faa9faf7",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/textViewName\" and contains(@text, \"Тест4\")]",
+      "time" : {
+        "start" : 1751470413619,
+        "stop" : 1751470599745,
+        "duration" : 186126
+      }
+    } ]
+  },
+  "1b75182e7b1e73cf5ae6d416e279d785" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7eb8c92797e0294e",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751471442373,
+        "stop" : 1751471592982,
+        "duration" : 150609
+      }
+    } ]
+  },
+  "4286382df6cd5e81a6cfd8becf94837c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "619fb8fccebe3e72",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751471294288,
+        "stop" : 1751471442362,
+        "duration" : 148074
+      }
+    } ]
+  },
+  "de0069054fb7ac2e92d1df5c33a933f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66fe4331e4124bf2",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825215,
+        "stop" : 1751462825215,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a0d25b93257a21b2f57c0006cc2092bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7345f4b74e3b5bd",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825220,
+        "stop" : 1751462825220,
+        "duration" : 0
+      }
+    } ]
+  },
+  "196479d062f0019fa7abf131175caed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36621936023a7688",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"2/6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751471848800,
+        "stop" : 1751471905343,
+        "duration" : 56543
+      }
+    } ]
+  },
+  "25d2852a75bb4e84f7a27083d774c803" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7984b025bf009495",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.ElregTest.conclusion() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462740608,
+        "stop" : 1751462740608,
+        "duration" : 0
+      }
+    } ]
+  },
+  "13f992910106d08d4d88cb71e729d71c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b39cc25b8e517a7",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751462825218,
+        "stop" : 1751462825218,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6c013786e546045f008ddc8f54b14c10" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6c3a46ba7d1c55",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1]",
+      "time" : {
+        "start" : 1751473824234,
+        "stop" : 1751473978312,
+        "duration" : 154078
+      }
+    } ]
+  },
+  "493f4f9d6566967d28d36f973e930190" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1a556ad9e608140",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //androidx.recyclerview.widget.RecyclerView/androidx.cardview.widget.CardView (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751474126501,
+        "stop" : 1751474337337,
+        "duration" : 210836
+      }
+    } ]
+  },
+  "68b47b537cfcf9d4ef3daef0137ef71f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c41b6c3d20b91afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751461609611,
+        "stop" : 1751461797532,
+        "duration" : 187921
       }
     } ]
   }

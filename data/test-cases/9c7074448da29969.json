@@ -1,0 +1,422 @@
+{
+  "uid" : "9c7074448da29969",
+  "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
+  "fullName" : "MobileTesting.tests.QuestionnaireTest.needDayOffsFromOfflineConsultationQuestionnaire",
+  "historyId" : "171f22ce60306c9f366a7b5a1d834ae4",
+  "time" : {
+    "start" : 1751654234838,
+    "stop" : 1751654428205,
+    "duration" : 193367
+  },
+  "description" : "Отмена опросника для оффлайн-консультации",
+  "descriptionHtml" : "<p>Отмена опросника для оффлайн-консультации</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat MobileTesting.robots.RobotHelper.longWaitUntilVisible(RobotHelper.java:65)\n\tat MobileTesting.robots.QuestionnaireRobot.acceptQuestionnaire(QuestionnaireRobot.java:107)\n\tat MobileTesting.tests.QuestionnaireTest.needDayOffsFromOfflineConsultationQuestionnaire(QuestionnaireTest.java:55)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:165)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: de5e750a-ebd1-4988-9711-7db1aa28c39b\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"]}\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\t... 66 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Отмена опросника для оффлайн-консультации",
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat MobileTesting.robots.RobotHelper.longWaitUntilVisible(RobotHelper.java:65)\n\tat MobileTesting.robots.QuestionnaireRobot.acceptQuestionnaire(QuestionnaireRobot.java:107)\n\tat MobileTesting.tests.QuestionnaireTest.needDayOffsFromOfflineConsultationQuestionnaire(QuestionnaireTest.java:55)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:165)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: de5e750a-ebd1-4988-9711-7db1aa28c39b\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"]}\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\t... 66 more\n",
+    "steps" : [ {
+      "name" : "Отменить опросник для оффлайн-консультации",
+      "time" : {
+        "start" : 1751654247216,
+        "stop" : 1751654424405,
+        "duration" : 177189
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat MobileTesting.robots.RobotHelper.longWaitUntilVisible(RobotHelper.java:65)\n\tat MobileTesting.robots.QuestionnaireRobot.acceptQuestionnaire(QuestionnaireRobot.java:107)\n\tat MobileTesting.tests.QuestionnaireTest.needDayOffsFromOfflineConsultationQuestionnaire(QuestionnaireTest.java:55)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:165)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: de5e750a-ebd1-4988-9711-7db1aa28c39b\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"]}\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\t... 66 more\n",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1751654247217,
+          "stop" : 1751654332351,
+          "duration" : 85134
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1751654247217,
+            "stop" : 1751654293176,
+            "duration" : 45959
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1751654247217,
+              "stop" : 1751654264863,
+              "duration" : 17646
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1751654248461,
+                "stop" : 1751654264011,
+                "duration" : 15550
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "6d9ea83355c76cf1",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "6d9ea83355c76cf1.png",
+              "type" : "image/png",
+              "size" : 82258
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1751654264863,
+              "stop" : 1751654266077,
+              "duration" : 1214
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1751654266078,
+              "stop" : 1751654268694,
+              "duration" : 2616
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1101"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1751654268694,
+              "stop" : 1751654270177,
+              "duration" : 1483
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "56411565c224e80a",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "56411565c224e80a.png",
+              "type" : "image/png",
+              "size" : 138130
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1751654285320,
+              "stop" : 1751654290296,
+              "duration" : 4976
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "59c5bb049ed23531",
+              "name" : "Капча решена_mobile_screenshot",
+              "source" : "59c5bb049ed23531.png",
+              "type" : "image/png",
+              "size" : 272724
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1751654290911,
+              "stop" : 1751654293176,
+              "duration" : 2265
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "66bc80a85288a30",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "66bc80a85288a30.png",
+              "type" : "image/png",
+              "size" : 54289
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "36ed6b1498877798",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "36ed6b1498877798.png",
+            "type" : "image/png",
+            "size" : 269389
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1101"
+          } ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 5,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ввести ПИН-код",
+          "time" : {
+            "start" : 1751654293176,
+            "stop" : 1751654332351,
+            "duration" : 39175
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Запретить подсказки",
+            "time" : {
+              "start" : 1751654316340,
+              "stop" : 1751654331345,
+              "duration" : 15005
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "74d879a6c161cfd5",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "74d879a6c161cfd5.png",
+            "type" : "image/png",
+            "size" : 54289
+          }, {
+            "uid" : "b73cde5bb293166f",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "b73cde5bb293166f.png",
+            "type" : "image/png",
+            "size" : 56407
+          }, {
+            "uid" : "c65dc29b91fd7587",
+            "name" : "Страница здоровья_mobile_screenshot",
+            "source" : "c65dc29b91fd7587.png",
+            "type" : "image/png",
+            "size" : 206062
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1101"
+        } ],
+        "stepsCount" : 10,
+        "hasContent" : true,
+        "attachmentsCount" : 8,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Сделать офлайн-консультацию со специалистом",
+        "time" : {
+          "start" : 1751654332352,
+          "stop" : 1751654349496,
+          "duration" : 17144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Запретить подсказки",
+        "time" : {
+          "start" : 1751654368061,
+          "stop" : 1751654383645,
+          "duration" : 15584
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Принять опросник",
+        "time" : {
+          "start" : 1751654383646,
+          "stop" : 1751654424405,
+          "duration" : 40759
+        },
+        "status" : "broken",
+        "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)",
+        "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat MobileTesting.robots.RobotHelper.longWaitUntilVisible(RobotHelper.java:65)\n\tat MobileTesting.robots.QuestionnaireRobot.acceptQuestionnaire(QuestionnaireRobot.java:107)\n\tat MobileTesting.tests.QuestionnaireTest.needDayOffsFromOfflineConsultationQuestionnaire(QuestionnaireTest.java:55)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:165)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: de5e750a-ebd1-4988-9711-7db1aa28c39b\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"]}\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\t... 66 more\n",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "321c9c96faa8c45e",
+          "name" : "Error_longWaitUntilVisible_mobile_screenshot",
+          "source" : "321c9c96faa8c45e.png",
+          "type" : "image/png",
+          "size" : 132411
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "68c8b877319c8691",
+        "name" : "Экран выбора полиса",
+        "source" : "68c8b877319c8691.png",
+        "type" : "image/png",
+        "size" : 132170
+      }, {
+        "uid" : "b8e189617a53984b",
+        "name" : "Информация",
+        "source" : "b8e189617a53984b.txt",
+        "type" : "text/plain",
+        "size" : 49
+      }, {
+        "uid" : "aeaf1152b796dacc",
+        "name" : "Предупреждение",
+        "source" : "aeaf1152b796dacc.txt",
+        "type" : "text/plain",
+        "size" : 43
+      }, {
+        "uid" : "4ca60dcd477e9159",
+        "name" : "Элемент_policeName_не_найден",
+        "source" : "4ca60dcd477e9159.png",
+        "type" : "image/png",
+        "size" : 132170
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "hasContent" : true,
+      "attachmentsCount" : 13,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "hasContent" : true,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "52056@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "needDayOffsFromOfflineConsultationQuestionnaire"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "da1a54434d4de710",
+        "status" : "failed",
+        "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/textViewName\" and contains(@text, \"Тест4\")]",
+        "time" : {
+          "start" : 1751470232339,
+          "stop" : 1751470413584,
+          "duration" : 181245
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9c7074448da29969.json",
+  "parameterValues" : [ ]
+}

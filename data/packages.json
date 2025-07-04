@@ -4,42 +4,163 @@
   "children" : [ {
     "name" : "MobileTesting.tests",
     "children" : [ {
+      "name" : "MedcardTest",
+      "children" : [ {
+        "name" : "allergyTests",
+        "uid" : "76880a7f966feccb",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751637904977,
+          "stop" : 1751638208700,
+          "duration" : 303723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doctorConclusionTests",
+        "uid" : "fc6cfcdb7944c5d5",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751638208878,
+          "stop" : 1751638689094,
+          "duration" : 480216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "operationTests",
+        "uid" : "ce26a84a3363e396",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751638689103,
+          "stop" : 1751638953916,
+          "duration" : 264813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "instrumentalDiagnosticsTests",
+        "uid" : "b6b2563953e8954e",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751638954086,
+          "stop" : 1751639373067,
+          "duration" : 418981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "vaccinationTests",
+        "uid" : "3b9605db8cf8d0a4",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751639373084,
+          "stop" : 1751639662053,
+          "duration" : 288969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "diseaseTests",
+        "uid" : "8471bb4412169bd3",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751639662074,
+          "stop" : 1751639948374,
+          "duration" : 286300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "injuryTests",
+        "uid" : "4b019466db9ce728",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751639948380,
+          "stop" : 1751640146603,
+          "duration" : 198223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "medicineTests",
+        "uid" : "907b58825782c3bf",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751640146616,
+          "stop" : 1751640382325,
+          "duration" : 235709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "analyzesTests",
+        "uid" : "829527a38f2da80a",
+        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751653457603,
+          "stop" : 1751653884956,
+          "duration" : 427353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44"
+    }, {
       "name" : "SmokeTest",
       "children" : [ {
         "name" : "authorization",
-        "uid" : "4a175bf38c4e88fb",
+        "uid" : "dc1e2c3ed85c42f6",
         "parentUid" : "e3556137f230cf7b98198c0177857e40",
         "status" : "passed",
         "time" : {
-          "start" : 1751458878719,
-          "stop" : 1751459052388,
-          "duration" : 173669
+          "start" : 1751640626458,
+          "stop" : 1751640766381,
+          "duration" : 139923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "onboarding",
+        "uid" : "3219c15904ca30e1",
+        "parentUid" : "e3556137f230cf7b98198c0177857e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751640766398,
+          "stop" : 1751640954711,
+          "duration" : 188313
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "geolocation",
-        "uid" : "53d9f9b5a78058a0",
+        "uid" : "dfe39016cc60dd4",
         "parentUid" : "e3556137f230cf7b98198c0177857e40",
         "status" : "passed",
         "time" : {
-          "start" : 1751459052399,
-          "stop" : 1751459288303,
-          "duration" : 235904
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "onboardingg",
-        "uid" : "6c94f11847fd1d9b",
-        "parentUid" : "e3556137f230cf7b98198c0177857e40",
-        "status" : "passed",
-        "time" : {
-          "start" : 1751459288314,
-          "stop" : 1751459461274,
-          "duration" : 172960
+          "start" : 1751640954723,
+          "stop" : 1751641159025,
+          "duration" : 204302
         },
         "flaky" : false,
         "newFailed" : false,
@@ -47,15 +168,123 @@
       } ],
       "uid" : "e3556137f230cf7b98198c0177857e40"
     }, {
+      "name" : "BuySectionTest",
+      "children" : [ {
+        "name" : "testProductDetailNavigation",
+        "uid" : "bd28765d717fd729",
+        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751641159069,
+          "stop" : 1751641282213,
+          "duration" : 123144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTripsSectionOnly",
+        "uid" : "7169d8a034d661d2",
+        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751641282227,
+          "stop" : 1751641515238,
+          "duration" : 233011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testProductOrderInEachSection",
+        "uid" : "79e41195918b9088",
+        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751655862538,
+          "stop" : 1751656165171,
+          "duration" : 302633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAllSectionsExpandCollapse",
+        "uid" : "ae84d37de8d275c5",
+        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751656165192,
+          "stop" : 1751656305430,
+          "duration" : 140238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sectionsAndModalsTests",
+        "uid" : "95f403ebbb21d6e4",
+        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751656305435,
+          "stop" : 1751656619755,
+          "duration" : 314320
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOnlyOneSectionExpanded",
+        "uid" : "41cafe6d67b0b83d",
+        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751656619772,
+          "stop" : 1751656831113,
+          "duration" : 211341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testQuestionIconAndArrowPresence",
+        "uid" : "6f398e1903982813",
+        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751656831133,
+          "stop" : 1751657115936,
+          "duration" : 284803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSectionsExpand",
+        "uid" : "586e8ce9d72de51f",
+        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751657115951,
+          "stop" : 1751657260906,
+          "duration" : 144955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bf2a3634e17e43cdf11bd6f8df08a2a"
+    }, {
       "name" : "QuestionnaireTest",
       "children" : [ {
         "name" : "questionnaireDoesNotOpenForChildPatientOffline",
-        "uid" : "9608f158f50cc652",
+        "uid" : "4e510719b949959b",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "skipped",
         "time" : {
-          "start" : 1751461444691,
-          "stop" : 1751461444691,
+          "start" : 1751644174590,
+          "stop" : 1751644174590,
           "duration" : 0
         },
         "flaky" : false,
@@ -63,38 +292,38 @@
         "parameters" : [ ]
       }, {
         "name" : "symptomsPageOpensAfterAcceptingQuestionnaire",
-        "uid" : "163404f9fda2ff64",
+        "uid" : "98a22aa789a796f9",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "passed",
         "time" : {
-          "start" : 1751461444694,
-          "stop" : 1751461609604,
-          "duration" : 164910
+          "start" : 1751644174600,
+          "stop" : 1751644335110,
+          "duration" : 160510
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "questionnaireOpensForAdultPatient",
-        "uid" : "c41b6c3d20b91afe",
+        "uid" : "4761126732d04a82",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "passed",
         "time" : {
-          "start" : 1751461609611,
-          "stop" : 1751461797532,
-          "duration" : 187921
+          "start" : 1751644335131,
+          "stop" : 1751644514177,
+          "duration" : 179046
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "questionnaireDoesNotOpenForChildPatientOnline",
-        "uid" : "9d1ba40f3f3db204",
+        "uid" : "9e6f7127c0fd906d",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "skipped",
         "time" : {
-          "start" : 1751461797540,
-          "stop" : 1751461797540,
+          "start" : 1751644514185,
+          "stop" : 1751644514185,
           "duration" : 0
         },
         "flaky" : false,
@@ -102,130 +331,130 @@
         "parameters" : [ ]
       }, {
         "name" : "specializationDeterminedForOnlineConsultation",
-        "uid" : "4228a996fde19665",
+        "uid" : "473764c6c563145b",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "passed",
         "time" : {
-          "start" : 1751461980419,
-          "stop" : 1751462295284,
-          "duration" : 314865
+          "start" : 1751644718009,
+          "stop" : 1751645012161,
+          "duration" : 294152
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire",
-        "uid" : "48472a03dc0b0379",
+        "uid" : "2508e27f2f06e80b",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
-        "status" : "failed",
+        "status" : "broken",
         "time" : {
-          "start" : 1751470047649,
-          "stop" : 1751470232324,
-          "duration" : 184675
+          "start" : 1751654024150,
+          "stop" : 1751654234823,
+          "duration" : 210673
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "needDayOffsFromOfflineConsultationQuestionnaire",
-        "uid" : "da1a54434d4de710",
+        "uid" : "9c7074448da29969",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
-        "status" : "failed",
+        "status" : "broken",
         "time" : {
-          "start" : 1751470232339,
-          "stop" : 1751470413584,
-          "duration" : 181245
+          "start" : 1751654234838,
+          "stop" : 1751654428205,
+          "duration" : 193367
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "exitFromQuestionnaire",
-        "uid" : "36076bb5faa9faf7",
+        "uid" : "449f530e7d9d1325",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
-        "status" : "failed",
+        "status" : "broken",
         "time" : {
-          "start" : 1751470413619,
-          "stop" : 1751470599745,
-          "duration" : 186126
+          "start" : 1751654428218,
+          "stop" : 1751654632215,
+          "duration" : 203997
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "goBackToSymptomsSelectionPage",
-        "uid" : "7ca84b76d2436737",
+        "uid" : "a2bc8826b7b7a2f1",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
-        "status" : "failed",
+        "status" : "broken",
         "time" : {
-          "start" : 1751470599762,
-          "stop" : 1751470780529,
-          "duration" : 180767
+          "start" : 1751654632260,
+          "stop" : 1751654842259,
+          "duration" : 209999
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "exitOfflineConsultationQuestionnaireAfterAccepting",
-        "uid" : "2f1df5c168df7944",
+        "uid" : "92be9ad425743d54",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
-        "status" : "failed",
+        "status" : "broken",
         "time" : {
-          "start" : 1751470780542,
-          "stop" : 1751470964726,
-          "duration" : 184184
+          "start" : 1751654842275,
+          "stop" : 1751655044682,
+          "duration" : 202407
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "refuseOfflineConsultationQuestionnaireForAdult",
-        "uid" : "b7bc103cb52ddee4",
+        "uid" : "4ef265c4241e6b5c",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "broken",
         "time" : {
-          "start" : 1751470964735,
-          "stop" : 1751471140539,
-          "duration" : 175804
+          "start" : 1751655044702,
+          "stop" : 1751655251511,
+          "duration" : 206809
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire",
-        "uid" : "a6441bec47593c03",
+        "uid" : "3b55f54502ac03b5",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "broken",
         "time" : {
-          "start" : 1751471140554,
-          "stop" : 1751471294280,
-          "duration" : 153726
+          "start" : 1751655251519,
+          "stop" : 1751655452806,
+          "duration" : 201287
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "navigatingThroughQuestionnaireScreens",
-        "uid" : "619fb8fccebe3e72",
+        "uid" : "cfc440490e534760",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "broken",
         "time" : {
-          "start" : 1751471294288,
-          "stop" : 1751471442362,
-          "duration" : 148074
+          "start" : 1751655452825,
+          "stop" : 1751655656758,
+          "duration" : 203933
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "chooseEnrollToClinicOptionAfterQuestionnaire",
-        "uid" : "7eb8c92797e0294e",
+        "uid" : "4726af171ccb9c4d",
         "parentUid" : "b0fe5cec79f70c7eb8990a37a5ca59d9",
         "status" : "broken",
         "time" : {
-          "start" : 1751471442373,
-          "stop" : 1751471592982,
-          "duration" : 150609
+          "start" : 1751655656774,
+          "stop" : 1751655862494,
+          "duration" : 205720
         },
         "flaky" : false,
         "newFailed" : false,
@@ -235,13 +464,65 @@
     }, {
       "name" : "AccountTest",
       "children" : [ {
+        "name" : "registration",
+        "uid" : "c94375e73b204015",
+        "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751645012179,
+          "stop" : 1751645442812,
+          "duration" : 430633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete",
+        "uid" : "b528af922a5df55e",
+        "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751645442861,
+          "stop" : 1751645865930,
+          "duration" : 423069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changePassword",
+        "uid" : "22106969509f76d7",
+        "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751645865938,
+          "stop" : 1751646447196,
+          "duration" : 581258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "recoveryPass",
+        "uid" : "b4a82e60942a7f3c",
+        "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751646447210,
+          "stop" : 1751646974961,
+          "duration" : 527751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "addInsuranceAM",
-        "uid" : "10348881143af829",
+        "uid" : "1346d80926ccbc84",
         "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462591853,
-          "stop" : 1751462591853,
+          "start" : 1751646974972,
+          "stop" : 1751646974972,
           "duration" : 0
         },
         "flaky" : false,
@@ -249,78 +530,26 @@
         "parameters" : [ ]
       }, {
         "name" : "addInsuranceAV",
-        "uid" : "c52f2f439d5d3457",
+        "uid" : "5218740b86dd795e",
         "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462591857,
-          "stop" : 1751462591857,
+          "start" : 1751646974973,
+          "stop" : 1751646974973,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "changePassword",
-        "uid" : "988d0a6f5b255854",
-        "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
-        "status" : "failed",
-        "time" : {
-          "start" : 1751471593032,
-          "stop" : 1751471692977,
-          "duration" : 99945
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "recoveryPass",
-        "uid" : "f610941b4ca469c2",
-        "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
-        "status" : "failed",
-        "time" : {
-          "start" : 1751471693015,
-          "stop" : 1751471791649,
-          "duration" : 98634
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "delete",
-        "uid" : "1e961af17ae441b3",
-        "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751471791658,
-          "stop" : 1751471848778,
-          "duration" : 57120
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "addInsuranceCV",
-        "uid" : "36621936023a7688",
+        "uid" : "59dfdeed12dd43d4",
         "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
-        "status" : "broken",
+        "status" : "skipped",
         "time" : {
-          "start" : 1751471848800,
-          "stop" : 1751471905343,
-          "duration" : 56543
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "registration",
-        "uid" : "aa495625fe961f99",
-        "parentUid" : "416b57817bccd4a73d2fe3ba8fd468ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751471905351,
-          "stop" : 1751471955303,
-          "duration" : 49952
+          "start" : 1751646974974,
+          "stop" : 1751646974974,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
@@ -331,12 +560,12 @@
       "name" : "ElregTest",
       "children" : [ {
         "name" : "conclusion",
-        "uid" : "7984b025bf009495",
+        "uid" : "9f870a9224bd9c1",
         "parentUid" : "ac280318ceed6912f21ec8b40ee8efb2",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462740608,
-          "stop" : 1751462740608,
+          "start" : 1751647354525,
+          "stop" : 1751647354525,
           "duration" : 0
         },
         "flaky" : false,
@@ -344,12 +573,12 @@
         "parameters" : [ ]
       }, {
         "name" : "cancelReg",
-        "uid" : "f141a0b5c792c24",
+        "uid" : "89f79978fdee6503",
         "parentUid" : "ac280318ceed6912f21ec8b40ee8efb2",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825202,
-          "stop" : 1751462825202,
+          "start" : 1751647543036,
+          "stop" : 1751647543036,
           "duration" : 0
         },
         "flaky" : false,
@@ -357,13 +586,13 @@
         "parameters" : [ ]
       }, {
         "name" : "register",
-        "uid" : "cc26d44541c2415",
+        "uid" : "7199e867503d6b7b",
         "parentUid" : "ac280318ceed6912f21ec8b40ee8efb2",
         "status" : "broken",
         "time" : {
-          "start" : 1751474654049,
-          "stop" : 1751474818266,
-          "duration" : 164217
+          "start" : 1751658765345,
+          "stop" : 1751658951907,
+          "duration" : 186562
         },
         "flaky" : false,
         "newFailed" : false,
@@ -374,12 +603,12 @@
       "name" : "CheckupTest",
       "children" : [ {
         "name" : "checkup18",
-        "uid" : "ea891b592849eaea",
+        "uid" : "98649dedff6cd022",
         "parentUid" : "c3ef924038e373b3f36b4f42a5bc817c",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825209,
-          "stop" : 1751462825209,
+          "start" : 1751647543043,
+          "stop" : 1751647543043,
           "duration" : 0
         },
         "flaky" : false,
@@ -387,12 +616,12 @@
         "parameters" : [ ]
       }, {
         "name" : "checkup27",
-        "uid" : "dda60940e01858e9",
+        "uid" : "1e385ce0799bd5a0",
         "parentUid" : "c3ef924038e373b3f36b4f42a5bc817c",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825213,
-          "stop" : 1751462825213,
+          "start" : 1751647543045,
+          "stop" : 1751647543045,
           "duration" : 0
         },
         "flaky" : false,
@@ -400,12 +629,12 @@
         "parameters" : [ ]
       }, {
         "name" : "checkup28",
-        "uid" : "568a3367d0ec5029",
+        "uid" : "1e3c49819ff4fae0",
         "parentUid" : "c3ef924038e373b3f36b4f42a5bc817c",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825214,
-          "stop" : 1751462825214,
+          "start" : 1751647543047,
+          "stop" : 1751647543047,
           "duration" : 0
         },
         "flaky" : false,
@@ -413,12 +642,12 @@
         "parameters" : [ ]
       }, {
         "name" : "checkup40",
-        "uid" : "66fe4331e4124bf2",
+        "uid" : "9021d3059abe33ac",
         "parentUid" : "c3ef924038e373b3f36b4f42a5bc817c",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825215,
-          "stop" : 1751462825215,
+          "start" : 1751647543048,
+          "stop" : 1751647543048,
           "duration" : 0
         },
         "flaky" : false,
@@ -426,12 +655,12 @@
         "parameters" : [ ]
       }, {
         "name" : "checkup41",
-        "uid" : "4b39cc25b8e517a7",
+        "uid" : "35adad6a05fc5d9",
         "parentUid" : "c3ef924038e373b3f36b4f42a5bc817c",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825218,
-          "stop" : 1751462825218,
+          "start" : 1751647543049,
+          "stop" : 1751647543049,
           "duration" : 0
         },
         "flaky" : false,
@@ -439,12 +668,12 @@
         "parameters" : [ ]
       }, {
         "name" : "checkup50",
-        "uid" : "7689c802784f476c",
+        "uid" : "f3fad020e785c08b",
         "parentUid" : "c3ef924038e373b3f36b4f42a5bc817c",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825219,
-          "stop" : 1751462825219,
+          "start" : 1751647543050,
+          "stop" : 1751647543050,
           "duration" : 0
         },
         "flaky" : false,
@@ -452,12 +681,12 @@
         "parameters" : [ ]
       }, {
         "name" : "checkup51",
-        "uid" : "e7345f4b74e3b5bd",
+        "uid" : "d31c5b427475adee",
         "parentUid" : "c3ef924038e373b3f36b4f42a5bc817c",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825220,
-          "stop" : 1751462825220,
+          "start" : 1751647543051,
+          "stop" : 1751647543051,
           "duration" : 0
         },
         "flaky" : false,
@@ -465,12 +694,12 @@
         "parameters" : [ ]
       }, {
         "name" : "checkup59",
-        "uid" : "4c53c2110b06b065",
+        "uid" : "1cf070c7c5964bec",
         "parentUid" : "c3ef924038e373b3f36b4f42a5bc817c",
         "status" : "skipped",
         "time" : {
-          "start" : 1751462825221,
-          "stop" : 1751462825221,
+          "start" : 1751647543052,
+          "stop" : 1751647543052,
           "duration" : 0
         },
         "flaky" : false,
@@ -479,267 +708,146 @@
       } ],
       "uid" : "c3ef924038e373b3f36b4f42a5bc817c"
     }, {
-      "name" : "MedcardTest",
-      "children" : [ {
-        "name" : "medicineTests",
-        "uid" : "71770ff4afa9a8fa",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751471955362,
-          "stop" : 1751472096879,
-          "duration" : 141517
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "diseaseTests",
-        "uid" : "1d53720d92384a4",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751472096886,
-          "stop" : 1751472235777,
-          "duration" : 138891
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "instrumentalDiagnosticsTests",
-        "uid" : "afe5eb7dfaeb18a4",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751472235808,
-          "stop" : 1751472371794,
-          "duration" : 135986
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "allergyTests",
-        "uid" : "83d2f8a579ba37df",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751472371830,
-          "stop" : 1751472510735,
-          "duration" : 138905
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "operationTests",
-        "uid" : "ccdbab7abd32ab9",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751472510749,
-          "stop" : 1751472638352,
-          "duration" : 127603
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "vaccinationTests",
-        "uid" : "bc4ac77ebfd98f91",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751472638362,
-          "stop" : 1751472774015,
-          "duration" : 135653
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "analyzesTests",
-        "uid" : "83c267c05e9368c2",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751472774032,
-          "stop" : 1751472907865,
-          "duration" : 133833
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "injuryTests",
-        "uid" : "a3a2049d4ec50e38",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751472907879,
-          "stop" : 1751473045400,
-          "duration" : 137521
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "doctorConclusionTests",
-        "uid" : "cb595acca8ee2153",
-        "parentUid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751473045412,
-          "stop" : 1751473129197,
-          "duration" : 83785
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b8dfce72dfeeaa8e5129b61fa3e7cd44"
-    }, {
       "name" : "ConsultationTest",
       "children" : [ {
         "name" : "addingDecipheringAnalyzes",
-        "uid" : "8b627ee10834645c",
+        "uid" : "40d992fc63ee7500",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
         "status" : "failed",
         "time" : {
-          "start" : 1751473129231,
-          "stop" : 1751473283551,
-          "duration" : 154320
+          "start" : 1751657260929,
+          "stop" : 1751657394120,
+          "duration" : 133191
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingReadmissionWithAudio",
-        "uid" : "2ee5cc389d0c6f86",
+        "uid" : "f2b2f80ec8e3cff4",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
         "status" : "failed",
         "time" : {
-          "start" : 1751473283575,
-          "stop" : 1751473438333,
-          "duration" : 154758
+          "start" : 1751657394142,
+          "stop" : 1751657530734,
+          "duration" : 136592
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingOnlineConsultationWithVideo",
-        "uid" : "3a2048c6e397ed27",
+        "uid" : "fcae440c22e34681",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
         "status" : "failed",
         "time" : {
-          "start" : 1751473438349,
-          "stop" : 1751473587510,
-          "duration" : 149161
+          "start" : 1751657530777,
+          "stop" : 1751657666876,
+          "duration" : 136099
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingDecipheringAnalyzesWithChat",
-        "uid" : "2b22dbe624ffef2d",
+        "uid" : "da1f671fd7138a8a",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
         "status" : "failed",
         "time" : {
-          "start" : 1751473587527,
-          "stop" : 1751473739231,
-          "duration" : 151704
+          "start" : 1751657666885,
+          "stop" : 1751657797544,
+          "duration" : 130659
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingDecipheringAnalyzesWithVideo",
-        "uid" : "61f1dfaa4d45db04",
+        "uid" : "b8b9e30ab1a05370",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
-        "status" : "broken",
+        "status" : "failed",
         "time" : {
-          "start" : 1751473739290,
-          "stop" : 1751473824223,
-          "duration" : 84933
+          "start" : 1751657797553,
+          "stop" : 1751657930271,
+          "duration" : 132718
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingReadmissionWithVideo",
-        "uid" : "b6c3a46ba7d1c55",
+        "uid" : "38d9cecfedd94578",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
         "status" : "failed",
         "time" : {
-          "start" : 1751473824234,
-          "stop" : 1751473978312,
-          "duration" : 154078
+          "start" : 1751657930291,
+          "stop" : 1751658055931,
+          "duration" : 125640
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingReadmissionWithChat",
-        "uid" : "e21a148f93a974bd",
+        "uid" : "c3fe8db1687601a9",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
         "status" : "failed",
         "time" : {
-          "start" : 1751473978327,
-          "stop" : 1751474126492,
-          "duration" : 148165
+          "start" : 1751658055951,
+          "stop" : 1751658191673,
+          "duration" : 135722
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingOnlineConsultationWithAudio",
-        "uid" : "d1a556ad9e608140",
+        "uid" : "e8afe4db696b878f",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
         "status" : "broken",
         "time" : {
-          "start" : 1751474126501,
-          "stop" : 1751474337337,
-          "duration" : 210836
+          "start" : 1751658191681,
+          "stop" : 1751658373089,
+          "duration" : 181408
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingDecipheringAnalyzesWithAudio",
-        "uid" : "ad3232a70908adc2",
+        "uid" : "7b37666f5c2c407a",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
-        "status" : "broken",
+        "status" : "failed",
         "time" : {
-          "start" : 1751474337359,
-          "stop" : 1751474420415,
-          "duration" : 83056
+          "start" : 1751658373117,
+          "stop" : 1751658502958,
+          "duration" : 129841
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingOnlineConsultationWithChat",
-        "uid" : "f796a44653d5cfbc",
+        "uid" : "297da272a2ae0091",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
         "status" : "failed",
         "time" : {
-          "start" : 1751474420428,
-          "stop" : 1751474569599,
-          "duration" : 149171
+          "start" : 1751658502971,
+          "stop" : 1751658634917,
+          "duration" : 131946
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingAnotherDoctorOpinion",
-        "uid" : "5f8445c519cb9c8b",
+        "uid" : "4af530148ec22b13",
         "parentUid" : "4545e7f0f429291eeca778190145eaf8",
-        "status" : "broken",
+        "status" : "failed",
         "time" : {
-          "start" : 1751474569614,
-          "stop" : 1751474654023,
-          "duration" : 84409
+          "start" : 1751658634930,
+          "stop" : 1751658765331,
+          "duration" : 130401
         },
         "flaky" : false,
         "newFailed" : false,
@@ -747,46 +855,16 @@
       } ],
       "uid" : "4545e7f0f429291eeca778190145eaf8"
     }, {
-      "name" : "BuySectionTest",
-      "children" : [ {
-        "name" : "sectionsAndModalsTests",
-        "uid" : "abbdc2182706063f",
-        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1751474818299,
-          "stop" : 1751474966102,
-          "duration" : 147803
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sliderNavigationTests",
-        "uid" : "e11e7727ee39c18",
-        "parentUid" : "1bf2a3634e17e43cdf11bd6f8df08a2a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1751474966113,
-          "stop" : 1751475155211,
-          "duration" : 189098
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1bf2a3634e17e43cdf11bd6f8df08a2a"
-    }, {
       "name" : "EdnaChatTest",
       "children" : [ {
         "name" : "ednaChatTests",
-        "uid" : "e6d873187a7be00d",
+        "uid" : "c77d4d69a79879a1",
         "parentUid" : "4f9607a4e8032c1678d8ce848bcbd346",
         "status" : "failed",
         "time" : {
-          "start" : 1751475155250,
-          "stop" : 1751475254718,
-          "duration" : 99468
+          "start" : 1751658951929,
+          "stop" : 1751659088395,
+          "duration" : 136466
         },
         "flaky" : false,
         "newFailed" : false,

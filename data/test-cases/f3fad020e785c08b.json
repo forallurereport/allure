@@ -1,0 +1,83 @@
+{
+  "uid" : "f3fad020e785c08b",
+  "name" : "checkup50()",
+  "fullName" : "MobileTesting.tests.CheckupTest.checkup50",
+  "historyId" : "507f3329bcac06196c711d6214e28910",
+  "time" : {
+    "start" : 1751647543050,
+    "stop" : 1751647543050,
+    "duration" : 0
+  },
+  "description" : "Checkup 50 y.o. user",
+  "descriptionHtml" : "<p>Checkup 50 y.o. user</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Daniil Tarasenko"
+  }, {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "52056@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkup50"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Daniil Tarasenko",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7689c802784f476c",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1751462825219,
+          "stop" : 1751462825219,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f3fad020e785c08b.json",
+  "parameterValues" : [ ]
+}

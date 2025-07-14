@@ -1,0 +1,453 @@
+{
+  "uid" : "34cf9f9d3af12481",
+  "name" : "geolocation()",
+  "fullName" : "MobileTesting.tests.SmokeTest.geolocation",
+  "historyId" : "b76a326bd49d768ca63850901cbb024d",
+  "time" : {
+    "start" : 1752500963511,
+    "stop" : 1752501080699,
+    "duration" : 117188
+  },
+  "description" : "Проверка местоположения (доступ разрешен, Мои данные -> Полис подробно -> Список клиник)",
+  "descriptionHtml" : "<p>Проверка местоположения (доступ разрешен, Мои данные -&gt; Полис подробно -&gt; Список клиник)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка местоположения (доступ разрешен, Мои данные -> Полис подробно -> Список клиник)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверка местоположения через вкладку Полис",
+      "time" : {
+        "start" : 1752500975615,
+        "stop" : 1752501079684,
+        "duration" : 104069
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Установить местоположение",
+        "time" : {
+          "start" : 1752500975615,
+          "stop" : 1752500976132,
+          "duration" : 517
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "coords",
+          "value" : "[55.7558, 37.6173]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1752500976132,
+          "stop" : 1752501011507,
+          "duration" : 35375
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1752500976132,
+            "stop" : 1752500999066,
+            "duration" : 22934
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1752500976132,
+              "stop" : 1752500983007,
+              "duration" : 6875
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1752500977392,
+                "stop" : 1752500982129,
+                "duration" : 4737
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "a13cd8d004a4b51b",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "a13cd8d004a4b51b.png",
+              "type" : "image/png",
+              "size" : 81352
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 1,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1752500983007,
+              "stop" : 1752500984218,
+              "duration" : 1211
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1752500984218,
+              "stop" : 1752500986906,
+              "duration" : 2688
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1111"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1752500986906,
+              "stop" : 1752500988605,
+              "duration" : 1699
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "b1edb746e1c44e8e",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "b1edb746e1c44e8e.png",
+              "type" : "image/png",
+              "size" : 137059
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1752500992613,
+              "stop" : 1752500997226,
+              "duration" : 4613
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1752500997995,
+              "stop" : 1752500999066,
+              "duration" : 1071
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "5d38e3ca5203f103",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "5d38e3ca5203f103.png",
+              "type" : "image/png",
+              "size" : 52899
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "bc20d6356abd790",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "bc20d6356abd790.png",
+            "type" : "image/png",
+            "size" : 52899
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1111"
+          } ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 7,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести ПИН-код",
+          "time" : {
+            "start" : 1752500999067,
+            "stop" : 1752501011507,
+            "duration" : 12440
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b4318536b7237967",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "b4318536b7237967.png",
+            "type" : "image/png",
+            "size" : 52899
+          }, {
+            "uid" : "3346ce3c7b77df28",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "3346ce3c7b77df28.png",
+            "type" : "image/png",
+            "size" : 53543
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1111"
+        } ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 9,
+        "hasContent" : true
+      }, {
+        "name" : "Запретить подсказки",
+        "time" : {
+          "start" : 1752501011507,
+          "stop" : 1752501014724,
+          "duration" : 3217
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "56a2357a7c73cf4e",
+          "name" : "Deny hints_mobile_screenshot",
+          "source" : "56a2357a7c73cf4e.png",
+          "type" : "image/png",
+          "size" : 1406263
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть карту (Мои данные->Полис подробно->Список клиник)",
+        "time" : {
+          "start" : 1752501014724,
+          "stop" : 1752501078677,
+          "duration" : 63953
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Запретить подсказки",
+          "time" : {
+            "start" : 1752501030221,
+            "stop" : 1752501034621,
+            "duration" : 4400
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Запретить подсказки",
+          "time" : {
+            "start" : 1752501057201,
+            "stop" : 1752501061923,
+            "duration" : 4722
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "1447730333c256fb",
+          "name" : "Таблица страховки (подсказки)",
+          "source" : "1447730333c256fb.png",
+          "type" : "image/png",
+          "size" : 305026
+        }, {
+          "uid" : "91c422b25b7933a0",
+          "name" : "Таблица страховки",
+          "source" : "91c422b25b7933a0.png",
+          "type" : "image/png",
+          "size" : 152184
+        }, {
+          "uid" : "fa8f2f83855cc0",
+          "name" : "Таблица страховки с клиниками",
+          "source" : "fa8f2f83855cc0.png",
+          "type" : "image/png",
+          "size" : 139089
+        }, {
+          "uid" : "cf5199007b933089",
+          "name" : "Изминить регион",
+          "source" : "cf5199007b933089.png",
+          "type" : "image/png",
+          "size" : 531499
+        }, {
+          "uid" : "a141115a81d46161",
+          "name" : "Загруженная карта_mobile_screenshot",
+          "source" : "a141115a81d46161.png",
+          "type" : "image/png",
+          "size" : 541488
+        }, {
+          "uid" : "313714b83a71bc54",
+          "name" : "Геолокация на карте",
+          "source" : "313714b83a71bc54.png",
+          "type" : "image/png",
+          "size" : 541504
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "4f475a87f056f1d2",
+        "name" : "геолокация_mobile_screenshot",
+        "source" : "4f475a87f056f1d2.png",
+        "type" : "image/png",
+        "size" : 541504
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 14,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 15,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Даниил Тарасенко"
+  }, {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "54153@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "geolocation"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Даниил Тарасенко",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "dfe39016cc60dd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751640954723,
+          "stop" : 1751641159025,
+          "duration" : 204302
+        }
+      }, {
+        "uid" : "53d9f9b5a78058a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751459052399,
+          "stop" : 1751459288303,
+          "duration" : 235904
+        }
+      }, {
+        "uid" : "d58c3ccb8ea3a0d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751454776823,
+          "stop" : 1751455008513,
+          "duration" : 231690
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "34cf9f9d3af12481.json",
+  "parameterValues" : [ ]
+}

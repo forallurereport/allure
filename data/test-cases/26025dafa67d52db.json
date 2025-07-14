@@ -1,0 +1,1069 @@
+{
+  "uid" : "26025dafa67d52db",
+  "name" : "allergyTests()",
+  "fullName" : "MobileTesting.tests.MedcardTest.allergyTests",
+  "historyId" : "b9c2a3d2f8f0960d733fe9e0e6ba0092",
+  "time" : {
+    "start" : 1752498850933,
+    "stop" : 1752499013790,
+    "duration" : 162857
+  },
+  "description" : "Добавить и удалить аллергию",
+  "descriptionHtml" : "<p>Добавить и удалить аллергию</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Добавить и удалить аллергию",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить и удалить аллергию",
+      "time" : {
+        "start" : 1752498866743,
+        "stop" : 1752499012409,
+        "duration" : 145666
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1752498866743,
+          "stop" : 1752498905391,
+          "duration" : 38648
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Войти в систему",
+          "time" : {
+            "start" : 1752498866769,
+            "stop" : 1752498905391,
+            "duration" : 38622
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить и отправить форму входа",
+            "time" : {
+              "start" : 1752498866769,
+              "stop" : 1752498891624,
+              "duration" : 24855
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Нажать на кнопку авторизации",
+              "time" : {
+                "start" : 1752498866769,
+                "stop" : 1752498872943,
+                "duration" : 6174
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Запретить подсказки",
+                "time" : {
+                  "start" : 1752498867773,
+                  "stop" : 1752498871930,
+                  "duration" : 4157
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : false
+              } ],
+              "attachments" : [ {
+                "uid" : "9edb99bc49835a60",
+                "name" : "Форма входа_mobile_screenshot",
+                "source" : "9edb99bc49835a60.png",
+                "type" : "image/png",
+                "size" : 80823
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 1,
+              "hasContent" : true
+            }, {
+              "name" : "Ввести email",
+              "time" : {
+                "start" : 1752498872943,
+                "stop" : 1752498874178,
+                "duration" : 1235
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "username",
+                "value" : "artur@test.ru"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Ввести пароль",
+              "time" : {
+                "start" : 1752498874179,
+                "stop" : 1752498877183,
+                "duration" : 3004
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "password",
+                "value" : "Artur@test.ru1101"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1752498877183,
+                "stop" : 1752498879976,
+                "duration" : 2793
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "e8e948d0d7a29d4f",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "e8e948d0d7a29d4f.png",
+                "type" : "image/png",
+                "size" : 132447
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Подтвердить капчу",
+              "time" : {
+                "start" : 1752498884111,
+                "stop" : 1752498888830,
+                "duration" : 4719
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "c0d7a630a3bdbc8f",
+                "name" : "Капча решена_mobile_screenshot",
+                "source" : "c0d7a630a3bdbc8f.png",
+                "type" : "image/png",
+                "size" : 268826
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1752498889450,
+                "stop" : 1752498891624,
+                "duration" : 2174
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "4f37e1a48ef7eb6f",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "4f37e1a48ef7eb6f.png",
+                "type" : "image/png",
+                "size" : 52317
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "771a401b06d60a3e",
+              "name" : "Форма входа после капчи_mobile_screenshot",
+              "source" : "771a401b06d60a3e.png",
+              "type" : "image/png",
+              "size" : 264760
+            } ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur@test.ru"
+            }, {
+              "name" : "password",
+              "value" : "Artur@test.ru1101"
+            } ],
+            "attachmentsCount" : 5,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 7,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести ПИН-код",
+            "time" : {
+              "start" : 1752498891624,
+              "stop" : 1752498905391,
+              "duration" : 13767
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "b7b24026a5ba5e74",
+              "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+              "source" : "b7b24026a5ba5e74.png",
+              "type" : "image/png",
+              "size" : 52317
+            }, {
+              "uid" : "2e49b5d8b26b5407",
+              "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+              "source" : "2e49b5d8b26b5407.png",
+              "type" : "image/png",
+              "size" : 52935
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur@test.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur@test.ru1101"
+          } ],
+          "attachmentsCount" : 7,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 9,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "e80f66cde8e7155d",
+          "name" : "Авторизация для Android",
+          "source" : "e80f66cde8e7155d.txt",
+          "type" : "text/plain",
+          "size" : 53
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 8,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 10,
+        "hasContent" : true
+      }, {
+        "name" : "Нажать на медицинскую карту",
+        "time" : {
+          "start" : 1752498905519,
+          "stop" : 1752498909102,
+          "duration" : 3583
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c442cf4d295dec66",
+          "name" : "Скриншот_медицинской_карты",
+          "source" : "c442cf4d295dec66.png",
+          "type" : "image/png",
+          "size" : 212398
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Проверить наличие разделов: Заключение врача, Болезни, Анализы и т.д.",
+        "time" : {
+          "start" : 1752498909102,
+          "stop" : 1752498924257,
+          "duration" : 15155
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fedb8658722874f0",
+          "name" : "Скриншот_проверки_разделов_медкарты",
+          "source" : "fedb8658722874f0.png",
+          "type" : "image/png",
+          "size" : 196434
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть раздел 'Аллергии'",
+        "time" : {
+          "start" : 1752498924261,
+          "stop" : 1752498928124,
+          "duration" : 3863
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Клик на раздел 'Аллергии'",
+          "time" : {
+            "start" : 1752498924262,
+            "stop" : 1752498926298,
+            "duration" : 2036
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7c19a0579d38ecd2",
+            "name" : "Клик_на_раздел_аллергии",
+            "source" : "7c19a0579d38ecd2.png",
+            "type" : "image/png",
+            "size" : 103612
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Проверка наличия кнопки 'Добавить аллергию'",
+          "time" : {
+            "start" : 1752498926299,
+            "stop" : 1752498926483,
+            "duration" : 184
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "dcccfd89b36491cd",
+          "name" : "Раздел_аллергии_открыт",
+          "source" : "dcccfd89b36491cd.png",
+          "type" : "image/png",
+          "size" : 103612
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      }, {
+        "name" : "Добавить аллергию из списка",
+        "time" : {
+          "start" : 1752498928125,
+          "stop" : 1752498956683,
+          "duration" : 28558
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получение количества аллергий до добавления",
+          "time" : {
+            "start" : 1752498928125,
+            "stop" : 1752498932389,
+            "duration" : 4264
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверка наличия аллергии на свинину",
+          "time" : {
+            "start" : 1752498932389,
+            "stop" : 1752498936907,
+            "duration" : 4518
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Получение количества аллергий до добавления",
+          "time" : {
+            "start" : 1752498936908,
+            "stop" : 1752498941331,
+            "duration" : 4423
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Клик на кнопку 'Добавить аллергию'",
+          "time" : {
+            "start" : 1752498941332,
+            "stop" : 1752498944800,
+            "duration" : 3468
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d4c78cdff1a7b110",
+            "name" : "Форма_добавления_аллергии_открыта",
+            "source" : "d4c78cdff1a7b110.png",
+            "type" : "image/png",
+            "size" : 124065
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Поиск и выбор аллергии: свинина",
+          "time" : {
+            "start" : 1752498944820,
+            "stop" : 1752498949538,
+            "duration" : 4718
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a9f59cd1956b8001",
+            "name" : "Выбор_аллергии_свинина",
+            "source" : "a9f59cd1956b8001.png",
+            "type" : "image/png",
+            "size" : 86306
+          } ],
+          "parameters" : [ {
+            "name" : "allergy",
+            "value" : "свинина"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Проверка наличия подтверждения аллергии",
+          "time" : {
+            "start" : 1752498949539,
+            "stop" : 1752498951346,
+            "duration" : 1807
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5afbf7bb593c797a",
+            "name" : "Подтверждение_аллергии",
+            "source" : "5afbf7bb593c797a.png",
+            "type" : "image/png",
+            "size" : 86306
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Закрытие экрана аллергии",
+          "time" : {
+            "start" : 1752498951346,
+            "stop" : 1752498953263,
+            "duration" : 1917
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b48b76e6604b8a9f",
+            "name" : "Экран_аллергии_закрыт",
+            "source" : "b48b76e6604b8a9f.png",
+            "type" : "image/png",
+            "size" : 73742
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получение количества аллергий после добавления",
+          "time" : {
+            "start" : 1752498953263,
+            "stop" : 1752498953428,
+            "duration" : 165
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверка, что количество аллергий увеличилось на 1",
+          "time" : {
+            "start" : 1752498953447,
+            "stop" : 1752498955095,
+            "duration" : 1648
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5d0bcdc33f928956",
+            "name" : "Проверка_увеличения_количества_аллергий",
+            "source" : "5d0bcdc33f928956.png",
+            "type" : "image/png",
+            "size" : 73742
+          } ],
+          "parameters" : [ {
+            "name" : "countBefore",
+            "value" : "0"
+          }, {
+            "name" : "countAfter",
+            "value" : "1"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "e9fcba76c70ad650",
+          "name" : "Аллергия_добавлена",
+          "source" : "e9fcba76c70ad650.png",
+          "type" : "image/png",
+          "size" : 73742
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 9,
+        "hasContent" : true
+      }, {
+        "name" : "Удалить последнюю добавленную аллергию",
+        "time" : {
+          "start" : 1752498956684,
+          "stop" : 1752498972159,
+          "duration" : 15475
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получение количества аллергий до добавления",
+          "time" : {
+            "start" : 1752498956684,
+            "stop" : 1752498957022,
+            "duration" : 338
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажать кнопку удаления для последней аллергии",
+          "time" : {
+            "start" : 1752498957023,
+            "stop" : 1752498960296,
+            "duration" : 3273
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "3b55473527a8e809",
+            "name" : "Кнопка_удаления_последней_аллергии_нажата",
+            "source" : "3b55473527a8e809.png",
+            "type" : "image/png",
+            "size" : 78484
+          } ],
+          "parameters" : [ {
+            "name" : "count",
+            "value" : "1"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Подтвердить удаление аллергии",
+          "time" : {
+            "start" : 1752498960297,
+            "stop" : 1752498964540,
+            "duration" : 4243
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "598ca3e2ae8c0135",
+            "name" : "Удаление_аллергии_подтверждено",
+            "source" : "598ca3e2ae8c0135.png",
+            "type" : "image/png",
+            "size" : 103681
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получение количества аллергий после добавления",
+          "time" : {
+            "start" : 1752498964541,
+            "stop" : 1752498969065,
+            "duration" : 4524
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверить изменение количества аллергий после удаления",
+          "time" : {
+            "start" : 1752498969067,
+            "stop" : 1752498970625,
+            "duration" : 1558
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "163b753d4d46abef",
+            "name" : "Разница в количестве аллергий",
+            "source" : "163b753d4d46abef.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "dc50e9c7f556d7e",
+            "name" : "Проверка_уменьшения_количества_аллергий",
+            "source" : "dc50e9c7f556d7e.png",
+            "type" : "image/png",
+            "size" : 103681
+          } ],
+          "parameters" : [ {
+            "name" : "before",
+            "value" : "1"
+          }, {
+            "name" : "after",
+            "value" : "0"
+          } ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "31d8f7e9bd213c66",
+          "name" : "После удаления аллергии",
+          "source" : "31d8f7e9bd213c66.png",
+          "type" : "image/png",
+          "size" : 103681
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 5,
+        "hasContent" : true
+      }, {
+        "name" : "Добавить аллергию вручную",
+        "time" : {
+          "start" : 1752498972160,
+          "stop" : 1752498998359,
+          "duration" : 26199
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить количество аллергий до добавления",
+          "time" : {
+            "start" : 1752498976856,
+            "stop" : 1752498981487,
+            "duration" : 4631
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "623b7fd53bd70572",
+            "name" : "Количество аллергий до добавления",
+            "source" : "623b7fd53bd70572.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Открыть форму добавления аллергии",
+          "time" : {
+            "start" : 1752498981487,
+            "stop" : 1752498984843,
+            "duration" : 3356
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2f5e28caf101664e",
+            "name" : "Форма добавления аллергии открыта",
+            "source" : "2f5e28caf101664e.png",
+            "type" : "image/png",
+            "size" : 124122
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Искать аллерген и добавить его вручную: Нет в списке",
+          "time" : {
+            "start" : 1752498984844,
+            "stop" : 1752498989982,
+            "duration" : 5138
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "eb9e7d6b938ca9de",
+            "name" : "Аллерген_найден_Нет в списке",
+            "source" : "eb9e7d6b938ca9de.png",
+            "type" : "image/png",
+            "size" : 116015
+          }, {
+            "uid" : "9a6a96782e6b5b3f",
+            "name" : "Аллерген_добавлен_Нет в списке",
+            "source" : "9a6a96782e6b5b3f.png",
+            "type" : "image/png",
+            "size" : 86350
+          } ],
+          "parameters" : [ {
+            "name" : "allergenName",
+            "value" : "Нет в списке"
+          } ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Подтвердить добавление аллергии",
+          "time" : {
+            "start" : 1752498989985,
+            "stop" : 1752498994883,
+            "duration" : 4898
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "bc09b5bf11ba84a",
+            "name" : "Подтверждение добавления аллергии",
+            "source" : "bc09b5bf11ba84a.txt",
+            "type" : "text/plain",
+            "size" : 50
+          }, {
+            "uid" : "57296973da55b24b",
+            "name" : "Подтверждение_добавления_аллергии",
+            "source" : "57296973da55b24b.png",
+            "type" : "image/png",
+            "size" : 74528
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получение количества аллергий после добавления",
+          "time" : {
+            "start" : 1752498994884,
+            "stop" : 1752498995196,
+            "duration" : 312
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4b62f73a9ee0073e",
+            "name" : "Количество аллергий после добавления",
+            "source" : "4b62f73a9ee0073e.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Проверка изменения количества аллергий",
+          "time" : {
+            "start" : 1752498995197,
+            "stop" : 1752498996784,
+            "duration" : 1587
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fb7c91066e205a28",
+            "name" : "Разница в количестве аллергий",
+            "source" : "fb7c91066e205a28.txt",
+            "type" : "text/plain",
+            "size" : 22
+          }, {
+            "uid" : "e92b8e198eab722e",
+            "name" : "Проверка_количества_аллергий",
+            "source" : "e92b8e198eab722e.png",
+            "type" : "image/png",
+            "size" : 74528
+          } ],
+          "parameters" : [ {
+            "name" : "countBefore",
+            "value" : "0"
+          }, {
+            "name" : "countAfter",
+            "value" : "1"
+          } ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "d62103fe2f814e33",
+          "name" : "После добавления аллергии",
+          "source" : "d62103fe2f814e33.png",
+          "type" : "image/png",
+          "size" : 74528
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 10,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 6,
+        "hasContent" : true
+      }, {
+        "name" : "Удалить последнюю добавленную аллергию",
+        "time" : {
+          "start" : 1752498998360,
+          "stop" : 1752499012409,
+          "duration" : 14049
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получение количества аллергий до добавления",
+          "time" : {
+            "start" : 1752498998360,
+            "stop" : 1752498998633,
+            "duration" : 273
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажать кнопку удаления для последней аллергии",
+          "time" : {
+            "start" : 1752498998633,
+            "stop" : 1752499001184,
+            "duration" : 2551
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ed753be2524c2e30",
+            "name" : "Кнопка_удаления_последней_аллергии_нажата",
+            "source" : "ed753be2524c2e30.png",
+            "type" : "image/png",
+            "size" : 78903
+          } ],
+          "parameters" : [ {
+            "name" : "count",
+            "value" : "1"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Подтвердить удаление аллергии",
+          "time" : {
+            "start" : 1752499001185,
+            "stop" : 1752499004964,
+            "duration" : 3779
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8482decc83e04118",
+            "name" : "Удаление_аллергии_подтверждено",
+            "source" : "8482decc83e04118.png",
+            "type" : "image/png",
+            "size" : 103681
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получение количества аллергий после добавления",
+          "time" : {
+            "start" : 1752499004965,
+            "stop" : 1752499009334,
+            "duration" : 4369
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверить изменение количества аллергий после удаления",
+          "time" : {
+            "start" : 1752499009340,
+            "stop" : 1752499010936,
+            "duration" : 1596
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e46a782f9c4e7a14",
+            "name" : "Разница в количестве аллергий",
+            "source" : "e46a782f9c4e7a14.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "dfa9bdfbd776acb6",
+            "name" : "Проверка_уменьшения_количества_аллергий",
+            "source" : "dfa9bdfbd776acb6.png",
+            "type" : "image/png",
+            "size" : 103681
+          } ],
+          "parameters" : [ {
+            "name" : "before",
+            "value" : "1"
+          }, {
+            "name" : "after",
+            "value" : "0"
+          } ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "297bcc4ebd4936bd",
+          "name" : "После удаления аллергии",
+          "source" : "297bcc4ebd4936bd.png",
+          "type" : "image/png",
+          "size" : 103681
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 5,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 38,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 45,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 38,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 46,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "54153@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "allergyTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "76880a7f966feccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751637904977,
+          "stop" : 1751638208700,
+          "duration" : 303723
+        }
+      }, {
+        "uid" : "83d2f8a579ba37df",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+        "time" : {
+          "start" : 1751472371830,
+          "stop" : 1751472510735,
+          "duration" : 138905
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "26025dafa67d52db.json",
+  "parameterValues" : [ ]
+}

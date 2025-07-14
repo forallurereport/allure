@@ -1,0 +1,2143 @@
+{
+  "uid" : "a44cc6d597c2fbf0",
+  "name" : "doctorConclusionTests()",
+  "fullName" : "MobileTesting.tests.MedcardTest.doctorConclusionTests",
+  "historyId" : "5e94fe62b62986319f169be63613673",
+  "time" : {
+    "start" : 1752499013970,
+    "stop" : 1752499464789,
+    "duration" : 450819
+  },
+  "description" : "Добавить, редактировать, удалить заключение врача",
+  "descriptionHtml" : "<p>Добавить, редактировать, удалить заключение врача</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Добавить, редактировать, удалить заключение врача",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить, редактировать, удалить заключение врача",
+      "time" : {
+        "start" : 1752499026216,
+        "stop" : 1752499462541,
+        "duration" : 436325
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1752499026216,
+          "stop" : 1752499061205,
+          "duration" : 34989
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Войти в систему",
+          "time" : {
+            "start" : 1752499026225,
+            "stop" : 1752499061205,
+            "duration" : 34980
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить и отправить форму входа",
+            "time" : {
+              "start" : 1752499026225,
+              "stop" : 1752499050163,
+              "duration" : 23938
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Нажать на кнопку авторизации",
+              "time" : {
+                "start" : 1752499026225,
+                "stop" : 1752499032099,
+                "duration" : 5874
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Запретить подсказки",
+                "time" : {
+                  "start" : 1752499027104,
+                  "stop" : 1752499031365,
+                  "duration" : 4261
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : false
+              } ],
+              "attachments" : [ {
+                "uid" : "104c50a15bbec1b1",
+                "name" : "Форма входа_mobile_screenshot",
+                "source" : "104c50a15bbec1b1.png",
+                "type" : "image/png",
+                "size" : 81135
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 1,
+              "hasContent" : true
+            }, {
+              "name" : "Ввести email",
+              "time" : {
+                "start" : 1752499032099,
+                "stop" : 1752499033320,
+                "duration" : 1221
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "username",
+                "value" : "artur@test.ru"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Ввести пароль",
+              "time" : {
+                "start" : 1752499033321,
+                "stop" : 1752499036292,
+                "duration" : 2971
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "password",
+                "value" : "Artur@test.ru1101"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1752499036292,
+                "stop" : 1752499039699,
+                "duration" : 3407
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "e5cfb70f75a1f1a1",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "e5cfb70f75a1f1a1.png",
+                "type" : "image/png",
+                "size" : 132787
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Подтвердить капчу",
+              "time" : {
+                "start" : 1752499044272,
+                "stop" : 1752499048677,
+                "duration" : 4405
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1752499049315,
+                "stop" : 1752499050163,
+                "duration" : 848
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "c3c54fd178bb324b",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "c3c54fd178bb324b.png",
+                "type" : "image/png",
+                "size" : 52667
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "4f4011dca051583e",
+              "name" : "Форма входа после капчи_mobile_screenshot",
+              "source" : "4f4011dca051583e.png",
+              "type" : "image/png",
+              "size" : 52667
+            } ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur@test.ru"
+            }, {
+              "name" : "password",
+              "value" : "Artur@test.ru1101"
+            } ],
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 7,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести ПИН-код",
+            "time" : {
+              "start" : 1752499050163,
+              "stop" : 1752499061205,
+              "duration" : 11042
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "9956ee5119f8d019",
+              "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+              "source" : "9956ee5119f8d019.png",
+              "type" : "image/png",
+              "size" : 52667
+            }, {
+              "uid" : "a3ab31688c8eb76d",
+              "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+              "source" : "a3ab31688c8eb76d.png",
+              "type" : "image/png",
+              "size" : 54799
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur@test.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur@test.ru1101"
+          } ],
+          "attachmentsCount" : 6,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 9,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "4f42996b3491c255",
+          "name" : "Авторизация для Android",
+          "source" : "4f42996b3491c255.txt",
+          "type" : "text/plain",
+          "size" : 53
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 10,
+        "hasContent" : true
+      }, {
+        "name" : "Нажать на медицинскую карту",
+        "time" : {
+          "start" : 1752499061205,
+          "stop" : 1752499063110,
+          "duration" : 1905
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cae4ee133625dad",
+          "name" : "Скриншот_медицинской_карты",
+          "source" : "cae4ee133625dad.png",
+          "type" : "image/png",
+          "size" : 213340
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Проверить наличие разделов: Заключение врача, Болезни, Анализы и т.д.",
+        "time" : {
+          "start" : 1752499063110,
+          "stop" : 1752499078677,
+          "duration" : 15567
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "751b3d04a35e9669",
+          "name" : "Скриншот_проверки_разделов_медкарты",
+          "source" : "751b3d04a35e9669.png",
+          "type" : "image/png",
+          "size" : 196142
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть раздел заключений врача",
+        "time" : {
+          "start" : 1752499078678,
+          "stop" : 1752499081612,
+          "duration" : 2934
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7416511c32d68ae5",
+          "name" : "Раздел_заключений_врача_открыт",
+          "source" : "7416511c32d68ae5.png",
+          "type" : "image/png",
+          "size" : 153851
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Закрыть экраны при добавлении заключения",
+        "time" : {
+          "start" : 1752499081613,
+          "stop" : 1752499207177,
+          "duration" : 125564
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть экран добавления заключения",
+          "time" : {
+            "start" : 1752499081613,
+            "stop" : 1752499084362,
+            "duration" : 2749
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b5ac0aea4dd06276",
+            "name" : "Экран_добавления_заключения_открыт",
+            "source" : "b5ac0aea4dd06276.png",
+            "type" : "image/png",
+            "size" : 63898
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Закрыть экран",
+          "time" : {
+            "start" : 1752499084363,
+            "stop" : 1752499088566,
+            "duration" : 4203
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f4eff1adfc219e3a",
+            "name" : "Экран_закрыт",
+            "source" : "f4eff1adfc219e3a.png",
+            "type" : "image/png",
+            "size" : 153851
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Повторное открытие экрана добавления заключения",
+          "time" : {
+            "start" : 1752499088566,
+            "stop" : 1752499110732,
+            "duration" : 22166
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "9b8649a84c252e01",
+            "name" : "Экран_добавления_заключения_повторно_открыт",
+            "source" : "9b8649a84c252e01.png",
+            "type" : "image/png",
+            "size" : 63898
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Заполнить дату и закрыть экран",
+          "time" : {
+            "start" : 1752499110733,
+            "stop" : 1752499164086,
+            "duration" : 53353
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1752499110733,
+              "stop" : 1752499118276,
+              "duration" : 7543
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1752499110733,
+                "stop" : 1752499110793,
+                "duration" : 60
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1752499110753,
+                  "stop" : 1752499110768,
+                  "duration" : 15
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 14 16:18:30 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1752499110768,
+                  "stop" : 1752499110768,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 14 16:18:30 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1752499110768,
+                  "stop" : 1752499110793,
+                  "duration" : 25
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 14 16:18:30 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1752499110793,
+                  "stop" : 1752499110793,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 14 16:18:30 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1752499110793,
+                  "stop" : 1752499110793,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "14 июля 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 5,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "6c1fb69b5a7cb453",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "6c1fb69b5a7cb453.png",
+              "type" : "image/png",
+              "size" : 98809
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 6,
+            "hasContent" : true
+          }, {
+            "name" : "Закрыть экран",
+            "time" : {
+              "start" : 1752499158542,
+              "stop" : 1752499162394,
+              "duration" : 3852
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "ee5b89eeb17dbef6",
+              "name" : "Экран_закрыт",
+              "source" : "ee5b89eeb17dbef6.png",
+              "type" : "image/png",
+              "size" : 153667
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "a66b345da6a6f70",
+            "name" : "Дата_заполнена_и_экран_закрыт",
+            "source" : "a66b345da6a6f70.png",
+            "type" : "image/png",
+            "size" : 153667
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 8,
+          "hasContent" : true
+        }, {
+          "name" : "Добавить файл и закрыть экран",
+          "time" : {
+            "start" : 1752499164086,
+            "stop" : 1752499205570,
+            "duration" : 41484
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Повторное открытие экрана добавления заключения",
+            "time" : {
+              "start" : 1752499164087,
+              "stop" : 1752499186091,
+              "duration" : 22004
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "4b5b1eb93b09173c",
+              "name" : "Экран_добавления_заключения_повторно_открыт",
+              "source" : "4b5b1eb93b09173c.png",
+              "type" : "image/png",
+              "size" : 63734
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1752499186091,
+              "stop" : 1752499193622,
+              "duration" : 7531
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1752499186091,
+                "stop" : 1752499186094,
+                "duration" : 3
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1752499186092,
+                  "stop" : 1752499186092,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 14 16:19:46 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1752499186092,
+                  "stop" : 1752499186092,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 14 16:19:46 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1752499186093,
+                  "stop" : 1752499186093,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 14 16:19:46 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1752499186094,
+                  "stop" : 1752499186094,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 14 16:19:46 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1752499186094,
+                  "stop" : 1752499186094,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "14 июля 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 5,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "d0ba988c3fbd7344",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "d0ba988c3fbd7344.png",
+              "type" : "image/png",
+              "size" : 98680
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 6,
+            "hasContent" : true
+          }, {
+            "name" : "Добавление документа 1 раз",
+            "time" : {
+              "start" : 1752499193789,
+              "stop" : 1752499198989,
+              "duration" : 5200
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "56a772dbca4afa10",
+              "name" : "Скриншот_добавления_документа_1",
+              "source" : "56a772dbca4afa10.png",
+              "type" : "image/png",
+              "size" : 128725
+            } ],
+            "parameters" : [ {
+              "name" : "repeatTime",
+              "value" : "1"
+            } ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Закрыть экран",
+            "time" : {
+              "start" : 1752499201597,
+              "stop" : 1752499205570,
+              "duration" : 3973
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "7a34276fa805106c",
+              "name" : "Экран_закрыт",
+              "source" : "7a34276fa805106c.png",
+              "type" : "image/png",
+              "size" : 154249
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "7eadd8676325999",
+            "name" : "Файл_добавлен_экран_закрыт",
+            "source" : "7eadd8676325999.png",
+            "type" : "image/png",
+            "size" : 57682
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 5,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 10,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "926b5c9857446147",
+          "name" : "Экраны_закрыты_при_добавлении_заключения",
+          "source" : "926b5c9857446147.png",
+          "type" : "image/png",
+          "size" : 154249
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 12,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 23,
+        "hasContent" : true
+      }, {
+        "name" : "Добавить новое заключение",
+        "time" : {
+          "start" : 1752499207178,
+          "stop" : 1752499362087,
+          "duration" : 154909
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Создание карты дат",
+          "time" : {
+            "start" : 1752499207178,
+            "stop" : 1752499207179,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Получить дату в формате dd.MM.yyyy",
+            "time" : {
+              "start" : 1752499207178,
+              "stop" : 1752499207178,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "modifiedDate",
+              "value" : "Sun Jul 13 16:20:07 MSK 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить дату в формате dd MMM yyyy",
+            "time" : {
+              "start" : 1752499207179,
+              "stop" : 1752499207179,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "modifiedDate",
+              "value" : "Sun Jul 13 16:20:07 MSK 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+            "time" : {
+              "start" : 1752499207179,
+              "stop" : 1752499207179,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "modifiedDate",
+              "value" : "Sun Jul 13 16:20:07 MSK 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить дату в формате dd MMM yyyy (русский)",
+            "time" : {
+              "start" : 1752499207179,
+              "stop" : 1752499207179,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "modifiedDate",
+              "value" : "Sun Jul 13 16:20:07 MSK 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить дату с сокращённым месяцем (русский)",
+            "time" : {
+              "start" : 1752499207179,
+              "stop" : 1752499207179,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "ddMMMMyyyyRussian",
+              "value" : "13 июля 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "daysToSubtract",
+            "value" : "1"
+          }, {
+            "name" : "monthsToSubtract",
+            "value" : "0"
+          }, {
+            "name" : "yearsToSubtract",
+            "value" : "0"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 5,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание и нажатие кнопки добавления заключения",
+          "time" : {
+            "start" : 1752499207179,
+            "stop" : 1752499209840,
+            "duration" : 2661
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "6904b83c8e56d13c",
+            "name" : "Кнопка_добавления_заключения_нажата",
+            "source" : "6904b83c8e56d13c.png",
+            "type" : "image/png",
+            "size" : 64261
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Заполнить детали заключения",
+          "time" : {
+            "start" : 1752499209841,
+            "stop" : 1752499224450,
+            "duration" : 14609
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1752499209841,
+              "stop" : 1752499217136,
+              "duration" : 7295
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1752499209841,
+                "stop" : 1752499209842,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1752499209841,
+                  "stop" : 1752499209841,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Sun Jul 13 16:20:09 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1752499209841,
+                  "stop" : 1752499209841,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Sun Jul 13 16:20:09 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1752499209841,
+                  "stop" : 1752499209842,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Sun Jul 13 16:20:09 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1752499209842,
+                  "stop" : 1752499209842,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Sun Jul 13 16:20:09 MSK 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1752499209842,
+                  "stop" : 1752499209842,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "13 июля 2025"
+                } ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "1"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 5,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "6c50353ba85cd0ac",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "6c50353ba85cd0ac.png",
+              "type" : "image/png",
+              "size" : 99095
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "1"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 6,
+            "hasContent" : true
+          }, {
+            "name" : "Добавление документа 1 раз",
+            "time" : {
+              "start" : 1752499217137,
+              "stop" : 1752499221850,
+              "duration" : 4713
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "cdb002509091bcaf",
+              "name" : "Скриншот_добавления_документа_1",
+              "source" : "cdb002509091bcaf.png",
+              "type" : "image/png",
+              "size" : 129187
+            } ],
+            "parameters" : [ {
+              "name" : "repeatTime",
+              "value" : "1"
+            } ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "bfa35ef629e9ad1e",
+            "name" : "Детали_заключения_заполнены",
+            "source" : "bfa35ef629e9ad1e.png",
+            "type" : "image/png",
+            "size" : 57682
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 8,
+          "hasContent" : true
+        }, {
+          "name" : "Выбрать врача и клинику",
+          "time" : {
+            "start" : 1752499224450,
+            "stop" : 1752499354069,
+            "duration" : 129619
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выбрать клинику: ООО \"ЛИК\"",
+            "time" : {
+              "start" : 1752499333086,
+              "stop" : 1752499345334,
+              "duration" : 12248
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Проверка наличия заголовка 'Добавить клинику'",
+              "time" : {
+                "start" : 1752499338136,
+                "stop" : 1752499342148,
+                "duration" : 4012
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            }, {
+              "name" : "Поиск клиники по названию: ООО \"ЛИК\"",
+              "time" : {
+                "start" : 1752499342149,
+                "stop" : 1752499345040,
+                "duration" : 2891
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "clinicName",
+                "value" : "ООО \"ЛИК\""
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Выбор первой клиники в результатах поиска",
+              "time" : {
+                "start" : 1752499345040,
+                "stop" : 1752499345334,
+                "duration" : 294
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "clinicName",
+              "value" : "ООО \"ЛИК\""
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 3,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "7510fea1313f24d4",
+            "name" : "Врач_и_клиника_выбраны",
+            "source" : "7510fea1313f24d4.png",
+            "type" : "image/png",
+            "size" : 169446
+          } ],
+          "parameters" : [ {
+            "name" : "dates",
+            "value" : "{dd MMMM yyyy ru=13 июля 2025, dd.MM.yyyy=13.07.2025, dd MMM yyyy=13 Jul 2025, dd MMM abbreviated ru=13 июля 2025, dd MMM yyyy ru=13 июл. 2025}"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 4,
+          "hasContent" : true
+        }, {
+          "name" : "Проверить данные заключения",
+          "time" : {
+            "start" : 1752499354070,
+            "stop" : 1752499360356,
+            "duration" : 6286
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f9dbd5966fe1c917",
+            "name" : "До_проверки_данных_заключения",
+            "source" : "f9dbd5966fe1c917.png",
+            "type" : "image/png",
+            "size" : 169446
+          }, {
+            "uid" : "52745014e6371fb9",
+            "name" : "Комментарий заключения",
+            "source" : "52745014e6371fb9.txt",
+            "type" : "text/plain",
+            "size" : 6
+          }, {
+            "uid" : "5c06e8db3b4677bd",
+            "name" : "Клиника заключения",
+            "source" : "5c06e8db3b4677bd.txt",
+            "type" : "text/plain",
+            "size" : 15
+          }, {
+            "uid" : "4e028e0ffadf814b",
+            "name" : "Имя доктора заключения",
+            "source" : "4e028e0ffadf814b.txt",
+            "type" : "text/plain",
+            "size" : 25
+          }, {
+            "uid" : "202fe2521033a76d",
+            "name" : "Специалист заключения",
+            "source" : "202fe2521033a76d.txt",
+            "type" : "text/plain",
+            "size" : 16
+          }, {
+            "uid" : "a3b9c4b85a9491ce",
+            "name" : "Ожидаемая дата (Android)",
+            "source" : "a3b9c4b85a9491ce.txt",
+            "type" : "text/plain",
+            "size" : 15
+          }, {
+            "uid" : "9f8811ea1061b2ec",
+            "name" : "Ожидаемое количество фотографий",
+            "source" : "9f8811ea1061b2ec.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "5f2a585cb02429e3",
+            "name" : "Фактическое количество фотографий",
+            "source" : "5f2a585cb02429e3.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "4e4e944c72d4fe57",
+            "name" : "Проверка_данных_заключения_завершена",
+            "source" : "4e4e944c72d4fe57.png",
+            "type" : "image/png",
+            "size" : 122390
+          } ],
+          "parameters" : [ {
+            "name" : "dates",
+            "value" : "{dd MMMM yyyy ru=13 июля 2025, dd.MM.yyyy=13.07.2025, dd MMM yyyy=13 Jul 2025, dd MMM abbreviated ru=13 июля 2025, dd MMM yyyy ru=13 июл. 2025}"
+          } ],
+          "attachmentsCount" : 9,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "922d30a03ff0e478",
+          "name" : "Заключение добавлено",
+          "source" : "922d30a03ff0e478.png",
+          "type" : "image/png",
+          "size" : 122390
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 15,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 22,
+        "hasContent" : true
+      }, {
+        "name" : "Редактировать заключение",
+        "time" : {
+          "start" : 1752499362090,
+          "stop" : 1752499427279,
+          "duration" : 65189
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Нажать кнопку редактирования",
+          "time" : {
+            "start" : 1752499362090,
+            "stop" : 1752499364843,
+            "duration" : 2753
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f31305a29d7d9c76",
+            "name" : "Кнопка_редактирования_нажата",
+            "source" : "f31305a29d7d9c76.png",
+            "type" : "image/png",
+            "size" : 131942
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Удалить фотографию",
+          "time" : {
+            "start" : 1752499364844,
+            "stop" : 1752499367001,
+            "duration" : 2157
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4e40840531bbaac8",
+            "name" : "Фотография_удалена",
+            "source" : "4e40840531bbaac8.png",
+            "type" : "image/png",
+            "size" : 114108
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Обновить данные заключения",
+          "time" : {
+            "start" : 1752499367002,
+            "stop" : 1752499414909,
+            "duration" : 47907
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выбрать клинику: Поликлиника.ру (ООО \"Дирекция\")",
+            "time" : {
+              "start" : 1752499375427,
+              "stop" : 1752499388050,
+              "duration" : 12623
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Проверка наличия заголовка 'Добавить клинику'",
+              "time" : {
+                "start" : 1752499380471,
+                "stop" : 1752499384883,
+                "duration" : 4412
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            }, {
+              "name" : "Поиск клиники по названию: Поликлиника.ру (ООО \"Дирекция\")",
+              "time" : {
+                "start" : 1752499384883,
+                "stop" : 1752499387822,
+                "duration" : 2939
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "clinicName",
+                "value" : "Поликлиника.ру (ООО \"Дирекция\")"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Выбор первой клиники в результатах поиска",
+              "time" : {
+                "start" : 1752499387822,
+                "stop" : 1752499388050,
+                "duration" : 228
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "clinicName",
+              "value" : "Поликлиника.ру (ООО \"Дирекция\")"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 3,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "2efd1293d65a2004",
+            "name" : "Файл_загружен_на_iOS",
+            "source" : "2efd1293d65a2004.png",
+            "type" : "image/png",
+            "size" : 135219
+          }, {
+            "uid" : "a50ad6b71fe5905c",
+            "name" : "Данные_заключения_обновлены",
+            "source" : "a50ad6b71fe5905c.png",
+            "type" : "image/png",
+            "size" : 135039
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 4,
+          "hasContent" : true
+        }, {
+          "name" : "Сохранить отредактированное заключение",
+          "time" : {
+            "start" : 1752499414911,
+            "stop" : 1752499419907,
+            "duration" : 4996
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c6cc5886345e0502",
+            "name" : "Отредактированное_заключение_сохранено",
+            "source" : "c6cc5886345e0502.png",
+            "type" : "image/png",
+            "size" : 132363
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Проверить отредактированные данные заключения",
+          "time" : {
+            "start" : 1752499419907,
+            "stop" : 1752499422727,
+            "duration" : 2820
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "44af3b368a9bc696",
+            "name" : "Отредактированные_данные_заключения_проверены",
+            "source" : "44af3b368a9bc696.png",
+            "type" : "image/png",
+            "size" : 132363
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Вернуться к заключению",
+          "time" : {
+            "start" : 1752499422728,
+            "stop" : 1752499425590,
+            "duration" : 2862
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "627310beb85d8d23",
+            "name" : "Возврат_к_заключению",
+            "source" : "627310beb85d8d23.png",
+            "type" : "image/png",
+            "size" : 172612
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "7c2e079af49c5433",
+          "name" : "Редактирование_заключения_завершено",
+          "source" : "7c2e079af49c5433.png",
+          "type" : "image/png",
+          "size" : 172612
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 8,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 10,
+        "hasContent" : true
+      }, {
+        "name" : "Удалить заключение",
+        "time" : {
+          "start" : 1752499427280,
+          "stop" : 1752499462541,
+          "duration" : 35261
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть фильтры на заключение врача",
+          "time" : {
+            "start" : 1752499431356,
+            "stop" : 1752499434258,
+            "duration" : 2902
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a88f3f559f416564",
+            "name" : "Фильтры_на_заключение_открыты",
+            "source" : "a88f3f559f416564.png",
+            "type" : "image/png",
+            "size" : 125280
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать на фильтр 'Добавлено мной'",
+          "time" : {
+            "start" : 1752499434258,
+            "stop" : 1752499437797,
+            "duration" : 3539
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fabf14f4d04d1bc5",
+            "name" : "Фильтр_Добавлено_мной_выбран",
+            "source" : "fabf14f4d04d1bc5.png",
+            "type" : "image/png",
+            "size" : 94001
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получить количество заключений",
+          "time" : {
+            "start" : 1752499439413,
+            "stop" : 1752499439865,
+            "duration" : 452
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Подсчитать количество элементов",
+            "time" : {
+              "start" : 1752499439482,
+              "stop" : 1752499439865,
+              "duration" : 383
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: ru.sogaz.app.stage:id/conclusions\") should be(visible)",
+              "time" : {
+                "start" : 1752499439568,
+                "stop" : 1752499439707,
+                "duration" : 139
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.id: ru.sogaz.app.stage:id/conclusions"
+            }, {
+              "name" : "className",
+              "value" : "androidx.cardview.widget.CardView"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 1,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 2,
+          "hasContent" : true
+        }, {
+          "name" : "Добавить количество заключений в Allure",
+          "time" : {
+            "start" : 1752499439865,
+            "stop" : 1752499439865,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "9b5bc0fb6dd2aa2",
+            "name" : "Количество заключений до удаления",
+            "source" : "9b5bc0fb6dd2aa2.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ {
+            "name" : "message",
+            "value" : "Количество заключений до удаления"
+          }, {
+            "name" : "count",
+            "value" : "1"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получить количество заключений",
+          "time" : {
+            "start" : 1752499439866,
+            "stop" : 1752499440184,
+            "duration" : 318
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Подсчитать количество элементов",
+            "time" : {
+              "start" : 1752499439951,
+              "stop" : 1752499440184,
+              "duration" : 233
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: ru.sogaz.app.stage:id/conclusions\") should be(visible)",
+              "time" : {
+                "start" : 1752499439951,
+                "stop" : 1752499440016,
+                "duration" : 65
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.id: ru.sogaz.app.stage:id/conclusions"
+            }, {
+              "name" : "className",
+              "value" : "androidx.cardview.widget.CardView"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 1,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 2,
+          "hasContent" : true
+        }, {
+          "name" : "Добавить количество заключений в Allure",
+          "time" : {
+            "start" : 1752499440184,
+            "stop" : 1752499440184,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "503e5a8d52446984",
+            "name" : "Количество заключений до удаления",
+            "source" : "503e5a8d52446984.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ {
+            "name" : "message",
+            "value" : "Количество заключений до удаления"
+          }, {
+            "name" : "count",
+            "value" : "1"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Удалить лишние заключения",
+          "time" : {
+            "start" : 1752499440184,
+            "stop" : 1752499454590,
+            "duration" : 14406
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Получить количество заключений",
+            "time" : {
+              "start" : 1752499440185,
+              "stop" : 1752499440489,
+              "duration" : 304
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Подсчитать количество элементов",
+              "time" : {
+                "start" : 1752499440280,
+                "stop" : 1752499440489,
+                "duration" : 209
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "$(\"By.id: ru.sogaz.app.stage:id/conclusions\") should be(visible)",
+                "time" : {
+                  "start" : 1752499440280,
+                  "stop" : 1752499440347,
+                  "duration" : 67
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "locator",
+                "value" : "By.id: ru.sogaz.app.stage:id/conclusions"
+              }, {
+                "name" : "className",
+                "value" : "androidx.cardview.widget.CardView"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 1,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 2,
+            "hasContent" : true
+          }, {
+            "name" : "Открыть последнее заключение",
+            "time" : {
+              "start" : 1752499440489,
+              "stop" : 1752499443241,
+              "duration" : 2752
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "c0918d009a9cd868",
+              "name" : "Последнее_заключение_открыто",
+              "source" : "c0918d009a9cd868.png",
+              "type" : "image/png",
+              "size" : 131556
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Нажать кнопку редактирования для удаления",
+            "time" : {
+              "start" : 1752499443242,
+              "stop" : 1752499446322,
+              "duration" : 3080
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "5b492b6c5158b4f8",
+              "name" : "Редактирование_для_удаления",
+              "source" : "5b492b6c5158b4f8.png",
+              "type" : "image/png",
+              "size" : 100526
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Подтвердить удаление заключения",
+            "time" : {
+              "start" : 1752499446322,
+              "stop" : 1752499452538,
+              "duration" : 6216
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "ea8238f6dfea8ac3",
+              "name" : "Удаление_заключения_подтверждено",
+              "source" : "ea8238f6dfea8ac3.png",
+              "type" : "image/png",
+              "size" : 87953
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить количество заключений",
+            "time" : {
+              "start" : 1752499454327,
+              "stop" : 1752499454590,
+              "duration" : 263
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Подсчитать количество элементов",
+              "time" : {
+                "start" : 1752499454426,
+                "stop" : 1752499454590,
+                "duration" : 164
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "$(\"By.id: ru.sogaz.app.stage:id/conclusions\") should be(visible)",
+                "time" : {
+                  "start" : 1752499454431,
+                  "stop" : 1752499454479,
+                  "duration" : 48
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "stepsCount" : 0,
+                "hasContent" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "locator",
+                "value" : "By.id: ru.sogaz.app.stage:id/conclusions"
+              }, {
+                "name" : "className",
+                "value" : "androidx.cardview.widget.CardView"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 1,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 2,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "cce8f326a5095113",
+            "name" : "Лишние_заключения_удалены",
+            "source" : "cce8f326a5095113.png",
+            "type" : "image/png",
+            "size" : 87953
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 9,
+          "hasContent" : true
+        }, {
+          "name" : "Получить количество заключений",
+          "time" : {
+            "start" : 1752499458741,
+            "stop" : 1752499459032,
+            "duration" : 291
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Подсчитать количество элементов",
+            "time" : {
+              "start" : 1752499458851,
+              "stop" : 1752499459032,
+              "duration" : 181
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: ru.sogaz.app.stage:id/conclusions\") should be(visible)",
+              "time" : {
+                "start" : 1752499458851,
+                "stop" : 1752499458913,
+                "duration" : 62
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.id: ru.sogaz.app.stage:id/conclusions"
+            }, {
+              "name" : "className",
+              "value" : "androidx.cardview.widget.CardView"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 1,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 2,
+          "hasContent" : true
+        }, {
+          "name" : "Добавить количество заключений в Allure",
+          "time" : {
+            "start" : 1752499459032,
+            "stop" : 1752499459034,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b617c71cf393513f",
+            "name" : "Количество заключений после всех удалений",
+            "source" : "b617c71cf393513f.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ {
+            "name" : "message",
+            "value" : "Количество заключений после всех удалений"
+          }, {
+            "name" : "count",
+            "value" : "0"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Проверить количество заключений после удаления",
+          "time" : {
+            "start" : 1752499460811,
+            "stop" : 1752499462541,
+            "duration" : 1730
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1788a418a9e3bbd6",
+            "name" : "Проверка_количества_заключений_после_удаления",
+            "source" : "1788a418a9e3bbd6.png",
+            "type" : "image/png",
+            "size" : 87953
+          } ],
+          "parameters" : [ {
+            "name" : "before",
+            "value" : "1"
+          }, {
+            "name" : "after",
+            "value" : "0"
+          } ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "d28bde47ed0fc4f1",
+          "name" : "До_удаления_заключения",
+          "source" : "d28bde47ed0fc4f1.png",
+          "type" : "image/png",
+          "size" : 94001
+        }, {
+          "uid" : "644cf12bb5a134a6",
+          "name" : "После_удаления_заключения",
+          "source" : "644cf12bb5a134a6.png",
+          "type" : "image/png",
+          "size" : 87953
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 12,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 25,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 57,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 98,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 57,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 99,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "54153@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "doctorConclusionTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fc6cfcdb7944c5d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751638208878,
+          "stop" : 1751638689094,
+          "duration" : 480216
+        }
+      }, {
+        "uid" : "cb595acca8ee2153",
+        "status" : "broken",
+        "statusDetails" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 8b3fe6a0-9e91-4c15-ba92-10f2a167bcc5",
+        "time" : {
+          "start" : 1751473045412,
+          "stop" : 1751473129197,
+          "duration" : 83785
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a44cc6d597c2fbf0.json",
+  "parameterValues" : [ ]
+}

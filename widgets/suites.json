@@ -1,6 +1,28 @@
 {
   "total" : 9,
   "items" : [ {
+    "uid" : "f8a18355bde02f11eded6175137df1d9",
+    "name" : "MobileTesting.tests.MedcardTest",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "60d14c935d2f59dc81ac4516b053084e",
+    "name" : "MobileTesting.tests.EdnaChatTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "1d9835a5f94d9565735b499e35d5edf0",
     "name" : "MobileTesting.tests.ConsultationTest",
     "statistic" : {
@@ -10,28 +32,6 @@
       "passed" : 0,
       "unknown" : 0,
       "total" : 11
-    }
-  }, {
-    "uid" : "c0d21e0326ec3d487f039375dfa3f2a9",
-    "name" : "MobileTesting.tests.QuestionnaireTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 3,
-      "skipped" : 2,
-      "passed" : 9,
-      "unknown" : 0,
-      "total" : 14
-    }
-  }, {
-    "uid" : "0b8595bde5fc22ca4552925f3254ad70",
-    "name" : "MobileTesting.tests.BuySectionTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
     }
   }, {
     "uid" : "7659b46f528f260e1b1aa068d88fddb4",
@@ -45,6 +45,17 @@
       "total" : 7
     }
   }, {
+    "uid" : "0b8595bde5fc22ca4552925f3254ad70",
+    "name" : "MobileTesting.tests.BuySectionTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "fd3f9232341eb329706b584638a5a73e",
     "name" : "MobileTesting.tests.ElregTest",
     "statistic" : {
@@ -56,26 +67,15 @@
       "total" : 3
     }
   }, {
-    "uid" : "60d14c935d2f59dc81ac4516b053084e",
-    "name" : "MobileTesting.tests.EdnaChatTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "f8a18355bde02f11eded6175137df1d9",
-    "name" : "MobileTesting.tests.MedcardTest",
+    "uid" : "c0d21e0326ec3d487f039375dfa3f2a9",
+    "name" : "MobileTesting.tests.QuestionnaireTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 9,
+      "skipped" : 2,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 9
+      "total" : 14
     }
   }, {
     "uid" : "fecbe0f2c320f52e44969adc8a56ef20",

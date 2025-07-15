@@ -1,0 +1,97 @@
+{
+  "uid" : "cd615db676962d41",
+  "name" : "addInsuranceCV()",
+  "fullName" : "MobileTesting.tests.AccountTest.addInsuranceCV",
+  "historyId" : "196479d062f0019fa7abf131175caed",
+  "time" : {
+    "start" : 1752561134411,
+    "stop" : 1752561134411,
+    "duration" : 0
+  },
+  "description" : "Добавление добровольного медицинского страхования для ребенка",
+  "descriptionHtml" : "<p>Добавление добровольного медицинского страхования для ребенка</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void MobileTesting.tests.AccountTest.addInsuranceCV() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "40723@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addInsuranceCV"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3fa86331d9ebac85",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceCV() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1752503238992,
+          "stop" : 1752503238992,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "59dfdeed12dd43d4",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceCV() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1751646974974,
+          "stop" : 1751646974974,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "36621936023a7688",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"2/6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1751471848800,
+          "stop" : 1751471905343,
+          "duration" : 56543
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cd615db676962d41.json",
+  "parameterValues" : [ ]
+}

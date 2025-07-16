@@ -2,305 +2,135 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Данные о травме удалены\"]",
-      "children" : [ {
-        "name" : "medicineTests()",
-        "uid" : "bd44e8bf4ac05392",
-        "parentUid" : "13a74e956ef32619704121088d66e083",
-        "status" : "failed",
-        "time" : {
-          "start" : 1752563890827,
-          "stop" : 1752563994244,
-          "duration" : 103417
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "vaccinationTests()",
-        "uid" : "95cb181fd0af438e",
-        "parentUid" : "13a74e956ef32619704121088d66e083",
-        "status" : "failed",
-        "time" : {
-          "start" : 1752564273019,
-          "stop" : 1752564374189,
-          "duration" : 101170
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "13a74e956ef32619704121088d66e083"
-    }, {
-      "name" : "Ошибка: количество заболеваний должно увеличиться на 1. ==> expected: <0> but was: <1>",
-      "children" : [ {
-        "name" : "diseaseTests()",
-        "uid" : "4506ee458aa43186",
-        "parentUid" : "625af4eeb5c0530a8cef18e8aee3af75",
-        "status" : "failed",
-        "time" : {
-          "start" : 1752563994257,
-          "stop" : 1752564089430,
-          "duration" : 95173
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "625af4eeb5c0530a8cef18e8aee3af75"
-    }, {
-      "name" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Данные об аллергии добавлены\"]",
-      "children" : [ {
-        "name" : "allergyTests()",
-        "uid" : "6ea38badf1db134",
-        "parentUid" : "0650e43b54ae6554930d4aa086f52886",
-        "status" : "failed",
-        "time" : {
-          "start" : 1752564089438,
-          "stop" : 1752564185681,
-          "duration" : 96243
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0650e43b54ae6554930d4aa086f52886"
-    }, {
-      "name" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Добавить анализ\"]",
-      "children" : [ {
-        "name" : "analyzesTests()",
-        "uid" : "45bf173803c382e0",
-        "parentUid" : "bb19adad2ee78af0095ad7b05b143e34",
-        "status" : "failed",
-        "time" : {
-          "start" : 1752564374196,
-          "stop" : 1752564454115,
-          "duration" : 79919
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "bb19adad2ee78af0095ad7b05b143e34"
-    }, {
-      "name" : "Element not found with locator: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Полисы\"]",
-      "children" : [ {
-        "name" : "ednaChatTests()",
-        "uid" : "88f34018d99f76b0",
-        "parentUid" : "c9f52feaf7d9e77c8e3ba7992f549e36",
-        "status" : "failed",
-        "time" : {
-          "start" : 1752565685821,
-          "stop" : 1752565929884,
-          "duration" : 244063
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c9f52feaf7d9e77c8e3ba7992f549e36"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //android.widget.ImageView[@resource-id='ru.sogaz.app.stage:id/delete'] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: d7f34bfa-daee-415f-aefc-f45711b43592",
-      "children" : [ {
-        "name" : "operationTests()",
-        "uid" : "d45d2a2dadbe6464",
-        "parentUid" : "420706124a106ea5e99b0ef86e0510bb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564185691,
-          "stop" : 1752564273012,
-          "duration" : 87321
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "420706124a106ea5e99b0ef86e0510bb"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/title_text\"] (tried for 4 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "injuryTests()",
-        "uid" : "cf8ffe48960b46c7",
-        "parentUid" : "cc5c1cc1e15cb4aec66b74e161a9c48d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564454123,
-          "stop" : 1752564566639,
-          "duration" : 112516
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cc5c1cc1e15cb4aec66b74e161a9c48d"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Добавить заключение\"] (tried for 4 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "doctorConclusionTests()",
-        "uid" : "a1c16a3d89ada69d",
-        "parentUid" : "8385dc03e1e729979ec631933d96cf65",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564566657,
-          "stop" : 1752564651482,
-          "duration" : 84825
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8385dc03e1e729979ec631933d96cf65"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"4/6\"] (tried for 4 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "recoveryPass()",
-        "uid" : "940c557d2d2c0dbf",
-        "parentUid" : "8899fcc05ab6b2a7123c6e290c737db6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564651495,
-          "stop" : 1752564715169,
-          "duration" : 63674
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8899fcc05ab6b2a7123c6e290c737db6"
-    }, {
       "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "addingDecipheringAnalyzes()",
-        "uid" : "a275524026e50acd",
-        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564715190,
-          "stop" : 1752564776548,
-          "duration" : 61358
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithAudio()",
-        "uid" : "b680ebe44b4287d3",
-        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564776561,
-          "stop" : 1752564834940,
-          "duration" : 58379
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithVideo()",
-        "uid" : "8826f063dab7d9e8",
-        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564834950,
-          "stop" : 1752564892999,
-          "duration" : 58049
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithChat()",
-        "uid" : "773b6facc37274ad",
-        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564893014,
-          "stop" : 1752564953196,
-          "duration" : 60182
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithVideo()",
-        "uid" : "ba9c2e054c664140",
-        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752564953203,
-          "stop" : 1752565012316,
-          "duration" : 59113
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "addingReadmissionWithVideo()",
-        "uid" : "3b4c66db4c93809d",
+        "uid" : "9d27e85a613cd9df",
         "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
         "status" : "broken",
         "time" : {
-          "start" : 1752565012335,
-          "stop" : 1752565070697,
-          "duration" : 58362
+          "start" : 1752640333950,
+          "stop" : 1752640389032,
+          "duration" : 55082
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingReadmissionWithChat()",
-        "uid" : "8f232bba61d04568",
+        "uid" : "11a9eca2a3d61627",
         "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
         "status" : "broken",
         "time" : {
-          "start" : 1752565070707,
-          "stop" : 1752565129347,
-          "duration" : 58640
+          "start" : 1752640389043,
+          "stop" : 1752640443055,
+          "duration" : 54012
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingDecipheringAnalyzesWithAudio()",
-        "uid" : "a680e8afcca2906c",
+        "uid" : "c381c60e0a735673",
         "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
         "status" : "broken",
         "time" : {
-          "start" : 1752565212827,
-          "stop" : 1752565274345,
-          "duration" : 61518
+          "start" : 1752640524033,
+          "stop" : 1752640577777,
+          "duration" : 53744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "224435d65f98c089",
+        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1752640577792,
+          "stop" : 1752640633898,
+          "duration" : 56106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithAudio()",
+        "uid" : "8beb3ed1dd7a5c5",
+        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1752640633904,
+          "stop" : 1752640688963,
+          "duration" : 55059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithVideo()",
+        "uid" : "9daf3773549777e1",
+        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1752640688970,
+          "stop" : 1752640747204,
+          "duration" : 58234
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingOnlineConsultationWithChat()",
-        "uid" : "a52258592d903da3",
+        "uid" : "b88b1394793f3004",
         "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
         "status" : "broken",
         "time" : {
-          "start" : 1752565274410,
-          "stop" : 1752565334582,
-          "duration" : 60172
+          "start" : 1752640747224,
+          "stop" : 1752640804621,
+          "duration" : 57397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithChat()",
+        "uid" : "e6b30e529a461a42",
+        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1752640804627,
+          "stop" : 1752640858839,
+          "duration" : 54212
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingAnotherDoctorOpinion()",
-        "uid" : "7722473a1c951484",
+        "uid" : "2d4fe44d8afe1a0f",
         "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
         "status" : "broken",
         "time" : {
-          "start" : 1752565334593,
-          "stop" : 1752565393036,
-          "duration" : 58443
+          "start" : 1752640858845,
+          "stop" : 1752640912395,
+          "duration" : 53550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "11fa1c80858559de",
+        "parentUid" : "cdf5009f45a27052fac7a2b9cb08cf8c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1752640912409,
+          "stop" : 1752640965764,
+          "duration" : 53355
         },
         "flaky" : false,
         "newFailed" : false,
@@ -311,13 +141,13 @@
       "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 4 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "addingOnlineConsultationWithAudio()",
-        "uid" : "a12e09ebd81b9485",
+        "uid" : "262b0e6d83b55810",
         "parentUid" : "e38b5ac56356bc4818555851592c5d37",
         "status" : "broken",
         "time" : {
-          "start" : 1752565129357,
-          "stop" : 1752565212746,
-          "duration" : 83389
+          "start" : 1752640443077,
+          "stop" : 1752640524023,
+          "duration" : 80946
         },
         "flaky" : false,
         "newFailed" : false,
@@ -325,39 +155,56 @@
       } ],
       "uid" : "e38b5ac56356bc4818555851592c5d37"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/title3\"] (tried for 40 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "register()",
-        "uid" : "14a251daccb97225",
-        "parentUid" : "3beac75184d4c406efb7ce68004099de",
-        "status" : "broken",
-        "time" : {
-          "start" : 1752565393050,
-          "stop" : 1752565500918,
-          "duration" : 107868
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3beac75184d4c406efb7ce68004099de"
-    }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/navigation_bar_item_small_label_view\" and @text=\"Купить\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/navigation_bar_item_small_label_view\" and @text=\"Купить\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "sliderNavigationTests()",
-        "uid" : "85cf0e78e67503eb",
-        "parentUid" : "26a043d7fbf60a463e659495ac9255c7",
+        "uid" : "33490b83af8d96f8",
+        "parentUid" : "7306719b4aebdfe20b94402b52bc8574",
         "status" : "broken",
         "time" : {
-          "start" : 1752565632336,
-          "stop" : 1752565685799,
-          "duration" : 53463
+          "start" : 1752641085891,
+          "stop" : 1752641147329,
+          "duration" : 61438
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "26a043d7fbf60a463e659495ac9255c7"
+      "uid" : "7306719b4aebdfe20b94402b52bc8574"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.FrameLayout[@resource-id=\"ru.sogaz.app.stage:id/btnBooking\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "register()",
+        "uid" : "65ef4377dcc20758",
+        "parentUid" : "3ee461ea4a253925ed2dd81f0fb94f79",
+        "status" : "broken",
+        "time" : {
+          "start" : 1752641728653,
+          "stop" : 1752641785861,
+          "duration" : 57208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ee461ea4a253925ed2dd81f0fb94f79"
+    }, {
+      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b4f883cd-d1e5-45e1-a15d-273fe40f765a\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/action_contact}",
+      "children" : [ {
+        "name" : "ednaChatTests()",
+        "uid" : "1e9ea0531b19d094",
+        "parentUid" : "b30ee6d081bf9f9078e3ee7e856a3bf4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1752641785880,
+          "stop" : 1752642138600,
+          "duration" : 352720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b30ee6d081bf9f9078e3ee7e856a3bf4"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

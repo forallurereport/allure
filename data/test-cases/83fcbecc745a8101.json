@@ -1,0 +1,1530 @@
+{
+  "uid" : "83fcbecc745a8101",
+  "name" : "adminMenuTest()",
+  "fullName" : "MobileTesting.tests.LKAdminTestsWEB.adminMenuTest",
+  "historyId" : "752194d715b02af83c7e4e1a447c4a00",
+  "time" : {
+    "start" : 1752634758052,
+    "stop" : 1752635063810,
+    "duration" : 305758
+  },
+  "description" : "Тест навигации по меню админ панели",
+  "descriptionHtml" : "<p>Тест навигации по меню админ панели</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест навигации по меню админ панели",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Тест меню",
+      "time" : {
+        "start" : 1752634765099,
+        "stop" : 1752635063306,
+        "duration" : 298207
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу входа в админ панель",
+        "time" : {
+          "start" : 1752634765099,
+          "stop" : 1752634793108,
+          "duration" : 28009
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Открыть страницу входа в админ панель",
+        "time" : {
+          "start" : 1752634808285,
+          "stop" : 1752634844142,
+          "duration" : 35857
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Ввести email в поле входа",
+        "time" : {
+          "start" : 1752634844584,
+          "stop" : 1752634848998,
+          "duration" : 4414
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "lara.movsisyan+admin@overteam.ru"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Ввести пароль в поле входа",
+        "time" : {
+          "start" : 1752634848998,
+          "stop" : 1752634852666,
+          "duration" : 3668
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "cNQCRNsje5NVAqG3"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Нажать кнопку входа",
+        "time" : {
+          "start" : 1752634852667,
+          "stop" : 1752634862107,
+          "duration" : 9440
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверить навигацию по меню",
+        "time" : {
+          "start" : 1752634862109,
+          "stop" : 1752635058280,
+          "duration" : 196171
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить все пункты меню",
+          "time" : {
+            "start" : 1752634862109,
+            "stop" : 1752634862109,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[0]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634872648,
+            "stop" : 1752634872670,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[0]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634872670,
+            "stop" : 1752634872761,
+            "duration" : 91
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[0]\") get text()",
+          "time" : {
+            "start" : 1752634872762,
+            "stop" : 1752634872986,
+            "duration" : 224
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[0]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634872986,
+            "stop" : 1752634873020,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[0]\") click()",
+          "time" : {
+            "start" : 1752634873127,
+            "stop" : 1752634881792,
+            "duration" : 8665
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634893012,
+            "stop" : 1752634894497,
+            "duration" : 1485
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[1]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634895515,
+            "stop" : 1752634895619,
+            "duration" : 104
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[1]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634895619,
+            "stop" : 1752634895667,
+            "duration" : 48
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[1]\") get text()",
+          "time" : {
+            "start" : 1752634895667,
+            "stop" : 1752634895781,
+            "duration" : 114
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[1]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634895781,
+            "stop" : 1752634896100,
+            "duration" : 319
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[1]\") click()",
+          "time" : {
+            "start" : 1752634896136,
+            "stop" : 1752634898672,
+            "duration" : 2536
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634904318,
+            "stop" : 1752634906956,
+            "duration" : 2638
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[2]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634908079,
+            "stop" : 1752634908111,
+            "duration" : 32
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[2]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634908111,
+            "stop" : 1752634908148,
+            "duration" : 37
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[2]\") get text()",
+          "time" : {
+            "start" : 1752634908148,
+            "stop" : 1752634908163,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[2]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634908163,
+            "stop" : 1752634908173,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[2]\") click()",
+          "time" : {
+            "start" : 1752634908179,
+            "stop" : 1752634909161,
+            "duration" : 982
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634911336,
+            "stop" : 1752634911828,
+            "duration" : 492
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[3]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634912867,
+            "stop" : 1752634912917,
+            "duration" : 50
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[3]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634912917,
+            "stop" : 1752634912926,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[3]\") get text()",
+          "time" : {
+            "start" : 1752634912926,
+            "stop" : 1752634912940,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[3]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634912940,
+            "stop" : 1752634912950,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[3]\") click()",
+          "time" : {
+            "start" : 1752634912958,
+            "stop" : 1752634913220,
+            "duration" : 262
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634915252,
+            "stop" : 1752634915447,
+            "duration" : 195
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[4]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634916522,
+            "stop" : 1752634916666,
+            "duration" : 144
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[4]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634916666,
+            "stop" : 1752634916675,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[4]\") get text()",
+          "time" : {
+            "start" : 1752634916675,
+            "stop" : 1752634916688,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[4]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634916688,
+            "stop" : 1752634916697,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[4]\") click()",
+          "time" : {
+            "start" : 1752634916703,
+            "stop" : 1752634917289,
+            "duration" : 586
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634919310,
+            "stop" : 1752634919728,
+            "duration" : 418
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[5]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634920896,
+            "stop" : 1752634920961,
+            "duration" : 65
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[5]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634920961,
+            "stop" : 1752634920970,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[5]\") get text()",
+          "time" : {
+            "start" : 1752634920970,
+            "stop" : 1752634920986,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[5]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634920986,
+            "stop" : 1752634920995,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[5]\") click()",
+          "time" : {
+            "start" : 1752634921003,
+            "stop" : 1752634921360,
+            "duration" : 357
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634923525,
+            "stop" : 1752634924193,
+            "duration" : 668
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[6]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634925244,
+            "stop" : 1752634925272,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[6]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634925272,
+            "stop" : 1752634925281,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[6]\") get text()",
+          "time" : {
+            "start" : 1752634925281,
+            "stop" : 1752634925295,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[6]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634925295,
+            "stop" : 1752634925304,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[6]\") click()",
+          "time" : {
+            "start" : 1752634925319,
+            "stop" : 1752634925484,
+            "duration" : 165
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634927594,
+            "stop" : 1752634927876,
+            "duration" : 282
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[7]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634929031,
+            "stop" : 1752634929047,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[7]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634929047,
+            "stop" : 1752634929056,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[7]\") get text()",
+          "time" : {
+            "start" : 1752634929056,
+            "stop" : 1752634929082,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[7]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634929082,
+            "stop" : 1752634929091,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[7]\") click()",
+          "time" : {
+            "start" : 1752634929098,
+            "stop" : 1752634929443,
+            "duration" : 345
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634931606,
+            "stop" : 1752634931867,
+            "duration" : 261
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[8]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634933048,
+            "stop" : 1752634933057,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[8]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634933057,
+            "stop" : 1752634933066,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[8]\") get text()",
+          "time" : {
+            "start" : 1752634933066,
+            "stop" : 1752634933080,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[8]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634933080,
+            "stop" : 1752634933089,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[8]\") click()",
+          "time" : {
+            "start" : 1752634933110,
+            "stop" : 1752634934186,
+            "duration" : 1076
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634936351,
+            "stop" : 1752634936735,
+            "duration" : 384
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[9]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634939305,
+            "stop" : 1752634939410,
+            "duration" : 105
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[9]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634939410,
+            "stop" : 1752634939436,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[9]\") get text()",
+          "time" : {
+            "start" : 1752634939436,
+            "stop" : 1752634939496,
+            "duration" : 60
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[9]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634939496,
+            "stop" : 1752634939523,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[9]\") click()",
+          "time" : {
+            "start" : 1752634939529,
+            "stop" : 1752634943090,
+            "duration" : 3561
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634945119,
+            "stop" : 1752634945367,
+            "duration" : 248
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[10]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634946388,
+            "stop" : 1752634946401,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[10]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634946401,
+            "stop" : 1752634946409,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[10]\") get text()",
+          "time" : {
+            "start" : 1752634946409,
+            "stop" : 1752634946424,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[10]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634946424,
+            "stop" : 1752634946433,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[10]\") click()",
+          "time" : {
+            "start" : 1752634946440,
+            "stop" : 1752634946786,
+            "duration" : 346
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634948891,
+            "stop" : 1752634949173,
+            "duration" : 282
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[11]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634950191,
+            "stop" : 1752634950202,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[11]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634950202,
+            "stop" : 1752634950231,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[11]\") get text()",
+          "time" : {
+            "start" : 1752634950231,
+            "stop" : 1752634950246,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[11]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634950246,
+            "stop" : 1752634950255,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[11]\") click()",
+          "time" : {
+            "start" : 1752634950263,
+            "stop" : 1752634950759,
+            "duration" : 496
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752634954680,
+            "stop" : 1752634983273,
+            "duration" : 28593
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[12]\") get attribute(href)",
+          "time" : {
+            "start" : 1752634984697,
+            "stop" : 1752634985274,
+            "duration" : 577
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[12]\") get attribute(class)",
+          "time" : {
+            "start" : 1752634985274,
+            "stop" : 1752634985369,
+            "duration" : 95
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[12]\") get text()",
+          "time" : {
+            "start" : 1752634985369,
+            "stop" : 1752634985825,
+            "duration" : 456
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[12]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752634985825,
+            "stop" : 1752634985914,
+            "duration" : 89
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[12]\") click()",
+          "time" : {
+            "start" : 1752634985930,
+            "stop" : 1752635000352,
+            "duration" : 14422
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752635012772,
+            "stop" : 1752635015353,
+            "duration" : 2581
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[13]\") get attribute(href)",
+          "time" : {
+            "start" : 1752635016365,
+            "stop" : 1752635016580,
+            "duration" : 215
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[13]\") get attribute(class)",
+          "time" : {
+            "start" : 1752635016580,
+            "stop" : 1752635016591,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[13]\") get text()",
+          "time" : {
+            "start" : 1752635016591,
+            "stop" : 1752635016730,
+            "duration" : 139
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[13]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752635016730,
+            "stop" : 1752635016801,
+            "duration" : 71
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[13]\") click()",
+          "time" : {
+            "start" : 1752635016822,
+            "stop" : 1752635018587,
+            "duration" : 1765
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"back\") ",
+          "time" : {
+            "start" : 1752635049681,
+            "stop" : 1752635052527,
+            "duration" : 2846
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[14]\") get attribute(href)",
+          "time" : {
+            "start" : 1752635053575,
+            "stop" : 1752635053801,
+            "duration" : 226
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[14]\") get attribute(class)",
+          "time" : {
+            "start" : 1752635053801,
+            "stop" : 1752635053827,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[14]\") get text()",
+          "time" : {
+            "start" : 1752635053827,
+            "stop" : 1752635054069,
+            "duration" : 242
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[14]\") find element(By.cssSelector: span, div, a)",
+          "time" : {
+            "start" : 1752635054069,
+            "stop" : 1752635054154,
+            "duration" : 85
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "$(\"nav a, .sidebar a, .menu a, [role='navigation'] a[14]\") click()",
+          "time" : {
+            "start" : 1752635054397,
+            "stop" : 1752635056175,
+            "duration" : 1778
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 90,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 96,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 97,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "78182@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.LKAdminTestsWEB"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.LKAdminTestsWEB"
+  }, {
+    "name" : "testMethod",
+    "value" : "adminMenuTest"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.LKAdminTestsWEB"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83fcbecc745a8101.json",
+  "parameterValues" : [ ]
+}

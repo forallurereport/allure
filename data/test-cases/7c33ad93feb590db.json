@@ -1,0 +1,106 @@
+{
+  "uid" : "7c33ad93feb590db",
+  "name" : "cancelReg()",
+  "fullName" : "MobileTesting.tests.ElregTest.cancelReg",
+  "historyId" : "7388c90cca80858f5442f624638b6557",
+  "time" : {
+    "start" : 1752638167619,
+    "stop" : 1752638167619,
+    "duration" : 0
+  },
+  "description" : "Отмена записи к врачу",
+  "descriptionHtml" : "<p>Отмена записи к врачу</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void MobileTesting.tests.ElregTest.cancelReg() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "78182@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "cancelReg"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d3ffaf7e8a29d42c",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1752561593509,
+          "stop" : 1752561593509,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6b3727826633e105",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1752503430225,
+          "stop" : 1752503430225,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "89f79978fdee6503",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1751647543036,
+          "stop" : 1751647543036,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f141a0b5c792c24",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1751462825202,
+          "stop" : 1751462825202,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7c33ad93feb590db.json",
+  "parameterValues" : [ ]
+}

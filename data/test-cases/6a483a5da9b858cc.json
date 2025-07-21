@@ -1,0 +1,357 @@
+{
+  "uid" : "6a483a5da9b858cc",
+  "name" : "checkAddConclusionButton()",
+  "fullName" : "MobileTesting.tests.ElregTest.checkAddConclusionButton",
+  "historyId" : "c2cc612905f07f77e2f38a980c3ef85e",
+  "time" : {
+    "start" : 1753112826998,
+    "stop" : 1753112895050,
+    "duration" : 68052
+  },
+  "description" : "Проверка появления кнопки 'Добавить заключение' после консультации",
+  "descriptionHtml" : "<p>Проверка появления кнопки 'Добавить заключение' после консультации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка появления кнопки 'Добавить заключение' после консультации",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверка кнопки добавления заключения",
+      "time" : {
+        "start" : 1753112841421,
+        "stop" : 1753112894420,
+        "duration" : 52999
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753112841421,
+          "stop" : 1753112873429,
+          "duration" : 32008
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753112841421,
+            "stop" : 1753112864874,
+            "duration" : 23453
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753112841421,
+              "stop" : 1753112847361,
+              "duration" : 5940
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753112842445,
+                "stop" : 1753112846635,
+                "duration" : 4190
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "c68b8001202cef9d",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "c68b8001202cef9d.png",
+              "type" : "image/png",
+              "size" : 81765
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753112847361,
+              "stop" : 1753112848585,
+              "duration" : 1224
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753112848585,
+              "stop" : 1753112851202,
+              "duration" : 2617
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1111"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753112851202,
+              "stop" : 1753112854448,
+              "duration" : 3246
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "3c4b8e4cd76439d4",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "3c4b8e4cd76439d4.png",
+              "type" : "image/png",
+              "size" : 139558
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753112858758,
+              "stop" : 1753112862831,
+              "duration" : 4073
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753112864031,
+              "stop" : 1753112864874,
+              "duration" : 843
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "8140fee5a261bbea",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "8140fee5a261bbea.png",
+              "type" : "image/png",
+              "size" : 53315
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "2414c4fa93e560e",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "2414c4fa93e560e.png",
+            "type" : "image/png",
+            "size" : 53315
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1111"
+          } ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+          "time" : {
+            "start" : 1753112864874,
+            "stop" : 1753112873429,
+            "duration" : 8555
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "23793cf708817b4f",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "23793cf708817b4f.png",
+            "type" : "image/png",
+            "size" : 53315
+          }, {
+            "uid" : "c5c4baf40e9ed2db",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "c5c4baf40e9ed2db.png",
+            "type" : "image/png",
+            "size" : 54059
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1111"
+        } ],
+        "stepsCount" : 9,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Навигация к вкладке Здоровье",
+        "time" : {
+          "start" : 1753112873429,
+          "stop" : 1753112877625,
+          "duration" : 4196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b2d4dd22cbc2904c",
+          "name" : "After_Health_Tab_Click_Android",
+          "source" : "b2d4dd22cbc2904c.png",
+          "type" : "image/png",
+          "size" : 182523
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверка кнопки добавления заключения",
+        "time" : {
+          "start" : 1753112882630,
+          "stop" : 1753112892784,
+          "duration" : 10154
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Навигация к вкладке Здоровье",
+          "time" : {
+            "start" : 1753112882630,
+            "stop" : 1753112886803,
+            "duration" : 4173
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8a4a6fd91b8d9327",
+            "name" : "After_Health_Tab_Click_Android",
+            "source" : "8a4a6fd91b8d9327.png",
+            "type" : "image/png",
+            "size" : 213444
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "5cd569289b6f982e",
+          "name" : "Add_Conclusion_Button_Not_Available",
+          "source" : "5cd569289b6f982e.png",
+          "type" : "image/png",
+          "size" : 210662
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "473515ef0604ad5b",
+        "name" : "add_conclusion_button_check",
+        "source" : "473515ef0604ad5b.png",
+        "type" : "image/png",
+        "size" : 210662
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 13,
+      "hasContent" : true,
+      "attachmentsCount" : 10,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "87275@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkAddConclusionButton"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a483a5da9b858cc.json",
+  "parameterValues" : [ ]
+}

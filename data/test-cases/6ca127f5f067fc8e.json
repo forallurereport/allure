@@ -1,0 +1,497 @@
+{
+  "uid" : "6ca127f5f067fc8e",
+  "name" : "sliderNavigationTests()",
+  "fullName" : "MobileTesting.tests.BuySectionTest.sliderNavigationTests",
+  "historyId" : "b045c964eb716a32b5421d102b3035a1",
+  "time" : {
+    "start" : 1753096475108,
+    "stop" : 1753096857274,
+    "duration" : 382166
+  },
+  "description" : "Навигация по слайдеру и проверка ссылок в разделе Покупки",
+  "descriptionHtml" : "<p>Навигация по слайдеру и проверка ссылок в разделе Покупки</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Навигация по слайдеру и проверка ссылок в разделе Покупки",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Навигация по слайдеру и проверка ссылок",
+      "time" : {
+        "start" : 1753096493285,
+        "stop" : 1753096856472,
+        "duration" : 363187
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753096493285,
+          "stop" : 1753096524430,
+          "duration" : 31145
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753096493286,
+            "stop" : 1753096516157,
+            "duration" : 22871
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753096493286,
+              "stop" : 1753096499261,
+              "duration" : 5975
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753096494095,
+                "stop" : 1753096498565,
+                "duration" : 4470
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "6ed4aa492e5f08ac",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "6ed4aa492e5f08ac.png",
+              "type" : "image/png",
+              "size" : 81311
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753096499261,
+              "stop" : 1753096500502,
+              "duration" : 1241
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753096500502,
+              "stop" : 1753096503637,
+              "duration" : 3135
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1111"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753096503637,
+              "stop" : 1753096505708,
+              "duration" : 2071
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "e3955cea121718fd",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "e3955cea121718fd.png",
+              "type" : "image/png",
+              "size" : 139424
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753096510045,
+              "stop" : 1753096514421,
+              "duration" : 4376
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753096515415,
+              "stop" : 1753096516157,
+              "duration" : 742
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "ae032116e1bf3007",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "ae032116e1bf3007.png",
+              "type" : "image/png",
+              "size" : 53210
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "65d9971b8286846c",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "65d9971b8286846c.png",
+            "type" : "image/png",
+            "size" : 53210
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1111"
+          } ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+          "time" : {
+            "start" : 1753096516157,
+            "stop" : 1753096524430,
+            "duration" : 8273
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1e9336fdcdd56e5f",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "1e9336fdcdd56e5f.png",
+            "type" : "image/png",
+            "size" : 53210
+          }, {
+            "uid" : "546c1ea46dd12969",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "546c1ea46dd12969.png",
+            "type" : "image/png",
+            "size" : 53701
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1111"
+        } ],
+        "stepsCount" : 9,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Открыть раздел 'Покупки'",
+        "time" : {
+          "start" : 1753096527501,
+          "stop" : 1753096571530,
+          "duration" : 44029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "754e624421fe7433",
+          "name" : "Раздел Покупки открыт",
+          "source" : "754e624421fe7433.png",
+          "type" : "image/png",
+          "size" : 1870441
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверить элементы в разделе 'Покупки'",
+        "time" : {
+          "start" : 1753096579040,
+          "stop" : 1753096718401,
+          "duration" : 139361
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ce89b9a66f90344c",
+          "name" : "Элемент 'Авто' не найден (опциональный)",
+          "source" : "ce89b9a66f90344c.png",
+          "type" : "image/png",
+          "size" : 1135650
+        }, {
+          "uid" : "44861c04d8d0dba2",
+          "name" : "Все основные элементы раздела Покупки найдены",
+          "source" : "44861c04d8d0dba2.png",
+          "type" : "image/png",
+          "size" : 1096690
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверить ссылки на слайдах",
+        "time" : {
+          "start" : 1753096718401,
+          "stop" : 1753096801783,
+          "duration" : 83382
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "653f6364b932a00e",
+          "name" : "Error_longWaitUntilVisible_mobile_screenshot",
+          "source" : "653f6364b932a00e.png",
+          "type" : "image/png",
+          "size" : 1128978
+        }, {
+          "uid" : "10308821d388cd7f",
+          "name" : "Попытка 1 загрузки слайдера",
+          "source" : "10308821d388cd7f.png",
+          "type" : "image/png",
+          "size" : 1135520
+        }, {
+          "uid" : "82b18bdfd69e08ba",
+          "name" : "Error_longWaitUntilVisible_mobile_screenshot",
+          "source" : "82b18bdfd69e08ba.png",
+          "type" : "image/png",
+          "size" : 1316577
+        }, {
+          "uid" : "e1dbeba8179d22c3",
+          "name" : "Попытка 2 загрузки слайдера",
+          "source" : "e1dbeba8179d22c3.png",
+          "type" : "image/png",
+          "size" : 1135520
+        }, {
+          "uid" : "d9e66f04587028f5",
+          "name" : "Error_longWaitUntilVisible_mobile_screenshot",
+          "source" : "d9e66f04587028f5.png",
+          "type" : "image/png",
+          "size" : 1316577
+        }, {
+          "uid" : "a200d7b326dfab9d",
+          "name" : "Попытка 3 загрузки слайдера",
+          "source" : "a200d7b326dfab9d.png",
+          "type" : "image/png",
+          "size" : 1316577
+        }, {
+          "uid" : "b233775d6da67b2d",
+          "name" : "Слайдер недоступен, пропускаем проверку слайдов",
+          "source" : "b233775d6da67b2d.png",
+          "type" : "image/png",
+          "size" : 1135520
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Навигация по слайдам",
+        "time" : {
+          "start" : 1753096801784,
+          "stop" : 1753096853880,
+          "duration" : 52096
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1a1a8d1cb4777f03",
+          "name" : "Слайд 1: Не волноваться о мелочах",
+          "source" : "1a1a8d1cb4777f03.png",
+          "type" : "image/png",
+          "size" : 1870387
+        }, {
+          "uid" : "6a30724a9fc20a7b",
+          "name" : "Слайд 2: Спокойствие – в собственность",
+          "source" : "6a30724a9fc20a7b.png",
+          "type" : "image/png",
+          "size" : 1145898
+        }, {
+          "uid" : "8dc3ecdd20e45c53",
+          "name" : "Слайд 3: Тестовый баннер",
+          "source" : "8dc3ecdd20e45c53.png",
+          "type" : "image/png",
+          "size" : 3018375
+        }, {
+          "uid" : "80db79f57140d233",
+          "name" : "Слайд 4: Вперед без забот",
+          "source" : "80db79f57140d233.png",
+          "type" : "image/png",
+          "size" : 1317602
+        }, {
+          "uid" : "c9f929a56cd25cfc",
+          "name" : "Слайд 5: Доктор Лайк",
+          "source" : "c9f929a56cd25cfc.png",
+          "type" : "image/png",
+          "size" : 1135963
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "864e0701050cb226",
+        "name" : "После открытия раздела Покупки",
+        "source" : "864e0701050cb226.png",
+        "type" : "image/png",
+        "size" : 1145257
+      }, {
+        "uid" : "5fbebe4cb5f5c538",
+        "name" : "Тест навигации по слайдеру завершен",
+        "source" : "5fbebe4cb5f5c538.png",
+        "type" : "image/png",
+        "size" : 1870387
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "hasContent" : true,
+      "attachmentsCount" : 23,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "hasContent" : true,
+    "attachmentsCount" : 23,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "87275@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sliderNavigationTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "33490b83af8d96f8",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/navigation_bar_item_small_label_view\" and @text=\"Купить\"] (tried for 15 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1752641085891,
+          "stop" : 1752641147329,
+          "duration" : 61438
+        }
+      }, {
+        "uid" : "85cf0e78e67503eb",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/navigation_bar_item_small_label_view\" and @text=\"Купить\"] (tried for 4 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1752565632336,
+          "stop" : 1752565685799,
+          "duration" : 53463
+        }
+      }, {
+        "uid" : "44057276d567ec6a",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.ImageView/following-sibling::android.widget.LinearLayout/android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/title\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 75ef21f6-0218-45d6-955a-869f37c325a9",
+        "time" : {
+          "start" : 1752505908931,
+          "stop" : 1752505996143,
+          "duration" : 87212
+        }
+      }, {
+        "uid" : "e11e7727ee39c18",
+        "status" : "broken",
+        "statusDetails" : "The element 'By.xpath: //android.widget.ImageView/following-sibling::android.widget.LinearLayout/android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/title\"]' is not linked to the same object in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f10eeaae-4a0e-4f97-b060-e1f5d2e4e511",
+        "time" : {
+          "start" : 1751474966113,
+          "stop" : 1751475155211,
+          "duration" : 189098
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6ca127f5f067fc8e.json",
+  "parameterValues" : [ ]
+}

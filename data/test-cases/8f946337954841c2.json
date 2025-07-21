@@ -1,0 +1,650 @@
+{
+  "uid" : "8f946337954841c2",
+  "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
+  "fullName" : "MobileTesting.tests.QuestionnaireTest.chooseEnrollToAnotherDoctorOptionAfterQuestionnaire",
+  "historyId" : "877d2ccb612b12db0f1a13f2fbef2991",
+  "time" : {
+    "start" : 1753114327501,
+    "stop" : 1753114496122,
+    "duration" : 168621
+  },
+  "description" : "Выбрать вариант записи к другому врачу после прохождения опросника",
+  "descriptionHtml" : "<p>Выбрать вариант записи к другому врачу после прохождения опросника</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Выбрать вариант записи к другому врачу после прохождения опросника",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Выбрать вариант записи к другому врачу после прохождения опросника",
+      "time" : {
+        "start" : 1753114338472,
+        "stop" : 1753114494568,
+        "duration" : 156096
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753114338473,
+          "stop" : 1753114372961,
+          "duration" : 34488
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753114338473,
+            "stop" : 1753114363298,
+            "duration" : 24825
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753114338473,
+              "stop" : 1753114344710,
+              "duration" : 6237
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753114339535,
+                "stop" : 1753114344043,
+                "duration" : 4508
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "3284a0f102681b40",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "3284a0f102681b40.png",
+              "type" : "image/png",
+              "size" : 81294
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753114344710,
+              "stop" : 1753114345909,
+              "duration" : 1199
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753114345909,
+              "stop" : 1753114348565,
+              "duration" : 2656
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1111"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753114348565,
+              "stop" : 1753114351809,
+              "duration" : 3244
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "dcf5e383aadfbf87",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "dcf5e383aadfbf87.png",
+              "type" : "image/png",
+              "size" : 139001
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753114356383,
+              "stop" : 1753114361077,
+              "duration" : 4694
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753114362422,
+              "stop" : 1753114363298,
+              "duration" : 876
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "9bbe4516ba0bd573",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "9bbe4516ba0bd573.png",
+              "type" : "image/png",
+              "size" : 52846
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "5616f4c4c79f698b",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "5616f4c4c79f698b.png",
+            "type" : "image/png",
+            "size" : 52846
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1111"
+          } ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+          "time" : {
+            "start" : 1753114363298,
+            "stop" : 1753114372961,
+            "duration" : 9663
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fb60fd3e5ff015f8",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "fb60fd3e5ff015f8.png",
+            "type" : "image/png",
+            "size" : 52846
+          }, {
+            "uid" : "907774f5a1e0602c",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "907774f5a1e0602c.png",
+            "type" : "image/png",
+            "size" : 53357
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1111"
+        } ],
+        "stepsCount" : 9,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Сделать офлайн-консультацию со специалистом",
+        "time" : {
+          "start" : 1753114372962,
+          "stop" : 1753114421353,
+          "duration" : 48391
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Handle blue screen if present",
+          "time" : {
+            "start" : 1753114407380,
+            "stop" : 1753114411902,
+            "duration" : 4522
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "9a2f93fbd2503017",
+          "name" : "Before_Registration_Click",
+          "source" : "9a2f93fbd2503017.png",
+          "type" : "image/png",
+          "size" : 181918
+        }, {
+          "uid" : "e636bfa3971f1fab",
+          "name" : "After_Alternative_Registration_Click_4",
+          "source" : "e636bfa3971f1fab.png",
+          "type" : "image/png",
+          "size" : 132683
+        }, {
+          "uid" : "2c25ac63cda09e0a",
+          "name" : "After_Alternative_Registration_4",
+          "source" : "2c25ac63cda09e0a.png",
+          "type" : "image/png",
+          "size" : 132683
+        }, {
+          "uid" : "94d9efd01054957d",
+          "name" : "After_Registration_At_Clinic_Click",
+          "source" : "94d9efd01054957d.png",
+          "type" : "image/png",
+          "size" : 132683
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Запретить подсказки",
+        "time" : {
+          "start" : 1753114422605,
+          "stop" : 1753114426782,
+          "duration" : 4177
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Принять опросник",
+        "time" : {
+          "start" : 1753114426782,
+          "stop" : 1753114430989,
+          "duration" : 4207
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "76013e7e5724b2f0",
+          "name" : "Принять опросник_mobile_screenshot",
+          "source" : "76013e7e5724b2f0.png",
+          "type" : "image/png",
+          "size" : 94720
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Выбрать необходимость больничного",
+        "time" : {
+          "start" : 1753114430989,
+          "stop" : 1753114431940,
+          "duration" : 951
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "af37b3a0e3bc1b6",
+          "name" : "Выбрать необходимость больничного_mobile_screenshot",
+          "source" : "af37b3a0e3bc1b6.png",
+          "type" : "image/png",
+          "size" : 81533
+        } ],
+        "parameters" : [ {
+          "name" : "needSickLeaves",
+          "value" : "false"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверить, что открылась страница симптомов опросника",
+        "time" : {
+          "start" : 1753114431941,
+          "stop" : 1753114434115,
+          "duration" : 2174
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c6e0d4a8a5239ab1",
+          "name" : "Страница симптомов опросника_mobile_screenshot",
+          "source" : "c6e0d4a8a5239ab1.png",
+          "type" : "image/png",
+          "size" : 92142
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Выбрать симптомы",
+        "time" : {
+          "start" : 1753114434115,
+          "stop" : 1753114457908,
+          "duration" : 23793
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу выбора симптомов",
+          "time" : {
+            "start" : 1753114434115,
+            "stop" : 1753114437301,
+            "duration" : 3186
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "462c5ce74ade5f24",
+            "name" : "Открыть страницу выбора симптомов_mobile_screenshot",
+            "source" : "462c5ce74ade5f24.png",
+            "type" : "image/png",
+            "size" : 138603
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Навигировать и выбрать симптомы",
+          "time" : {
+            "start" : 1753114437302,
+            "stop" : 1753114453947,
+            "duration" : 16645
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c328e71d615ae133",
+            "name" : "Открыть страницу выбора симптомов - страница 1_mobile_screenshot",
+            "source" : "c328e71d615ae133.png",
+            "type" : "image/png",
+            "size" : 163961
+          }, {
+            "uid" : "bd773558fe2664a4",
+            "name" : "Открыть страницу выбора симптомов - страница 2_mobile_screenshot",
+            "source" : "bd773558fe2664a4.png",
+            "type" : "image/png",
+            "size" : 137514
+          }, {
+            "uid" : "4b986f0f4ce1b60a",
+            "name" : "Открыть страницу выбора симптомов - страница 3_mobile_screenshot",
+            "source" : "4b986f0f4ce1b60a.png",
+            "type" : "image/png",
+            "size" : 136548
+          }, {
+            "uid" : "99f19cca56ee82d0",
+            "name" : "Открыть страницу выбора симптомов - страница 4_mobile_screenshot",
+            "source" : "99f19cca56ee82d0.png",
+            "type" : "image/png",
+            "size" : 140849
+          }, {
+            "uid" : "80db45990ad73865",
+            "name" : "Открыть страницу выбора симптомов - страница 5_mobile_screenshot",
+            "source" : "80db45990ad73865.png",
+            "type" : "image/png",
+            "size" : 136186
+          }, {
+            "uid" : "58dcb66d7598c68c",
+            "name" : "Открыть страницу выбора симптомов - страница 6_mobile_screenshot",
+            "source" : "58dcb66d7598c68c.png",
+            "type" : "image/png",
+            "size" : 74363
+          } ],
+          "parameters" : [ {
+            "name" : "symptoms",
+            "value" : "[Головная боль, Боль в спине, Головокружение, Мигрень, Онемение конечностей]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 6,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Подтвердить выбор симптомов",
+          "time" : {
+            "start" : 1753114453947,
+            "stop" : 1753114457908,
+            "duration" : 3961
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "dd2e801e5cc3ded",
+            "name" : "Подтвердить выбор симптомов_mobile_screenshot",
+            "source" : "dd2e801e5cc3ded.png",
+            "type" : "image/png",
+            "size" : 107478
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "symptoms",
+          "value" : "[Головная боль, Боль в спине, Головокружение, Мигрень, Онемение конечностей]"
+        } ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 8,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Продолжить опросник",
+        "time" : {
+          "start" : 1753114457908,
+          "stop" : 1753114459648,
+          "duration" : 1740
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cd93b04e8d6aca3e",
+          "name" : "Продолжение опросника_mobile_screenshot",
+          "source" : "cd93b04e8d6aca3e.png",
+          "type" : "image/png",
+          "size" : 111415
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Пройти опросник для оффлайн-консультации",
+        "time" : {
+          "start" : 1753114459648,
+          "stop" : 1753114494567,
+          "duration" : 34919
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6accb7769d4681f1",
+          "name" : "Опросник для оффлайн-консультации завершен_mobile_screenshot",
+          "source" : "6accb7769d4681f1.png",
+          "type" : "image/png",
+          "size" : 110608
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Выберите вариант зачисления после прохождения опросника",
+        "time" : {
+          "start" : 1753114494568,
+          "stop" : 1753114494568,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "option",
+          "value" : "Записаться"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 23,
+      "hasContent" : true,
+      "attachmentsCount" : 23,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "hasContent" : true,
+    "attachmentsCount" : 23,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "87275@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "516d24c2cf9e5874",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752635808209,
+          "stop" : 1752635949539,
+          "duration" : 141330
+        }
+      }, {
+        "uid" : "f0b86aea24ac60e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752558521152,
+          "stop" : 1752558675736,
+          "duration" : 154584
+        }
+      }, {
+        "uid" : "adb6059991fff4a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752501390950,
+          "stop" : 1752501541651,
+          "duration" : 150701
+        }
+      }, {
+        "uid" : "3b55f54502ac03b5",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Пройти опрос и записаться онлайн\"] (tried for 40 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1751655251519,
+          "stop" : 1751655452806,
+          "duration" : 201287
+        }
+      }, {
+        "uid" : "a6441bec47593c03",
+        "status" : "broken",
+        "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+        "time" : {
+          "start" : 1751471140554,
+          "stop" : 1751471294280,
+          "duration" : 153726
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8f946337954841c2.json",
+  "parameterValues" : [ ]
+}

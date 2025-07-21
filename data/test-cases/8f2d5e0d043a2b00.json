@@ -1,0 +1,1214 @@
+{
+  "uid" : "8f2d5e0d043a2b00",
+  "name" : "diseaseTests()",
+  "fullName" : "MobileTesting.tests.MedcardTest.diseaseTests",
+  "historyId" : "f24ac06a2b25b7ce2178878d0b1a9ac4",
+  "time" : {
+    "start" : 1753094724568,
+    "stop" : 1753094858859,
+    "duration" : 134291
+  },
+  "description" : "Добавить и удалить заболевание",
+  "descriptionHtml" : "<p>Добавить и удалить заболевание</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Добавить и удалить заболевание",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить и удалить заболевание",
+      "time" : {
+        "start" : 1753094735995,
+        "stop" : 1753094857211,
+        "duration" : 121216
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753094735995,
+          "stop" : 1753094767138,
+          "duration" : 31143
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Войти в систему",
+          "time" : {
+            "start" : 1753094735995,
+            "stop" : 1753094767138,
+            "duration" : 31143
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить и отправить форму входа",
+            "time" : {
+              "start" : 1753094735995,
+              "stop" : 1753094757948,
+              "duration" : 21953
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Нажать на кнопку авторизации",
+              "time" : {
+                "start" : 1753094735995,
+                "stop" : 1753094742279,
+                "duration" : 6284
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Запретить подсказки",
+                "time" : {
+                  "start" : 1753094737069,
+                  "stop" : 1753094741668,
+                  "duration" : 4599
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "hasContent" : false,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ {
+                "uid" : "a23d3a5d94ea0e9d",
+                "name" : "Форма входа_mobile_screenshot",
+                "source" : "a23d3a5d94ea0e9d.png",
+                "type" : "image/png",
+                "size" : 81464
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Ввести email",
+              "time" : {
+                "start" : 1753094742279,
+                "stop" : 1753094743465,
+                "duration" : 1186
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "username",
+                "value" : "artur@test.ru"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Ввести пароль",
+              "time" : {
+                "start" : 1753094743466,
+                "stop" : 1753094746373,
+                "duration" : 2907
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "password",
+                "value" : "Artur@test.ru1101"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1753094746373,
+                "stop" : 1753094747745,
+                "duration" : 1372
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "d334042355dd68ff",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "d334042355dd68ff.png",
+                "type" : "image/png",
+                "size" : 135261
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Подтвердить капчу",
+              "time" : {
+                "start" : 1753094752183,
+                "stop" : 1753094756212,
+                "duration" : 4029
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1753094757220,
+                "stop" : 1753094757948,
+                "duration" : 728
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "ea7222763e772503",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "ea7222763e772503.png",
+                "type" : "image/png",
+                "size" : 53017
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "74b531addae6a2e",
+              "name" : "Форма входа после капчи_mobile_screenshot",
+              "source" : "74b531addae6a2e.png",
+              "type" : "image/png",
+              "size" : 53017
+            } ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur@test.ru"
+            }, {
+              "name" : "password",
+              "value" : "Artur@test.ru1101"
+            } ],
+            "stepsCount" : 7,
+            "hasContent" : true,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+            "time" : {
+              "start" : 1753094757949,
+              "stop" : 1753094767138,
+              "duration" : 9189
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "ad5217f9a0740a3f",
+              "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+              "source" : "ad5217f9a0740a3f.png",
+              "type" : "image/png",
+              "size" : 53017
+            }, {
+              "uid" : "e8fa74f0a6b83b49",
+              "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+              "source" : "e8fa74f0a6b83b49.png",
+              "type" : "image/png",
+              "size" : 53588
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur@test.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur@test.ru1101"
+          } ],
+          "stepsCount" : 9,
+          "hasContent" : true,
+          "attachmentsCount" : 6,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "543230cf6d0d326f",
+          "name" : "Авторизация для Android",
+          "source" : "543230cf6d0d326f.txt",
+          "type" : "text/plain",
+          "size" : 53
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 10,
+        "hasContent" : true,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Нажать на медицинскую карту",
+        "time" : {
+          "start" : 1753094767138,
+          "stop" : 1753094769261,
+          "duration" : 2123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "19774a7a2e013d8e",
+          "name" : "Скриншот_медицинской_карты",
+          "source" : "19774a7a2e013d8e.png",
+          "type" : "image/png",
+          "size" : 213763
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверить наличие разделов: Заключение врача, Болезни, Анализы и т.д.",
+        "time" : {
+          "start" : 1753094769261,
+          "stop" : 1753094785006,
+          "duration" : 15745
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9b965ea48d106aae",
+          "name" : "Скриншот_проверки_разделов_медкарты",
+          "source" : "9b965ea48d106aae.png",
+          "type" : "image/png",
+          "size" : 196515
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Открыть раздел заболеваний",
+        "time" : {
+          "start" : 1753094785007,
+          "stop" : 1753094787725,
+          "duration" : 2718
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "83425c4f133d6be1",
+          "name" : "Раздел_заболеваний_открыт",
+          "source" : "83425c4f133d6be1.png",
+          "type" : "image/png",
+          "size" : 93921
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Добавить заболевание из списка",
+        "time" : {
+          "start" : 1753094787725,
+          "stop" : 1753094809512,
+          "duration" : 21787
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить количество заболеваний до добавления",
+          "time" : {
+            "start" : 1753094787725,
+            "stop" : 1753094791849,
+            "duration" : 4124
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Добавить новое заболевание",
+          "time" : {
+            "start" : 1753094791850,
+            "stop" : 1753094805607,
+            "duration" : 13757
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1753094796764,
+              "stop" : 1753094803705,
+              "duration" : 6941
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1753094796764,
+                "stop" : 1753094796768,
+                "duration" : 4
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1753094796766,
+                  "stop" : 1753094796767,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 21 13:46:36 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1753094796767,
+                  "stop" : 1753094796767,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 21 13:46:36 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753094796767,
+                  "stop" : 1753094796767,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 21 13:46:36 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753094796767,
+                  "stop" : 1753094796768,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Mon Jul 21 13:46:36 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1753094796768,
+                  "stop" : 1753094796768,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "21 июля 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "stepsCount" : 5,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "1c5e081cee01bbbe",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "1c5e081cee01bbbe.png",
+              "type" : "image/png",
+              "size" : 84334
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "stepsCount" : 6,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "51da8aa1137ccb03",
+            "name" : "Новое_заболевание_добавлено",
+            "source" : "51da8aa1137ccb03.png",
+            "type" : "image/png",
+            "size" : 78486
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получить количество заболеваний после добавления",
+          "time" : {
+            "start" : 1753094805608,
+            "stop" : 1753094806300,
+            "duration" : 692
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f19e3ed842823296",
+            "name" : "Количество заболеваний после добавления",
+            "source" : "f19e3ed842823296.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверить изменение количества заболеваний после добавления",
+          "time" : {
+            "start" : 1753094806300,
+            "stop" : 1753094807961,
+            "duration" : 1661
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7de3742ec1eeba11",
+            "name" : "Разница в количестве заболеваний",
+            "source" : "7de3742ec1eeba11.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "4aef779ff7ccd0ef",
+            "name" : "Проверка_увеличения_количества_заболеваний",
+            "source" : "4aef779ff7ccd0ef.png",
+            "type" : "image/png",
+            "size" : 78486
+          } ],
+          "parameters" : [ {
+            "name" : "before",
+            "value" : "0"
+          }, {
+            "name" : "after",
+            "value" : "1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "661f7ca601790f28",
+          "name" : "После добавления заболевания",
+          "source" : "661f7ca601790f28.png",
+          "type" : "image/png",
+          "size" : 78486
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 11,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Удалить последнюю запись о заболевании",
+        "time" : {
+          "start" : 1753094809513,
+          "stop" : 1753094820473,
+          "duration" : 10960
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить количество записанных заболеваний",
+          "time" : {
+            "start" : 1753094809513,
+            "stop" : 1753094809846,
+            "duration" : 333
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Удалить последнюю запись о заболевании",
+          "time" : {
+            "start" : 1753094809847,
+            "stop" : 1753094812722,
+            "duration" : 2875
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7de98bd39c8ce9c5",
+            "name" : "Кнопка_удаления_для_последнего_заболевания_нажата",
+            "source" : "7de98bd39c8ce9c5.png",
+            "type" : "image/png",
+            "size" : 70413
+          } ],
+          "parameters" : [ {
+            "name" : "diseaseCountBefore",
+            "value" : "1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверить существование сообщения об удалении заболевания",
+          "time" : {
+            "start" : 1753094812722,
+            "stop" : 1753094814542,
+            "duration" : 1820
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b4a300ea18a48388",
+            "name" : "Сообщение_об_удалении_заболевания_подтверждено",
+            "source" : "b4a300ea18a48388.png",
+            "type" : "image/png",
+            "size" : 93921
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получить количество заболеваний после удаления",
+          "time" : {
+            "start" : 1753094814542,
+            "stop" : 1753094818825,
+            "duration" : 4283
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "8178a2ea7433a0e8",
+          "name" : "Количество заболеваний до удаления",
+          "source" : "8178a2ea7433a0e8.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "34cb18632c66c349",
+          "name" : "Количество заболеваний после удаления",
+          "source" : "34cb18632c66c349.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "d9cbbf63221b623c",
+          "name" : "После_удаления_заболевания",
+          "source" : "d9cbbf63221b623c.png",
+          "type" : "image/png",
+          "size" : 93921
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Добавить заболевание вручную",
+        "time" : {
+          "start" : 1753094820474,
+          "stop" : 1753094846211,
+          "duration" : 25737
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить количество заболеваний до добавления",
+          "time" : {
+            "start" : 1753094820474,
+            "stop" : 1753094824971,
+            "duration" : 4497
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Нажать кнопку добавления заболевания",
+          "time" : {
+            "start" : 1753094824972,
+            "stop" : 1753094828126,
+            "duration" : 3154
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "346f184d9b0aab10",
+            "name" : "Кнопка_добавления_заболевания_нажата",
+            "source" : "346f184d9b0aab10.png",
+            "type" : "image/png",
+            "size" : 163793
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Найти и добавить заболевание из списка",
+          "time" : {
+            "start" : 1753094828127,
+            "stop" : 1753094831704,
+            "duration" : 3577
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5738df09ae5feb89",
+            "name" : "Заболевание_добавлено_из_списка",
+            "source" : "5738df09ae5feb89.png",
+            "type" : "image/png",
+            "size" : 96989
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Заполнить дату заболевания",
+          "time" : {
+            "start" : 1753094831704,
+            "stop" : 1753094840487,
+            "duration" : 8783
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1753094831811,
+              "stop" : 1753094838939,
+              "duration" : 7128
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1753094831811,
+                "stop" : 1753094831813,
+                "duration" : 2
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1753094831812,
+                  "stop" : 1753094831812,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Sun Jul 20 13:47:11 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1753094831812,
+                  "stop" : 1753094831813,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Sun Jul 20 13:47:11 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753094831813,
+                  "stop" : 1753094831813,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Sun Jul 20 13:47:11 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753094831813,
+                  "stop" : 1753094831813,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Sun Jul 20 13:47:11 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1753094831813,
+                  "stop" : 1753094831813,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "20 июля 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "1"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "stepsCount" : 5,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "29c1adbb6ea970c2",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "29c1adbb6ea970c2.png",
+              "type" : "image/png",
+              "size" : 84095
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "1"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "stepsCount" : 6,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "8225eb0970214315",
+            "name" : "Дата_заболевания_заполнена",
+            "source" : "8225eb0970214315.png",
+            "type" : "image/png",
+            "size" : 84095
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Подтвердить добавление заболевания",
+          "time" : {
+            "start" : 1753094840487,
+            "stop" : 1753094842353,
+            "duration" : 1866
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1f087021ffaf4d36",
+            "name" : "Добавление_заболевания_подтверждено",
+            "source" : "1f087021ffaf4d36.png",
+            "type" : "image/png",
+            "size" : 79531
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получить количество заболеваний после добавления",
+          "time" : {
+            "start" : 1753094842355,
+            "stop" : 1753094843014,
+            "duration" : 659
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ea7bcfcf347bed5e",
+            "name" : "Количество заболеваний после добавления",
+            "source" : "ea7bcfcf347bed5e.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверить изменение количества заболеваний после добавления",
+          "time" : {
+            "start" : 1753094843014,
+            "stop" : 1753094844661,
+            "duration" : 1647
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "291ef63bd9f3161f",
+            "name" : "Разница в количестве заболеваний",
+            "source" : "291ef63bd9f3161f.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "bb32a5e427517cf1",
+            "name" : "Проверка_увеличения_количества_заболеваний",
+            "source" : "bb32a5e427517cf1.png",
+            "type" : "image/png",
+            "size" : 79531
+          } ],
+          "parameters" : [ {
+            "name" : "before",
+            "value" : "0"
+          }, {
+            "name" : "after",
+            "value" : "1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "44b7cde43a51788b",
+          "name" : "После добавления заболевания",
+          "source" : "44b7cde43a51788b.png",
+          "type" : "image/png",
+          "size" : 79531
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 14,
+        "hasContent" : true,
+        "attachmentsCount" : 9,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Удалить последнюю запись о заболевании",
+        "time" : {
+          "start" : 1753094846211,
+          "stop" : 1753094857211,
+          "duration" : 11000
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить количество записанных заболеваний",
+          "time" : {
+            "start" : 1753094846211,
+            "stop" : 1753094846507,
+            "duration" : 296
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Удалить последнюю запись о заболевании",
+          "time" : {
+            "start" : 1753094846509,
+            "stop" : 1753094849760,
+            "duration" : 3251
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8170dc6fe934d26d",
+            "name" : "Кнопка_удаления_для_последнего_заболевания_нажата",
+            "source" : "8170dc6fe934d26d.png",
+            "type" : "image/png",
+            "size" : 70937
+          } ],
+          "parameters" : [ {
+            "name" : "diseaseCountBefore",
+            "value" : "1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверить существование сообщения об удалении заболевания",
+          "time" : {
+            "start" : 1753094849760,
+            "stop" : 1753094851477,
+            "duration" : 1717
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "830d8b736f72293",
+            "name" : "Сообщение_об_удалении_заболевания_подтверждено",
+            "source" : "830d8b736f72293.png",
+            "type" : "image/png",
+            "size" : 93433
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получить количество заболеваний после удаления",
+          "time" : {
+            "start" : 1753094851478,
+            "stop" : 1753094855636,
+            "duration" : 4158
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "f6703cefa4dbc595",
+          "name" : "Количество заболеваний до удаления",
+          "source" : "f6703cefa4dbc595.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "c0121aa916a1f201",
+          "name" : "Количество заболеваний после удаления",
+          "source" : "c0121aa916a1f201.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "517d40e730195aea",
+          "name" : "После_удаления_заболевания",
+          "source" : "517d40e730195aea.png",
+          "type" : "image/png",
+          "size" : 93433
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 51,
+      "hasContent" : true,
+      "attachmentsCount" : 35,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 52,
+    "hasContent" : true,
+    "attachmentsCount" : 35,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "87275@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "diseaseTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "ddbd3a7a183e658c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752633769290,
+          "stop" : 1752633912597,
+          "duration" : 143307
+        }
+      }, {
+        "uid" : "4506ee458aa43186",
+        "status" : "failed",
+        "statusDetails" : "Ошибка: количество заболеваний должно увеличиться на 1. ==> expected: <0> but was: <1>",
+        "time" : {
+          "start" : 1752563994257,
+          "stop" : 1752564089430,
+          "duration" : 95173
+        }
+      }, {
+        "uid" : "7c68d5c7758b565e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752500053750,
+          "stop" : 1752500202568,
+          "duration" : 148818
+        }
+      }, {
+        "uid" : "8471bb4412169bd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751639662074,
+          "stop" : 1751639948374,
+          "duration" : 286300
+        }
+      }, {
+        "uid" : "1d53720d92384a4",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+        "time" : {
+          "start" : 1751472096886,
+          "stop" : 1751472235777,
+          "duration" : 138891
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8f2d5e0d043a2b00.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,342 @@
+{
+  "uid" : "e30903779ec195e3",
+  "name" : "addToCalendar()",
+  "fullName" : "MobileTesting.tests.ElregTest.addToCalendar",
+  "historyId" : "e0ae6fe56703946367c86442216294b5",
+  "time" : {
+    "start" : 1753112343604,
+    "stop" : 1753112399256,
+    "duration" : 55652
+  },
+  "description" : "Добавление данных о приеме в календарь",
+  "descriptionHtml" : "<p>Добавление данных о приеме в календарь</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Добавление данных о приеме в календарь",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Интеграция с календарем",
+      "time" : {
+        "start" : 1753112354612,
+        "stop" : 1753112398835,
+        "duration" : 44223
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753112354612,
+          "stop" : 1753112387035,
+          "duration" : 32423
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753112354612,
+            "stop" : 1753112377999,
+            "duration" : 23387
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753112354612,
+              "stop" : 1753112360662,
+              "duration" : 6050
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753112355817,
+                "stop" : 1753112359958,
+                "duration" : 4141
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "f5b2b15a4a74044f",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "f5b2b15a4a74044f.png",
+              "type" : "image/png",
+              "size" : 82567
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753112360662,
+              "stop" : 1753112361857,
+              "duration" : 1195
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753112361857,
+              "stop" : 1753112364515,
+              "duration" : 2658
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1111"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753112364515,
+              "stop" : 1753112366055,
+              "duration" : 1540
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "79f9f6d089c64f59",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "79f9f6d089c64f59.png",
+              "type" : "image/png",
+              "size" : 140475
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753112370311,
+              "stop" : 1753112375172,
+              "duration" : 4861
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "ecb1bb54686c34c7",
+              "name" : "Капча решена_mobile_screenshot",
+              "source" : "ecb1bb54686c34c7.png",
+              "type" : "image/png",
+              "size" : 257110
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753112376565,
+              "stop" : 1753112377999,
+              "duration" : 1434
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "7e7be6af4c57899e",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "7e7be6af4c57899e.png",
+              "type" : "image/png",
+              "size" : 54208
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "8762974e6c82b80a",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "8762974e6c82b80a.png",
+            "type" : "image/png",
+            "size" : 253267
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1111"
+          } ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 5,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+          "time" : {
+            "start" : 1753112377999,
+            "stop" : 1753112387035,
+            "duration" : 9036
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "de9260117417c247",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "de9260117417c247.png",
+            "type" : "image/png",
+            "size" : 54208
+          }, {
+            "uid" : "ea592e020b43fc84",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "ea592e020b43fc84.png",
+            "type" : "image/png",
+            "size" : 56266
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1111"
+        } ],
+        "stepsCount" : 9,
+        "hasContent" : true,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Добавление записи в календарь",
+        "time" : {
+          "start" : 1753112387037,
+          "stop" : 1753112397229,
+          "duration" : 10192
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Навигация к вкладке Здоровье",
+          "time" : {
+            "start" : 1753112387037,
+            "stop" : 1753112391123,
+            "duration" : 4086
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fcecaf0f3e0b9fc7",
+            "name" : "After_Health_Tab_Click_Android",
+            "source" : "fcecaf0f3e0b9fc7.png",
+            "type" : "image/png",
+            "size" : 183423
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "7c7b5acf9ee150a2",
+          "name" : "Appointment_Card_Not_Found_For_Calendar",
+          "source" : "7c7b5acf9ee150a2.png",
+          "type" : "image/png",
+          "size" : 183453
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "f21134787323d3e7",
+        "name" : "calendar_integration",
+        "source" : "f21134787323d3e7.png",
+        "type" : "image/png",
+        "size" : 213637
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 12,
+      "hasContent" : true,
+      "attachmentsCount" : 10,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "87275@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToCalendar"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e30903779ec195e3.json",
+  "parameterValues" : [ ]
+}

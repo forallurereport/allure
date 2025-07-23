@@ -1,0 +1,898 @@
+{
+  "uid" : "b88be6a105603445",
+  "name" : "registration()",
+  "fullName" : "MobileTesting.tests.AccountTest.registration",
+  "historyId" : "43654123208c6e7a3c356c0133360b1a",
+  "time" : {
+    "start" : 1753254371238,
+    "stop" : 1753254579143,
+    "duration" : 207905
+  },
+  "description" : "Регистрация пользователя",
+  "descriptionHtml" : "<p>Регистрация пользователя</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Регистрация пользователя",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация",
+      "time" : {
+        "start" : 1753254382495,
+        "stop" : 1753254576284,
+        "duration" : 193789
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажать кнопку регистрации",
+        "time" : {
+          "start" : 1753254382510,
+          "stop" : 1753254385905,
+          "duration" : 3395
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bde396a6695ae1c6",
+          "name" : "Регистрация 1/6",
+          "source" : "bde396a6695ae1c6.png",
+          "type" : "image/png",
+          "size" : 56672
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Подтвердить имя пользователя",
+        "time" : {
+          "start" : 1753254385906,
+          "stop" : 1753254395714,
+          "duration" : 9808
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подтвердить капчу",
+          "time" : {
+            "start" : 1753254389166,
+            "stop" : 1753254393257,
+            "duration" : 4091
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "eecb1557b15f0e28",
+          "name" : "Имя пользователя заполнено",
+          "source" : "eecb1557b15f0e28.png",
+          "type" : "image/png",
+          "size" : 68863
+        }, {
+          "uid" : "34e94bc78b13be7e",
+          "name" : "Экран подтверждения имени после капчи",
+          "source" : "34e94bc78b13be7e.png",
+          "type" : "image/png",
+          "size" : 95381
+        } ],
+        "parameters" : [ {
+          "name" : "usernameReg",
+          "value" : "test_1753254382495@gmail.com"
+        } ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Подтвердить email",
+        "time" : {
+          "start" : 1753254395714,
+          "stop" : 1753254414231,
+          "duration" : 18517
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1013190ab137dfa2",
+          "name" : "Регистрация 2/6",
+          "source" : "1013190ab137dfa2.png",
+          "type" : "image/png",
+          "size" : 95472
+        }, {
+          "uid" : "824c4ba49b1c741a",
+          "name" : "Регистрация 3/6",
+          "source" : "824c4ba49b1c741a.png",
+          "type" : "image/png",
+          "size" : 60233
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Подтвердить телефон",
+        "time" : {
+          "start" : 1753254414232,
+          "stop" : 1753254427658,
+          "duration" : 13426
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bcb5d4c79c8f2c04",
+          "name" : "Регистрация 4/6",
+          "source" : "bcb5d4c79c8f2c04.png",
+          "type" : "image/png",
+          "size" : 91883
+        }, {
+          "uid" : "13b77999ddfa59d2",
+          "name" : "Регистрация 5/6",
+          "source" : "13b77999ddfa59d2.png",
+          "type" : "image/png",
+          "size" : 134145
+        } ],
+        "parameters" : [ {
+          "name" : "phoneNumber",
+          "value" : "9501561402"
+        } ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Создать пароль для регистрации",
+        "time" : {
+          "start" : 1753254427658,
+          "stop" : 1753254438615,
+          "duration" : 10957
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "feb58acabac1f6a9",
+          "name" : "Пароль заполнен",
+          "source" : "feb58acabac1f6a9.png",
+          "type" : "image/png",
+          "size" : 130528
+        }, {
+          "uid" : "730c23dbfcddc31c",
+          "name" : "Согласие подтверждено",
+          "source" : "730c23dbfcddc31c.png",
+          "type" : "image/png",
+          "size" : 136720
+        }, {
+          "uid" : "80f305d38c51c12f",
+          "name" : "Далее",
+          "source" : "80f305d38c51c12f.png",
+          "type" : "image/png",
+          "size" : 205992
+        }, {
+          "uid" : "193a6b8a54b0c6c6",
+          "name" : "Заполнение данных профиля",
+          "source" : "193a6b8a54b0c6c6.png",
+          "type" : "image/png",
+          "size" : 205992
+        } ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "42W)M@hq"
+        } ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить данные профиля",
+        "time" : {
+          "start" : 1753254438616,
+          "stop" : 1753254460880,
+          "duration" : 22264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f66880404c06b2d4",
+          "name" : "Регистрация 6/6",
+          "source" : "f66880404c06b2d4.png",
+          "type" : "image/png",
+          "size" : 151076
+        }, {
+          "uid" : "491acdb0c7109b0a",
+          "name" : "Выпадающий список документов",
+          "source" : "491acdb0c7109b0a.png",
+          "type" : "image/png",
+          "size" : 143346
+        }, {
+          "uid" : "8d7c9c812511b990",
+          "name" : "Экран создания PIN",
+          "source" : "8d7c9c812511b990.png",
+          "type" : "image/png",
+          "size" : 53267
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Ввести ПИН-код",
+        "time" : {
+          "start" : 1753254460881,
+          "stop" : 1753254471667,
+          "duration" : 10786
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aae93747b0c7f390",
+          "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+          "source" : "aae93747b0c7f390.png",
+          "type" : "image/png",
+          "size" : 53267
+        }, {
+          "uid" : "32dcf8ac4f1efcdc",
+          "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+          "source" : "32dcf8ac4f1efcdc.png",
+          "type" : "image/png",
+          "size" : 55376
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть настройки",
+        "time" : {
+          "start" : 1753254471668,
+          "stop" : 1753254477753,
+          "duration" : 6085
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Запретить подсказки",
+          "time" : {
+            "start" : 1753254471929,
+            "stop" : 1753254476543,
+            "duration" : 4614
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Выйти из системы",
+        "time" : {
+          "start" : 1753254477753,
+          "stop" : 1753254480413,
+          "duration" : 2660
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753254480414,
+          "stop" : 1753254516521,
+          "duration" : 36107
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753254480414,
+            "stop" : 1753254503560,
+            "duration" : 23146
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753254480414,
+              "stop" : 1753254485464,
+              "duration" : 5050
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753254480637,
+                "stop" : 1753254484803,
+                "duration" : 4166
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "b2210063a16a5d6",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "b2210063a16a5d6.png",
+              "type" : "image/png",
+              "size" : 82187
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 1,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753254485464,
+              "stop" : 1753254486625,
+              "duration" : 1161
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "test_1753254382495@gmail.com"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753254486625,
+              "stop" : 1753254489247,
+              "duration" : 2622
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "42W)M@hq"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753254489247,
+              "stop" : 1753254491993,
+              "duration" : 2746
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "693f3c844f60166a",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "693f3c844f60166a.png",
+              "type" : "image/png",
+              "size" : 145236
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753254496606,
+              "stop" : 1753254501359,
+              "duration" : 4753
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753254502541,
+              "stop" : 1753254503560,
+              "duration" : 1019
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "c426e355c15a6371",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "c426e355c15a6371.png",
+              "type" : "image/png",
+              "size" : 53751
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "94de925dc706e4a8",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "94de925dc706e4a8.png",
+            "type" : "image/png",
+            "size" : 53751
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "test_1753254382495@gmail.com"
+          }, {
+            "name" : "password",
+            "value" : "42W)M@hq"
+          } ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 7,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+          "time" : {
+            "start" : 1753254503560,
+            "stop" : 1753254516521,
+            "duration" : 12961
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "748700ddddcc2fdd",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "748700ddddcc2fdd.png",
+            "type" : "image/png",
+            "size" : 53751
+          }, {
+            "uid" : "e976a0c69d886099",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "e976a0c69d886099.png",
+            "type" : "image/png",
+            "size" : 55875
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "test_1753254382495@gmail.com"
+        }, {
+          "name" : "password",
+          "value" : "42W)M@hq"
+        } ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 9,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть настройки",
+        "time" : {
+          "start" : 1753254516521,
+          "stop" : 1753254522228,
+          "duration" : 5707
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Запретить подсказки",
+          "time" : {
+            "start" : 1753254516760,
+            "stop" : 1753254521002,
+            "duration" : 4242
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Удалить аккаунт",
+        "time" : {
+          "start" : 1753254522229,
+          "stop" : 1753254548372,
+          "duration" : 26143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "944ef11fe3bebd95",
+          "name" : "Кнопка удаления 1",
+          "source" : "944ef11fe3bebd95.png",
+          "type" : "image/png",
+          "size" : 130405
+        }, {
+          "uid" : "d6538c1aad140b95",
+          "name" : "Кнопка удаления 2",
+          "source" : "d6538c1aad140b95.png",
+          "type" : "image/png",
+          "size" : 130126
+        }, {
+          "uid" : "11384ea51c7d4330",
+          "name" : "Код подтверждения удаления",
+          "source" : "11384ea51c7d4330.png",
+          "type" : "image/png",
+          "size" : 158180
+        }, {
+          "uid" : "588345dac0cec9ef",
+          "name" : "Нумпад для кода подтверждения",
+          "source" : "588345dac0cec9ef.png",
+          "type" : "image/png",
+          "size" : 84937
+        }, {
+          "uid" : "e1531883f7d0951",
+          "name" : "Аккаунт удален",
+          "source" : "e1531883f7d0951.png",
+          "type" : "image/png",
+          "size" : 74702
+        }, {
+          "uid" : "dd5dc93bc10414ee",
+          "name" : "После удаления",
+          "source" : "dd5dc93bc10414ee.png",
+          "type" : "image/png",
+          "size" : 99923
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Проверить, что аккаунт удален",
+        "time" : {
+          "start" : 1753254548373,
+          "stop" : 1753254576284,
+          "duration" : 27911
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753254548373,
+            "stop" : 1753254570317,
+            "duration" : 21944
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753254548373,
+              "stop" : 1753254553761,
+              "duration" : 5388
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753254548581,
+                "stop" : 1753254552998,
+                "duration" : 4417
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "8e1f92c33c18c9ad",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "8e1f92c33c18c9ad.png",
+              "type" : "image/png",
+              "size" : 82147
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 1,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753254553762,
+              "stop" : 1753254554931,
+              "duration" : 1169
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "test_1753254382495@gmail.com"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753254554931,
+              "stop" : 1753254556864,
+              "duration" : 1933
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "42W)M@hq"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753254556864,
+              "stop" : 1753254559211,
+              "duration" : 2347
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "a663903eef4cd2e5",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "a663903eef4cd2e5.png",
+              "type" : "image/png",
+              "size" : 145196
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753254563592,
+              "stop" : 1753254567635,
+              "duration" : 4043
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753254568775,
+              "stop" : 1753254570317,
+              "duration" : 1542
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "177a210562b92a38",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "177a210562b92a38.png",
+              "type" : "image/png",
+              "size" : 149636
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "5c24feefef8e4420",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "5c24feefef8e4420.png",
+            "type" : "image/png",
+            "size" : 149575
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "test_1753254382495@gmail.com"
+          }, {
+            "name" : "password",
+            "value" : "42W)M@hq"
+          } ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 7,
+          "hasContent" : true
+        }, {
+          "name" : "Подтвердить капчу",
+          "time" : {
+            "start" : 1753254570317,
+            "stop" : 1753254574486,
+            "duration" : 4169
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "a7b97ac8fbff4b8f",
+          "name" : "Попытка входа в удаленный аккаунт",
+          "source" : "a7b97ac8fbff4b8f.png",
+          "type" : "image/png",
+          "size" : 149575
+        } ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "test_1753254382495@gmail.com"
+        }, {
+          "name" : "password",
+          "value" : "42W)M@hq"
+        } ],
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 9,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 33,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 34,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 33,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 35,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "74232@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registration"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "c18eca40cf6a2639",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"2/6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1753118766487,
+          "stop" : 1753118827691,
+          "duration" : 61204
+        }
+      }, {
+        "uid" : "7bcbef7db6649506",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752637017756,
+          "stop" : 1752637274451,
+          "duration" : 256695
+        }
+      }, {
+        "uid" : "3d55b39b19d85fa1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752559863096,
+          "stop" : 1752560140064,
+          "duration" : 276968
+        }
+      }, {
+        "uid" : "19e4e163de530edc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752502557419,
+          "stop" : 1752502836881,
+          "duration" : 279462
+        }
+      }, {
+        "uid" : "c94375e73b204015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751645012179,
+          "stop" : 1751645442812,
+          "duration" : 430633
+        }
+      }, {
+        "uid" : "aa495625fe961f99",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"2/6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1751471905351,
+          "stop" : 1751471955303,
+          "duration" : 49952
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b88be6a105603445.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,517 @@
+{
+  "uid" : "f951b3c1da6e06eb",
+  "name" : "sectionsAndModalsTests()",
+  "fullName" : "MobileTesting.tests.BuySectionTest.sectionsAndModalsTests",
+  "historyId" : "903836de96a677aa4aecee735017c3f6",
+  "time" : {
+    "start" : 1753252724156,
+    "stop" : 1753252853933,
+    "duration" : 129777
+  },
+  "description" : "Проверка открытия модальных окон, заголовков разделов и товаров в разделе Покупки",
+  "descriptionHtml" : "<p>Проверка открытия модальных окон, заголовков разделов и товаров в разделе Покупки</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка открытия модальных окон, заголовков разделов и товаров в разделе Покупки",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверка открытия модальных окон, заголовков разделов и товаров",
+      "time" : {
+        "start" : 1753252735880,
+        "stop" : 1753252853327,
+        "duration" : 117447
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753252735880,
+          "stop" : 1753252768718,
+          "duration" : 32838
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753252735880,
+            "stop" : 1753252759374,
+            "duration" : 23494
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753252735880,
+              "stop" : 1753252742331,
+              "duration" : 6451
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753252736919,
+                "stop" : 1753252741531,
+                "duration" : 4612
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "f1f28e97bf577dd3",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "f1f28e97bf577dd3.png",
+              "type" : "image/png",
+              "size" : 82645
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 1,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753252742331,
+              "stop" : 1753252743627,
+              "duration" : 1296
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753252743627,
+              "stop" : 1753252746326,
+              "duration" : 2699
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1111"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753252746326,
+              "stop" : 1753252747979,
+              "duration" : 1653
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "43ada89b146b6c60",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "43ada89b146b6c60.png",
+              "type" : "image/png",
+              "size" : 139805
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753252752493,
+              "stop" : 1753252757177,
+              "duration" : 4684
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753252758460,
+              "stop" : 1753252759374,
+              "duration" : 914
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "5a1963470b936cfb",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "5a1963470b936cfb.png",
+              "type" : "image/png",
+              "size" : 53523
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "f88d2e27208e8544",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "f88d2e27208e8544.png",
+            "type" : "image/png",
+            "size" : 53523
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1111"
+          } ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 7,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+          "time" : {
+            "start" : 1753252759374,
+            "stop" : 1753252768718,
+            "duration" : 9344
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "103077842cc9cc70",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "103077842cc9cc70.png",
+            "type" : "image/png",
+            "size" : 53523
+          }, {
+            "uid" : "bc90bf50e25cc2c6",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "bc90bf50e25cc2c6.png",
+            "type" : "image/png",
+            "size" : 53723
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1111"
+        } ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 9,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть раздел 'Покупки'",
+        "time" : {
+          "start" : 1753252768718,
+          "stop" : 1753252773552,
+          "duration" : 4834
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "32c52ae9ceb2de82",
+          "name" : "Раздел Покупки открыт",
+          "source" : "32c52ae9ceb2de82.png",
+          "type" : "image/png",
+          "size" : 1136222
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Проверить модальные окна и заголовки",
+        "time" : {
+          "start" : 1753252773553,
+          "stop" : 1753252840297,
+          "duration" : 66744
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252777113,
+            "stop" : 1753252790154,
+            "duration" : 13041
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "33fe3203f5a3631e",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "33fe3203f5a3631e.png",
+            "type" : "image/png",
+            "size" : 139358
+          }, {
+            "uid" : "7a5304816fed861b",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "7a5304816fed861b.png",
+            "type" : "image/png",
+            "size" : 677722
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252791952,
+            "stop" : 1753252805202,
+            "duration" : 13250
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "816380b4ce1998c4",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "816380b4ce1998c4.png",
+            "type" : "image/png",
+            "size" : 130609
+          }, {
+            "uid" : "c7842ce5b02d6e6a",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "c7842ce5b02d6e6a.png",
+            "type" : "image/png",
+            "size" : 677970
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252814823,
+            "stop" : 1753252831366,
+            "duration" : 16543
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "141352dcbd0c9f7d",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "141352dcbd0c9f7d.png",
+            "type" : "image/png",
+            "size" : 182786
+          }, {
+            "uid" : "3fd47bb18f56d4af",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "3fd47bb18f56d4af.png",
+            "type" : "image/png",
+            "size" : 2670216
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "60cbe6ad6160376",
+          "name" : "Заголовок Путешествие",
+          "source" : "60cbe6ad6160376.png",
+          "type" : "image/png",
+          "size" : 677722
+        }, {
+          "uid" : "323dd40c5faa4971",
+          "name" : "Кнопка закрытия не найдена, пропускаем",
+          "source" : "323dd40c5faa4971.png",
+          "type" : "image/png",
+          "size" : 677970
+        }, {
+          "uid" : "1506dbac3411bed2",
+          "name" : "Раздел Жизнь и здоровье проверен",
+          "source" : "1506dbac3411bed2.png",
+          "type" : "image/png",
+          "size" : 2667243
+        }, {
+          "uid" : "28937e5c47f2a7bc",
+          "name" : "Модальные окна проверены",
+          "source" : "28937e5c47f2a7bc.png",
+          "type" : "image/png",
+          "size" : 2664719
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 10,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      }, {
+        "name" : "Проверить страницы товаров",
+        "time" : {
+          "start" : 1753252840299,
+          "stop" : 1753252848975,
+          "duration" : 8676
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e2205a6a5bef3e97",
+          "name" : "Элемент Жизнь и здоровье не найден",
+          "source" : "e2205a6a5bef3e97.png",
+          "type" : "image/png",
+          "size" : 2640060
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "90339a10059e51c5",
+        "name" : "Тест модальных окон и товаров завершен",
+        "source" : "90339a10059e51c5.png",
+        "type" : "image/png",
+        "size" : 2645193
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 19,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 16,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 17,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "74232@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sectionsAndModalsTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "e210cdcc987c7d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753096857291,
+          "stop" : 1753096991224,
+          "duration" : 133933
+        }
+      }, {
+        "uid" : "8bafa9a83ff91066",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752635618210,
+          "stop" : 1752635684286,
+          "duration" : 66076
+        }
+      }, {
+        "uid" : "6e971c5651779d1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752558294788,
+          "stop" : 1752558389478,
+          "duration" : 94690
+        }
+      }, {
+        "uid" : "3b81a700d7119c45",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: (//android.widget.LinearLayout[@resource-id=\"ru.sogaz.app.stage:id/title\"])[4] (tried for 4 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1752505836728,
+          "stop" : 1752505908924,
+          "duration" : 72196
+        }
+      }, {
+        "uid" : "95f403ebbb21d6e4",
+        "status" : "failed",
+        "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/calculators_title\" and @text=\"Жизнь и здоровье\"]",
+        "time" : {
+          "start" : 1751656305435,
+          "stop" : 1751656619755,
+          "duration" : 314320
+        }
+      }, {
+        "uid" : "abbdc2182706063f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751474818299,
+          "stop" : 1751474966102,
+          "duration" : 147803
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f951b3c1da6e06eb.json",
+  "parameterValues" : [ ]
+}

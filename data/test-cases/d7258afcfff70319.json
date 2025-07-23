@@ -1,0 +1,733 @@
+{
+  "uid" : "d7258afcfff70319",
+  "name" : "sliderNavigationTests()",
+  "fullName" : "MobileTesting.tests.BuySectionTest.sliderNavigationTests",
+  "historyId" : "b045c964eb716a32b5421d102b3035a1",
+  "time" : {
+    "start" : 1753252170991,
+    "stop" : 1753252724014,
+    "duration" : 553023
+  },
+  "description" : "Навигация по слайдеру и проверка ссылок в разделе Покупки",
+  "descriptionHtml" : "<p>Навигация по слайдеру и проверка ссылок в разделе Покупки</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Навигация по слайдеру и проверка ссылок в разделе Покупки",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Навигация по слайдеру и проверка ссылок",
+      "time" : {
+        "start" : 1753252187922,
+        "stop" : 1753252722409,
+        "duration" : 534487
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753252187923,
+          "stop" : 1753252222314,
+          "duration" : 34391
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753252187923,
+            "stop" : 1753252213131,
+            "duration" : 25208
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753252187923,
+              "stop" : 1753252194459,
+              "duration" : 6536
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753252188908,
+                "stop" : 1753252193528,
+                "duration" : 4620
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "11432bf564faa492",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "11432bf564faa492.png",
+              "type" : "image/png",
+              "size" : 81701
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 1,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753252194459,
+              "stop" : 1753252195669,
+              "duration" : 1210
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753252195669,
+              "stop" : 1753252198338,
+              "duration" : 2669
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1111"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753252198339,
+              "stop" : 1753252202413,
+              "duration" : 4074
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "8e648eb947df7670",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "8e648eb947df7670.png",
+              "type" : "image/png",
+              "size" : 139479
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753252206645,
+              "stop" : 1753252210933,
+              "duration" : 4288
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753252212118,
+              "stop" : 1753252213131,
+              "duration" : 1013
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "a8e37b1c9eeb85bc",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "a8e37b1c9eeb85bc.png",
+              "type" : "image/png",
+              "size" : 54284
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "84663689cdf9ef30",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "84663689cdf9ef30.png",
+            "type" : "image/png",
+            "size" : 54284
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1111"
+          } ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 7,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+          "time" : {
+            "start" : 1753252213132,
+            "stop" : 1753252222314,
+            "duration" : 9182
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "955744ccfecb2dc7",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "955744ccfecb2dc7.png",
+            "type" : "image/png",
+            "size" : 54284
+          }, {
+            "uid" : "9652d1c3e80ecb7e",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "9652d1c3e80ecb7e.png",
+            "type" : "image/png",
+            "size" : 53857
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1111"
+        } ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 9,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть раздел 'Покупки'",
+        "time" : {
+          "start" : 1753252222321,
+          "stop" : 1753252255914,
+          "duration" : 33593
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f8abd79aafd7053a",
+          "name" : "Раздел Покупки открыт",
+          "source" : "f8abd79aafd7053a.png",
+          "type" : "image/png",
+          "size" : 1136262
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Проверить элементы в разделе 'Покупки'",
+        "time" : {
+          "start" : 1753252258545,
+          "stop" : 1753252280462,
+          "duration" : 21917
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5e827fda42ae9813",
+          "name" : "Элемент 'Авто' не найден (опциональный)",
+          "source" : "5e827fda42ae9813.png",
+          "type" : "image/png",
+          "size" : 3018276
+        }, {
+          "uid" : "e48db937417db144",
+          "name" : "Все основные элементы раздела Покупки найдены",
+          "source" : "e48db937417db144.png",
+          "type" : "image/png",
+          "size" : 1316829
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Проверить ссылки на слайдах",
+        "time" : {
+          "start" : 1753252280463,
+          "stop" : 1753252675499,
+          "duration" : 395036
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252283818,
+            "stop" : 1753252296729,
+            "duration" : 12911
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2eed18b02c2b7fc2",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "2eed18b02c2b7fc2.png",
+            "type" : "image/png",
+            "size" : 127791
+          }, {
+            "uid" : "f271c5f1544e5f94",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "f271c5f1544e5f94.png",
+            "type" : "image/png",
+            "size" : 1316829
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252300910,
+            "stop" : 1753252314767,
+            "duration" : 13857
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "664933be7cdc5976",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "664933be7cdc5976.png",
+            "type" : "image/png",
+            "size" : 131588
+          }, {
+            "uid" : "cd2c80b96cd1a28e",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "cd2c80b96cd1a28e.png",
+            "type" : "image/png",
+            "size" : 1316829
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252319105,
+            "stop" : 1753252332128,
+            "duration" : 13023
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d9a7be00386d8899",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "d9a7be00386d8899.png",
+            "type" : "image/png",
+            "size" : 130102
+          }, {
+            "uid" : "54286c70422fa99e",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "54286c70422fa99e.png",
+            "type" : "image/png",
+            "size" : 1317655
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252336367,
+            "stop" : 1753252349919,
+            "duration" : 13552
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "10a18df9cedacd77",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "10a18df9cedacd77.png",
+            "type" : "image/png",
+            "size" : 130579
+          }, {
+            "uid" : "e8ffd3b8a50baeb1",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "e8ffd3b8a50baeb1.png",
+            "type" : "image/png",
+            "size" : 1317655
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252576158,
+            "stop" : 1753252589799,
+            "duration" : 13641
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e34a48a165ea083c",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "e34a48a165ea083c.png",
+            "type" : "image/png",
+            "size" : 55105
+          }, {
+            "uid" : "4c60f94a1392a55c",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "4c60f94a1392a55c.png",
+            "type" : "image/png",
+            "size" : 1317648
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252593509,
+            "stop" : 1753252606876,
+            "duration" : 13367
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d8d1a472e896fdc3",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "d8d1a472e896fdc3.png",
+            "type" : "image/png",
+            "size" : 54955
+          }, {
+            "uid" : "e30be665ad7b8a7f",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "e30be665ad7b8a7f.png",
+            "type" : "image/png",
+            "size" : 1317648
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252610638,
+            "stop" : 1753252624386,
+            "duration" : 13748
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "de8855103142f258",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "de8855103142f258.png",
+            "type" : "image/png",
+            "size" : 55039
+          }, {
+            "uid" : "b485630890d9da56",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "b485630890d9da56.png",
+            "type" : "image/png",
+            "size" : 1317193
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252628114,
+            "stop" : 1753252641193,
+            "duration" : 13079
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ba59c80e17ad2f8a",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "ba59c80e17ad2f8a.png",
+            "type" : "image/png",
+            "size" : 54587
+          }, {
+            "uid" : "fb7dc089a369abb4",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "fb7dc089a369abb4.png",
+            "type" : "image/png",
+            "size" : 1317193
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252644796,
+            "stop" : 1753252657870,
+            "duration" : 13074
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ed32ec7a399dceb9",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "ed32ec7a399dceb9.png",
+            "type" : "image/png",
+            "size" : 54590
+          }, {
+            "uid" : "b72426a51c43a5cf",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "b72426a51c43a5cf.png",
+            "type" : "image/png",
+            "size" : 1317193
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать кнопку назад или использовать альтернативную навигацию",
+          "time" : {
+            "start" : 1753252661462,
+            "stop" : 1753252674386,
+            "duration" : 12924
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "15859b76646ce3f6",
+            "name" : "Кнопка назад не найдена, используем системную навигацию",
+            "source" : "15859b76646ce3f6.png",
+            "type" : "image/png",
+            "size" : 54256
+          }, {
+            "uid" : "df09b8b03843f2ed",
+            "name" : "Системная навигация назад выполнена",
+            "source" : "df09b8b03843f2ed.png",
+            "type" : "image/png",
+            "size" : 1317193
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 20,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 10,
+        "hasContent" : true
+      }, {
+        "name" : "Навигация по слайдам",
+        "time" : {
+          "start" : 1753252675500,
+          "stop" : 1753252719643,
+          "duration" : 44143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "755ee3418bd913d3",
+          "name" : "Слайд 1: Вперед без забот",
+          "source" : "755ee3418bd913d3.png",
+          "type" : "image/png",
+          "size" : 1317193
+        }, {
+          "uid" : "aa0ed784e629478a",
+          "name" : "Слайд 2: Доктор Лайк",
+          "source" : "aa0ed784e629478a.png",
+          "type" : "image/png",
+          "size" : 1136404
+        }, {
+          "uid" : "d19d2ed14bdecffd",
+          "name" : "Слайд 3: ОСАГО онлайн",
+          "source" : "d19d2ed14bdecffd.png",
+          "type" : "image/png",
+          "size" : 1097107
+        }, {
+          "uid" : "b79ff0ff0abed000",
+          "name" : "Слайд 4: Не волноваться о мелочах",
+          "source" : "b79ff0ff0abed000.png",
+          "type" : "image/png",
+          "size" : 1870483
+        }, {
+          "uid" : "78e7ffd9012c14bd",
+          "name" : "Слайд 5: Спокойствие – в собственность",
+          "source" : "78e7ffd9012c14bd.png",
+          "type" : "image/png",
+          "size" : 1146429
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "927ea3719ec94812",
+        "name" : "После открытия раздела Покупки",
+        "source" : "927ea3719ec94812.png",
+        "type" : "image/png",
+        "size" : 1136262
+      }, {
+        "uid" : "7f42f9352b727955",
+        "name" : "Тест навигации по слайдеру завершен",
+        "source" : "7f42f9352b727955.png",
+        "type" : "image/png",
+        "size" : 1317897
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 36,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 24,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 36,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 25,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "74232@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sliderNavigationTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.BuySectionTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6ca127f5f067fc8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753096475108,
+          "stop" : 1753096857274,
+          "duration" : 382166
+        }
+      }, {
+        "uid" : "33490b83af8d96f8",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/navigation_bar_item_small_label_view\" and @text=\"Купить\"] (tried for 15 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1752641085891,
+          "stop" : 1752641147329,
+          "duration" : 61438
+        }
+      }, {
+        "uid" : "85cf0e78e67503eb",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/navigation_bar_item_small_label_view\" and @text=\"Купить\"] (tried for 4 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1752565632336,
+          "stop" : 1752565685799,
+          "duration" : 53463
+        }
+      }, {
+        "uid" : "44057276d567ec6a",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.ImageView/following-sibling::android.widget.LinearLayout/android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/title\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 75ef21f6-0218-45d6-955a-869f37c325a9",
+        "time" : {
+          "start" : 1752505908931,
+          "stop" : 1752505996143,
+          "duration" : 87212
+        }
+      }, {
+        "uid" : "e11e7727ee39c18",
+        "status" : "broken",
+        "statusDetails" : "The element 'By.xpath: //android.widget.ImageView/following-sibling::android.widget.LinearLayout/android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/title\"]' is not linked to the same object in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f10eeaae-4a0e-4f97-b060-e1f5d2e4e511",
+        "time" : {
+          "start" : 1751474966113,
+          "stop" : 1751475155211,
+          "duration" : 189098
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d7258afcfff70319.json",
+  "parameterValues" : [ ]
+}

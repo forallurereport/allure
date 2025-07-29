@@ -1,0 +1,428 @@
+{
+  "uid" : "1d8749bd39bd967b",
+  "name" : "authorization()",
+  "fullName" : "MobileTesting.tests.SmokeTest.authorization",
+  "historyId" : "97960b3265d6a8cb0001717f51777f6b",
+  "time" : {
+    "start" : 1753765253439,
+    "stop" : 1753765311183,
+    "duration" : 57744
+  },
+  "description" : "Авторизация пользователя",
+  "descriptionHtml" : "<p>Авторизация пользователя</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Авторизация пользователя",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация",
+      "time" : {
+        "start" : 1753765265816,
+        "stop" : 1753765310631,
+        "duration" : 44815
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753765265816,
+          "stop" : 1753765296898,
+          "duration" : 31082
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1753765265816,
+            "stop" : 1753765288045,
+            "duration" : 22229
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажать на кнопку авторизации",
+            "time" : {
+              "start" : 1753765265816,
+              "stop" : 1753765272220,
+              "duration" : 6404
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Запретить подсказки",
+              "time" : {
+                "start" : 1753765267191,
+                "stop" : 1753765271278,
+                "duration" : 4087
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "f3ff4004d9a39c37",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "f3ff4004d9a39c37.png",
+              "type" : "image/png",
+              "size" : 82130
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1753765272220,
+              "stop" : 1753765273425,
+              "duration" : 1205
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "Pavel.mordasov@overteam.ru"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1753765273425,
+              "stop" : 1753765276128,
+              "duration" : 2703
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Pavel.mordasov@overteam.ru1111"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753765276128,
+              "stop" : 1753765277664,
+              "duration" : 1536
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "da538a0897cac956",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "da538a0897cac956.png",
+              "type" : "image/png",
+              "size" : 139975
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1753765281907,
+              "stop" : 1753765285985,
+              "duration" : 4078
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1753765287130,
+              "stop" : 1753765288045,
+              "duration" : 915
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "aaace9ab9faacacc",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "aaace9ab9faacacc.png",
+              "type" : "image/png",
+              "size" : 53694
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "602fe7d092d0a3de",
+            "name" : "Форма входа после капчи_mobile_screenshot",
+            "source" : "602fe7d092d0a3de.png",
+            "type" : "image/png",
+            "size" : 53694
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1111"
+          } ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+          "time" : {
+            "start" : 1753765288045,
+            "stop" : 1753765296898,
+            "duration" : 8853
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b085817b683bc1c9",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "b085817b683bc1c9.png",
+            "type" : "image/png",
+            "size" : 53694
+          }, {
+            "uid" : "4ddff3658e691877",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "4ddff3658e691877.png",
+            "type" : "image/png",
+            "size" : 53259
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1111"
+        } ],
+        "stepsCount" : 9,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Открыть настройки",
+        "time" : {
+          "start" : 1753765296899,
+          "stop" : 1753765308202,
+          "duration" : 11303
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Запретить подсказки",
+          "time" : {
+            "start" : 1753765297146,
+            "stop" : 1753765301360,
+            "duration" : 4214
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Выйти из системы",
+        "time" : {
+          "start" : 1753765308202,
+          "stop" : 1753765310631,
+          "duration" : 2429
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 13,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Даниил Тарасенко"
+  }, {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "49470@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorization"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Даниил Тарасенко",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "fcb9b6f47378f1f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753273044628,
+          "stop" : 1753273107288,
+          "duration" : 62660
+        }
+      }, {
+        "uid" : "35f74210f1f3a1cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753251064433,
+          "stop" : 1753251124603,
+          "duration" : 60170
+        }
+      }, {
+        "uid" : "afed872fe9f760ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753095388401,
+          "stop" : 1753095444851,
+          "duration" : 56450
+        }
+      }, {
+        "uid" : "18076d564cd0f2e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752639539954,
+          "stop" : 1752639601404,
+          "duration" : 61450
+        }
+      }, {
+        "uid" : "40dd6d414269f46c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752557816897,
+          "stop" : 1752557880391,
+          "duration" : 63494
+        }
+      }, {
+        "uid" : "81e05125fc22c27d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752500774852,
+          "stop" : 1752500841698,
+          "duration" : 66846
+        }
+      }, {
+        "uid" : "dc1e2c3ed85c42f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751640626458,
+          "stop" : 1751640766381,
+          "duration" : 139923
+        }
+      }, {
+        "uid" : "4a175bf38c4e88fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751458878719,
+          "stop" : 1751459052388,
+          "duration" : 173669
+        }
+      }, {
+        "uid" : "b8eecb927cf222fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751454226638,
+          "stop" : 1751454406108,
+          "duration" : 179470
+        }
+      }, {
+        "uid" : "1dfccfc57e1ba751",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751452924611,
+          "stop" : 1751453120384,
+          "duration" : 195773
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1d8749bd39bd967b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1654 @@
+{
+  "uid" : "86a18d97bc6bce61",
+  "name" : "operationTests()",
+  "fullName" : "MobileTesting.tests.MedcardTest.operationTests",
+  "historyId" : "8c176700601bd05c1972864a7d482183",
+  "time" : {
+    "start" : 1753842281245,
+    "stop" : 1753842443348,
+    "duration" : 162103
+  },
+  "description" : "Добавить и удалить операцию",
+  "descriptionHtml" : "<p>Добавить и удалить операцию</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Добавить и удалить операцию",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1753842293141,
+        "stop" : 1753842299820,
+        "duration" : 6679
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Test3rPentest3r"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Добавить и удалить операцию",
+      "time" : {
+        "start" : 1753842299822,
+        "stop" : 1753842441343,
+        "duration" : 141521
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753842299823,
+          "stop" : 1753842333524,
+          "duration" : 33701
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Войти в систему",
+          "time" : {
+            "start" : 1753842299843,
+            "stop" : 1753842333524,
+            "duration" : 33681
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить и отправить форму входа",
+            "time" : {
+              "start" : 1753842299843,
+              "stop" : 1753842324233,
+              "duration" : 24390
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Нажать на кнопку авторизации",
+              "time" : {
+                "start" : 1753842299843,
+                "stop" : 1753842305944,
+                "duration" : 6101
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Запретить подсказки",
+                "time" : {
+                  "start" : 1753842300801,
+                  "stop" : 1753842305238,
+                  "duration" : 4437
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "hasContent" : false,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ {
+                "uid" : "6589ca7db6182499",
+                "name" : "Форма входа_mobile_screenshot",
+                "source" : "6589ca7db6182499.png",
+                "type" : "image/png",
+                "size" : 81576
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Ввести email",
+              "time" : {
+                "start" : 1753842305944,
+                "stop" : 1753842307136,
+                "duration" : 1192
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "username",
+                "value" : "artur@test.ru"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Ввести пароль",
+              "time" : {
+                "start" : 1753842307136,
+                "stop" : 1753842309790,
+                "duration" : 2654
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "password",
+                "value" : "Artur@test.ru1101"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1753842309790,
+                "stop" : 1753842313282,
+                "duration" : 3492
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "815a5bcd9677e2fd",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "815a5bcd9677e2fd.png",
+                "type" : "image/png",
+                "size" : 133256
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Подтвердить капчу",
+              "time" : {
+                "start" : 1753842317754,
+                "stop" : 1753842322009,
+                "duration" : 4255
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1753842323313,
+                "stop" : 1753842324233,
+                "duration" : 920
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "d8d78093a2adc505",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "d8d78093a2adc505.png",
+                "type" : "image/png",
+                "size" : 53138
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "29dad7a359fe9a9",
+              "name" : "Форма входа после капчи_mobile_screenshot",
+              "source" : "29dad7a359fe9a9.png",
+              "type" : "image/png",
+              "size" : 53138
+            } ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur@test.ru"
+            }, {
+              "name" : "password",
+              "value" : "Artur@test.ru1101"
+            } ],
+            "stepsCount" : 7,
+            "hasContent" : true,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+            "time" : {
+              "start" : 1753842324233,
+              "stop" : 1753842333524,
+              "duration" : 9291
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "4d276e4e1e7e89a9",
+              "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+              "source" : "4d276e4e1e7e89a9.png",
+              "type" : "image/png",
+              "size" : 53138
+            }, {
+              "uid" : "ce7117c5d3d444a1",
+              "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+              "source" : "ce7117c5d3d444a1.png",
+              "type" : "image/png",
+              "size" : 53383
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur@test.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur@test.ru1101"
+          } ],
+          "stepsCount" : 9,
+          "hasContent" : true,
+          "attachmentsCount" : 6,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "8532f39ef48f934b",
+          "name" : "Авторизация для Android",
+          "source" : "8532f39ef48f934b.txt",
+          "type" : "text/plain",
+          "size" : 53
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 10,
+        "hasContent" : true,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Нажать на медицинскую карту",
+        "time" : {
+          "start" : 1753842333525,
+          "stop" : 1753842335894,
+          "duration" : 2369
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "92d90b09571b270",
+          "name" : "Скриншот_медицинской_карты",
+          "source" : "92d90b09571b270.png",
+          "type" : "image/png",
+          "size" : 213765
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверить наличие разделов: Заключение врача, Болезни, Анализы и т.д.",
+        "time" : {
+          "start" : 1753842335894,
+          "stop" : 1753842351851,
+          "duration" : 15957
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8997f449e475d6fb",
+          "name" : "Скриншот_проверки_разделов_медкарты",
+          "source" : "8997f449e475d6fb.png",
+          "type" : "image/png",
+          "size" : 196518
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Открыть раздел операций",
+        "time" : {
+          "start" : 1753842351852,
+          "stop" : 1753842354639,
+          "duration" : 2787
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f194182ebfff8eeb",
+          "name" : "Раздел_операций_открыт",
+          "source" : "f194182ebfff8eeb.png",
+          "type" : "image/png",
+          "size" : 91536
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Добавить операцию из списка",
+        "time" : {
+          "start" : 1753842354639,
+          "stop" : 1753842389899,
+          "duration" : 35260
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Удалить все существующие операции",
+          "time" : {
+            "start" : 1753842354639,
+            "stop" : 1753842363391,
+            "duration" : 8752
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4b8a1e400571b842",
+            "name" : "Начальное количество операций",
+            "source" : "4b8a1e400571b842.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "8103f8069079d4cf",
+            "name" : "Удаление операций завершено",
+            "source" : "8103f8069079d4cf.txt",
+            "type" : "text/plain",
+            "size" : 53
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получение количества операций до добавления",
+          "time" : {
+            "start" : 1753842363396,
+            "stop" : 1753842367710,
+            "duration" : 4314
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Получение количества элементов",
+            "time" : {
+              "start" : 1753842363629,
+              "stop" : 1753842367709,
+              "duration" : 4080
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "ca1ff2bea931f31d",
+              "name" : "Элементы отсутствуют",
+              "source" : "ca1ff2bea931f31d.txt",
+              "type" : "text/plain",
+              "size" : 53
+            } ],
+            "parameters" : [ {
+              "name" : "androidLocator",
+              "value" : "By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/items_list\"]/android.view.ViewGroup"
+            }, {
+              "name" : "iosLocator",
+              "value" : "By.IosClassChain: **/XCUIElementTypeTable/XCUIElementTypeCell"
+            }, {
+              "name" : "androidClassName",
+              "value" : "android.view.ViewGroup"
+            }, {
+              "name" : "iosClassName",
+              "value" : "XCUIElementTypeCell"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Клик на кнопку 'Добавить операцию'",
+          "time" : {
+            "start" : 1753842367710,
+            "stop" : 1753842370762,
+            "duration" : 3052
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "3b20e2b3dc12314d",
+            "name" : "Кнопка_добавления_операции_нажата",
+            "source" : "3b20e2b3dc12314d.png",
+            "type" : "image/png",
+            "size" : 144786
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Выбрать операцию из списка",
+          "time" : {
+            "start" : 1753842370762,
+            "stop" : 1753842374252,
+            "duration" : 3490
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a8cafdbdb77f661f",
+            "name" : "Операция_выбрана_из_списка",
+            "source" : "a8cafdbdb77f661f.png",
+            "type" : "image/png",
+            "size" : 92392
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Заполнение поля даты операции",
+          "time" : {
+            "start" : 1753842374252,
+            "stop" : 1753842383566,
+            "duration" : 9314
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1753842374349,
+              "stop" : 1753842381895,
+              "duration" : 7546
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1753842374349,
+                "stop" : 1753842374351,
+                "duration" : 2
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1753842374350,
+                  "stop" : 1753842374350,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:26:14 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1753842374350,
+                  "stop" : 1753842374350,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:26:14 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753842374350,
+                  "stop" : 1753842374351,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:26:14 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753842374351,
+                  "stop" : 1753842374351,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:26:14 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1753842374351,
+                  "stop" : 1753842374351,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "29 июля 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "1"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "stepsCount" : 5,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "a60a94f6b454d4e3",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "a60a94f6b454d4e3.png",
+              "type" : "image/png",
+              "size" : 82542
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "1"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "stepsCount" : 6,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "e695fa1e0dbab6de",
+            "name" : "Дата_операции_заполнена",
+            "source" : "e695fa1e0dbab6de.png",
+            "type" : "image/png",
+            "size" : 82542
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Закрытие экрана операции",
+          "time" : {
+            "start" : 1753842383566,
+            "stop" : 1753842385308,
+            "duration" : 1742
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "60b2f841b442b4ca",
+            "name" : "Экран_операции_закрыт",
+            "source" : "60b2f841b442b4ca.png",
+            "type" : "image/png",
+            "size" : 79090
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получение количества операций после добавления",
+          "time" : {
+            "start" : 1753842385308,
+            "stop" : 1753842386574,
+            "duration" : 1266
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Подсчитать количество элементов",
+            "time" : {
+              "start" : 1753842386418,
+              "stop" : 1753842386574,
+              "duration" : 156
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: ru.sogaz.app.stage:id/items_list\") should be(visible)",
+              "time" : {
+                "start" : 1753842386418,
+                "stop" : 1753842386502,
+                "duration" : 84
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.id: ru.sogaz.app.stage:id/items_list"
+            }, {
+              "name" : "className",
+              "value" : "android.view.ViewGroup"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "6128ecbe06b17255",
+            "name" : "Количество операций после добавления (Android)",
+            "source" : "6128ecbe06b17255.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверить изменение количества операций после добавления",
+          "time" : {
+            "start" : 1753842386574,
+            "stop" : 1753842388171,
+            "duration" : 1597
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "14fd9c4aa3f7983e",
+            "name" : "Разница в количестве операций",
+            "source" : "14fd9c4aa3f7983e.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "929f5a1218adff0b",
+            "name" : "Изменение_количества_операций_проверено",
+            "source" : "929f5a1218adff0b.png",
+            "type" : "image/png",
+            "size" : 79090
+          } ],
+          "parameters" : [ {
+            "name" : "before",
+            "value" : "0"
+          }, {
+            "name" : "after",
+            "value" : "1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "3e9402e2eccf4ade",
+          "name" : "После добавления операции",
+          "source" : "3e9402e2eccf4ade.png",
+          "type" : "image/png",
+          "size" : 79090
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 18,
+        "hasContent" : true,
+        "attachmentsCount" : 12,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Удалить последнюю операцию",
+        "time" : {
+          "start" : 1753842389899,
+          "stop" : 1753842402714,
+          "duration" : 12815
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получение количества операций до добавления",
+          "time" : {
+            "start" : 1753842391651,
+            "stop" : 1753842391993,
+            "duration" : 342
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Получение количества элементов",
+            "time" : {
+              "start" : 1753842391651,
+              "stop" : 1753842391993,
+              "duration" : 342
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "androidLocator",
+              "value" : "By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/items_list\"]/android.view.ViewGroup"
+            }, {
+              "name" : "iosLocator",
+              "value" : "By.IosClassChain: **/XCUIElementTypeTable/XCUIElementTypeCell"
+            }, {
+              "name" : "androidClassName",
+              "value" : "android.view.ViewGroup"
+            }, {
+              "name" : "iosClassName",
+              "value" : "XCUIElementTypeCell"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Нажать кнопку удаления для последней операции",
+          "time" : {
+            "start" : 1753842391996,
+            "stop" : 1753842395468,
+            "duration" : 3472
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "79fbcee7244dc731",
+            "name" : "Кнопка_удаления_для_последней_операции_нажата",
+            "source" : "79fbcee7244dc731.png",
+            "type" : "image/png",
+            "size" : 83494
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Подтвердить удаление операции",
+          "time" : {
+            "start" : 1753842395469,
+            "stop" : 1753842398364,
+            "duration" : 2895
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "9558bc021b055b90",
+            "name" : "Операция_удалена",
+            "source" : "9558bc021b055b90.png",
+            "type" : "image/png",
+            "size" : 92178
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получение количества операций после добавления",
+          "time" : {
+            "start" : 1753842399475,
+            "stop" : 1753842400817,
+            "duration" : 1342
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Подсчитать количество элементов",
+            "time" : {
+              "start" : 1753842400616,
+              "stop" : 1753842400815,
+              "duration" : 199
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: ru.sogaz.app.stage:id/items_list\") should be(visible)",
+              "time" : {
+                "start" : 1753842400617,
+                "stop" : 1753842400732,
+                "duration" : 115
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.id: ru.sogaz.app.stage:id/items_list"
+            }, {
+              "name" : "className",
+              "value" : "android.view.ViewGroup"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "4b6afef19154af0b",
+            "name" : "Количество операций после добавления (Android)",
+            "source" : "4b6afef19154af0b.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "de57484fa520b22e",
+            "name" : "Операции отсутствуют",
+            "source" : "de57484fa520b22e.txt",
+            "type" : "text/plain",
+            "size" : 70
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "4321f061eb9e87a",
+          "name" : "До удаления операции",
+          "source" : "4321f061eb9e87a.png",
+          "type" : "image/png",
+          "size" : 79090
+        }, {
+          "uid" : "b9cc3c4b9cc52887",
+          "name" : "Количество операций до удаления",
+          "source" : "b9cc3c4b9cc52887.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "f75c106063ecc38a",
+          "name" : "Количество операций после удаления",
+          "source" : "f75c106063ecc38a.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "a97ba7b514245df8",
+          "name" : "Все операции удалены",
+          "source" : "a97ba7b514245df8.txt",
+          "type" : "text/plain",
+          "size" : 66
+        }, {
+          "uid" : "7d9d6b71609498b9",
+          "name" : "После удаления операции",
+          "source" : "7d9d6b71609498b9.png",
+          "type" : "image/png",
+          "size" : 92178
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "hasContent" : true,
+        "attachmentsCount" : 9,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Добавить операцию вручную",
+        "time" : {
+          "start" : 1753842402715,
+          "stop" : 1753842429417,
+          "duration" : 26702
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получение количества операций до добавления",
+          "time" : {
+            "start" : 1753842402715,
+            "stop" : 1753842406956,
+            "duration" : 4241
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Получение количества элементов",
+            "time" : {
+              "start" : 1753842402715,
+              "stop" : 1753842406956,
+              "duration" : 4241
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "f7130ab3ce1c4e44",
+              "name" : "Элементы отсутствуют",
+              "source" : "f7130ab3ce1c4e44.txt",
+              "type" : "text/plain",
+              "size" : 53
+            } ],
+            "parameters" : [ {
+              "name" : "androidLocator",
+              "value" : "By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/items_list\"]/android.view.ViewGroup"
+            }, {
+              "name" : "iosLocator",
+              "value" : "By.IosClassChain: **/XCUIElementTypeTable/XCUIElementTypeCell"
+            }, {
+              "name" : "androidClassName",
+              "value" : "android.view.ViewGroup"
+            }, {
+              "name" : "iosClassName",
+              "value" : "XCUIElementTypeCell"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Клик на кнопку 'Добавить операцию'",
+          "time" : {
+            "start" : 1753842406956,
+            "stop" : 1753842409875,
+            "duration" : 2919
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f62b10c27b81298a",
+            "name" : "Кнопка_добавления_операции_нажата",
+            "source" : "f62b10c27b81298a.png",
+            "type" : "image/png",
+            "size" : 144786
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Поиск и добавление операции вручную",
+          "time" : {
+            "start" : 1753842409876,
+            "stop" : 1753842413389,
+            "duration" : 3513
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c6182b887b845898",
+            "name" : "Операция_добавлена",
+            "source" : "c6182b887b845898.png",
+            "type" : "image/png",
+            "size" : 92444
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Заполнение поля даты операции",
+          "time" : {
+            "start" : 1753842413389,
+            "stop" : 1753842422923,
+            "duration" : 9534
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1753842413450,
+              "stop" : 1753842421261,
+              "duration" : 7811
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1753842413450,
+                "stop" : 1753842413452,
+                "duration" : 2
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1753842413451,
+                  "stop" : 1753842413451,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:26:53 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1753842413451,
+                  "stop" : 1753842413451,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:26:53 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753842413452,
+                  "stop" : 1753842413452,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:26:53 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753842413452,
+                  "stop" : 1753842413452,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:26:53 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1753842413452,
+                  "stop" : 1753842413452,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "29 июля 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "1"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "stepsCount" : 5,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "ef4b32a0330af7e7",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "ef4b32a0330af7e7.png",
+              "type" : "image/png",
+              "size" : 82251
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "1"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "stepsCount" : 6,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "89a216e9586ca68d",
+            "name" : "Дата_операции_заполнена",
+            "source" : "89a216e9586ca68d.png",
+            "type" : "image/png",
+            "size" : 82251
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Закрытие экрана операции",
+          "time" : {
+            "start" : 1753842422923,
+            "stop" : 1753842424716,
+            "duration" : 1793
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "cd7b70ab811a6c00",
+            "name" : "Экран_операции_закрыт",
+            "source" : "cd7b70ab811a6c00.png",
+            "type" : "image/png",
+            "size" : 76950
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получение количества операций после добавления",
+          "time" : {
+            "start" : 1753842424717,
+            "stop" : 1753842426016,
+            "duration" : 1299
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Подсчитать количество элементов",
+            "time" : {
+              "start" : 1753842425835,
+              "stop" : 1753842426015,
+              "duration" : 180
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: ru.sogaz.app.stage:id/items_list\") should be(visible)",
+              "time" : {
+                "start" : 1753842425835,
+                "stop" : 1753842425934,
+                "duration" : 99
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.id: ru.sogaz.app.stage:id/items_list"
+            }, {
+              "name" : "className",
+              "value" : "android.view.ViewGroup"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "c0b3b95435673b32",
+            "name" : "Количество операций после добавления (Android)",
+            "source" : "c0b3b95435673b32.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверка, что количество операций увеличилось на 1",
+          "time" : {
+            "start" : 1753842426017,
+            "stop" : 1753842427702,
+            "duration" : 1685
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1cd97ef70f890624",
+            "name" : "Количество_операций_увеличилось",
+            "source" : "1cd97ef70f890624.png",
+            "type" : "image/png",
+            "size" : 76950
+          } ],
+          "parameters" : [ {
+            "name" : "countBefore",
+            "value" : "0"
+          }, {
+            "name" : "countAfter",
+            "value" : "1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "699813de4e7c2994",
+          "name" : "Операция_добавлена_вручную",
+          "source" : "699813de4e7c2994.png",
+          "type" : "image/png",
+          "size" : 76950
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 17,
+        "hasContent" : true,
+        "attachmentsCount" : 9,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Удалить последнюю операцию",
+        "time" : {
+          "start" : 1753842429417,
+          "stop" : 1753842441343,
+          "duration" : 11926
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получение количества операций до добавления",
+          "time" : {
+            "start" : 1753842431167,
+            "stop" : 1753842431456,
+            "duration" : 289
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Получение количества элементов",
+            "time" : {
+              "start" : 1753842431167,
+              "stop" : 1753842431456,
+              "duration" : 289
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "androidLocator",
+              "value" : "By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/items_list\"]/android.view.ViewGroup"
+            }, {
+              "name" : "iosLocator",
+              "value" : "By.IosClassChain: **/XCUIElementTypeTable/XCUIElementTypeCell"
+            }, {
+              "name" : "androidClassName",
+              "value" : "android.view.ViewGroup"
+            }, {
+              "name" : "iosClassName",
+              "value" : "XCUIElementTypeCell"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Нажать кнопку удаления для последней операции",
+          "time" : {
+            "start" : 1753842431458,
+            "stop" : 1753842434498,
+            "duration" : 3040
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1dec7a45216db1e1",
+            "name" : "Кнопка_удаления_для_последней_операции_нажата",
+            "source" : "1dec7a45216db1e1.png",
+            "type" : "image/png",
+            "size" : 81941
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Подтвердить удаление операции",
+          "time" : {
+            "start" : 1753842434499,
+            "stop" : 1753842437318,
+            "duration" : 2819
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "93d68b3133d320a9",
+            "name" : "Операция_удалена",
+            "source" : "93d68b3133d320a9.png",
+            "type" : "image/png",
+            "size" : 91795
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получение количества операций после добавления",
+          "time" : {
+            "start" : 1753842438325,
+            "stop" : 1753842439736,
+            "duration" : 1411
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Подсчитать количество элементов",
+            "time" : {
+              "start" : 1753842439474,
+              "stop" : 1753842439735,
+              "duration" : 261
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: ru.sogaz.app.stage:id/items_list\") should be(visible)",
+              "time" : {
+                "start" : 1753842439476,
+                "stop" : 1753842439612,
+                "duration" : 136
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.id: ru.sogaz.app.stage:id/items_list"
+            }, {
+              "name" : "className",
+              "value" : "android.view.ViewGroup"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "88c8444f3dbfc1f8",
+            "name" : "Количество операций после добавления (Android)",
+            "source" : "88c8444f3dbfc1f8.txt",
+            "type" : "text/plain",
+            "size" : 1
+          }, {
+            "uid" : "a21bbc5ec07c7c2d",
+            "name" : "Операции отсутствуют",
+            "source" : "a21bbc5ec07c7c2d.txt",
+            "type" : "text/plain",
+            "size" : 70
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "226dbaba18faabc3",
+          "name" : "До удаления операции",
+          "source" : "226dbaba18faabc3.png",
+          "type" : "image/png",
+          "size" : 76950
+        }, {
+          "uid" : "4d0d80e6cc06e7c0",
+          "name" : "Количество операций до удаления",
+          "source" : "4d0d80e6cc06e7c0.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "7c8a4f7cf2c63839",
+          "name" : "Количество операций после удаления",
+          "source" : "7c8a4f7cf2c63839.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "3380a7f5448cfcbe",
+          "name" : "Все операции удалены",
+          "source" : "3380a7f5448cfcbe.txt",
+          "type" : "text/plain",
+          "size" : 66
+        }, {
+          "uid" : "a323834a1893b628",
+          "name" : "После удаления операции",
+          "source" : "a323834a1893b628.png",
+          "type" : "image/png",
+          "size" : 91795
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "hasContent" : true,
+        "attachmentsCount" : 9,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 67,
+      "hasContent" : true,
+      "attachmentsCount" : 49,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 69,
+    "hasContent" : true,
+    "attachmentsCount" : 49,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "75085@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "operationTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "9305fc921c0f14db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753763934641,
+          "stop" : 1753764087720,
+          "duration" : 153079
+        }
+      }, {
+        "uid" : "2354133841339195",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753271801698,
+          "stop" : 1753271958246,
+          "duration" : 156548
+        }
+      }, {
+        "uid" : "6bad0ba0fc1e6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753249820892,
+          "stop" : 1753249974666,
+          "duration" : 153774
+        }
+      }, {
+        "uid" : "5870e2138434b12b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753094159265,
+          "stop" : 1753094309376,
+          "duration" : 150111
+        }
+      }, {
+        "uid" : "2c9165176e852376",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752633202967,
+          "stop" : 1752633357130,
+          "duration" : 154163
+        }
+      }, {
+        "uid" : "d45d2a2dadbe6464",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //android.widget.ImageView[@resource-id='ru.sogaz.app.stage:id/delete'] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: d7f34bfa-daee-415f-aefc-f45711b43592",
+        "time" : {
+          "start" : 1752564185691,
+          "stop" : 1752564273012,
+          "duration" : 87321
+        }
+      }, {
+        "uid" : "1503ea437929ab96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752499464861,
+          "stop" : 1752499614112,
+          "duration" : 149251
+        }
+      }, {
+        "uid" : "ce26a84a3363e396",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751638689103,
+          "stop" : 1751638953916,
+          "duration" : 264813
+        }
+      }, {
+        "uid" : "ccdbab7abd32ab9",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+        "time" : {
+          "start" : 1751472510749,
+          "stop" : 1751472638352,
+          "duration" : 127603
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86a18d97bc6bce61.json",
+  "parameterValues" : [ ]
+}

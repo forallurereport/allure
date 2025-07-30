@@ -1,0 +1,114 @@
+{
+  "uid" : "67afc66201939de5",
+  "name" : "simpleAppCheck()",
+  "fullName" : "MobileTesting.tests.EdnaChatTest.simpleAppCheck",
+  "historyId" : "577f086c10e855f56235568ddd8677fb",
+  "time" : {
+    "start" : 1753848699191,
+    "stop" : 1753848723046,
+    "duration" : 23855
+  },
+  "description" : "Simple app check test",
+  "descriptionHtml" : "<p>Simple app check test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Simple app check test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1753848710129,
+        "stop" : 1753848716939,
+        "duration" : 6810
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Test3rPentest3r"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Simple app check test",
+      "time" : {
+        "start" : 1753848716941,
+        "stop" : 1753848722446,
+        "duration" : 5505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "219c0d49acefae1b",
+        "name" : "app_initial_state",
+        "source" : "219c0d49acefae1b.png",
+        "type" : "image/png",
+        "size" : 98966
+      }, {
+        "uid" : "e100985edb24add0",
+        "name" : "app_after_delay",
+        "source" : "e100985edb24add0.png",
+        "type" : "image/png",
+        "size" : 99339
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "75085@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.EdnaChatTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.EdnaChatTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "simpleAppCheck"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.EdnaChatTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67afc66201939de5.json",
+  "parameterValues" : [ ]
+}

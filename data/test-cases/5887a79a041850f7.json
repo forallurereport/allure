@@ -1,0 +1,1513 @@
+{
+  "uid" : "5887a79a041850f7",
+  "name" : "vaccinationTests()",
+  "fullName" : "MobileTesting.tests.MedcardTest.vaccinationTests",
+  "historyId" : "f67134439d58a9cfb24d3a9c728841eb",
+  "time" : {
+    "start" : 1753842700524,
+    "stop" : 1753842871790,
+    "duration" : 171266
+  },
+  "description" : "Добавить и удалить вакцинацию",
+  "descriptionHtml" : "<p>Добавить и удалить вакцинацию</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Добавить и удалить вакцинацию",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1753842714885,
+        "stop" : 1753842721961,
+        "duration" : 7076
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Test3rPentest3r"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Добавить и удалить вакцинацию",
+      "time" : {
+        "start" : 1753842721964,
+        "stop" : 1753842869772,
+        "duration" : 147808
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1753842721964,
+          "stop" : 1753842755486,
+          "duration" : 33522
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Войти в систему",
+          "time" : {
+            "start" : 1753842721967,
+            "stop" : 1753842755486,
+            "duration" : 33519
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить и отправить форму входа",
+            "time" : {
+              "start" : 1753842721967,
+              "stop" : 1753842745647,
+              "duration" : 23680
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Нажать на кнопку авторизации",
+              "time" : {
+                "start" : 1753842721967,
+                "stop" : 1753842727374,
+                "duration" : 5407
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Запретить подсказки",
+                "time" : {
+                  "start" : 1753842722255,
+                  "stop" : 1753842726585,
+                  "duration" : 4330
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "hasContent" : false,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ {
+                "uid" : "a18c48c32cb29888",
+                "name" : "Форма входа_mobile_screenshot",
+                "source" : "a18c48c32cb29888.png",
+                "type" : "image/png",
+                "size" : 82314
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Ввести email",
+              "time" : {
+                "start" : 1753842727374,
+                "stop" : 1753842728621,
+                "duration" : 1247
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "username",
+                "value" : "artur@test.ru"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Ввести пароль",
+              "time" : {
+                "start" : 1753842728622,
+                "stop" : 1753842731301,
+                "duration" : 2679
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "password",
+                "value" : "Artur@test.ru1101"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1753842731301,
+                "stop" : 1753842734900,
+                "duration" : 3599
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "fcdf8679c80ef218",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "fcdf8679c80ef218.png",
+                "type" : "image/png",
+                "size" : 134065
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Подтвердить капчу",
+              "time" : {
+                "start" : 1753842739035,
+                "stop" : 1753842743585,
+                "duration" : 4550
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1753842744748,
+                "stop" : 1753842745646,
+                "duration" : 898
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "f5148f5edc2e29d3",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "f5148f5edc2e29d3.png",
+                "type" : "image/png",
+                "size" : 53910
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "46d9ba85bda17f13",
+              "name" : "Форма входа после капчи_mobile_screenshot",
+              "source" : "46d9ba85bda17f13.png",
+              "type" : "image/png",
+              "size" : 53910
+            } ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur@test.ru"
+            }, {
+              "name" : "password",
+              "value" : "Artur@test.ru1101"
+            } ],
+            "stepsCount" : 7,
+            "hasContent" : true,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Ввести ПИН-код (быстрый метод с координатами)",
+            "time" : {
+              "start" : 1753842745647,
+              "stop" : 1753842755486,
+              "duration" : 9839
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "6ced76bf7fae659e",
+              "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+              "source" : "6ced76bf7fae659e.png",
+              "type" : "image/png",
+              "size" : 53910
+            }, {
+              "uid" : "aebfdd26fac6f247",
+              "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+              "source" : "aebfdd26fac6f247.png",
+              "type" : "image/png",
+              "size" : 54428
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur@test.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur@test.ru1101"
+          } ],
+          "stepsCount" : 9,
+          "hasContent" : true,
+          "attachmentsCount" : 6,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "397686a07e258104",
+          "name" : "Авторизация для Android",
+          "source" : "397686a07e258104.txt",
+          "type" : "text/plain",
+          "size" : 53
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 10,
+        "hasContent" : true,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Нажать на медицинскую карту",
+        "time" : {
+          "start" : 1753842755486,
+          "stop" : 1753842757586,
+          "duration" : 2100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d1194969a0814cb",
+          "name" : "Скриншот_медицинской_карты",
+          "source" : "d1194969a0814cb.png",
+          "type" : "image/png",
+          "size" : 214524
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверить наличие разделов: Заключение врача, Болезни, Анализы и т.д.",
+        "time" : {
+          "start" : 1753842757586,
+          "stop" : 1753842773412,
+          "duration" : 15826
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "efaf4ebfcf558be0",
+          "name" : "Скриншот_проверки_разделов_медкарты",
+          "source" : "efaf4ebfcf558be0.png",
+          "type" : "image/png",
+          "size" : 197279
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Открыть раздел вакцинации",
+        "time" : {
+          "start" : 1753842773415,
+          "stop" : 1753842776196,
+          "duration" : 2781
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "23ef2923cb34f797",
+          "name" : "Скриншот_раздела_вакцинации",
+          "source" : "23ef2923cb34f797.png",
+          "type" : "image/png",
+          "size" : 85701
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Добавить вакцинацию из списка",
+        "time" : {
+          "start" : 1753842776196,
+          "stop" : 1753842799207,
+          "duration" : 23011
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидать появления списка вакцинаций",
+          "time" : {
+            "start" : 1753842776196,
+            "stop" : 1753842778145,
+            "duration" : 1949
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "79646b471267cce5",
+            "name" : "Скриншот_списка_вакцинаций",
+            "source" : "79646b471267cce5.png",
+            "type" : "image/png",
+            "size" : 85701
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Открыть форму добавления вакцинации",
+          "time" : {
+            "start" : 1753842778145,
+            "stop" : 1753842797544,
+            "duration" : 19399
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Получить количество вакцинаций до добавления",
+            "time" : {
+              "start" : 1753842778145,
+              "stop" : 1753842782498,
+              "duration" : 4353
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "cecb5ab6591eccc9",
+              "name" : "Количество вакцинаций до добавления",
+              "source" : "cecb5ab6591eccc9.txt",
+              "type" : "text/plain",
+              "size" : 1
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1753842787454,
+              "stop" : 1753842794721,
+              "duration" : 7267
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1753842787454,
+                "stop" : 1753842787455,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1753842787455,
+                  "stop" : 1753842787455,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:33:07 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1753842787455,
+                  "stop" : 1753842787455,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:33:07 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753842787455,
+                  "stop" : 1753842787455,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:33:07 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753842787455,
+                  "stop" : 1753842787455,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:33:07 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1753842787455,
+                  "stop" : 1753842787455,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "29 июля 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "1"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "stepsCount" : 5,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "6d803232d84dafcc",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "6d803232d84dafcc.png",
+              "type" : "image/png",
+              "size" : 80081
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "1"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "stepsCount" : 6,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "17d67637c496a225",
+            "name" : "addVaccinationFromList",
+            "source" : "17d67637c496a225.png",
+            "type" : "image/png",
+            "size" : 75619
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 8,
+          "hasContent" : true,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "260adb4302755dc0",
+          "name" : "Скриншот_после_добавления_вакцинации",
+          "source" : "260adb4302755dc0.png",
+          "type" : "image/png",
+          "size" : 75619
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 10,
+        "hasContent" : true,
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Удалить вакцинацию",
+        "time" : {
+          "start" : 1753842799211,
+          "stop" : 1753842819332,
+          "duration" : 20121
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить количество вакцинаций до добавления",
+          "time" : {
+            "start" : 1753842799211,
+            "stop" : 1753842799533,
+            "duration" : 322
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5e06ff3f1049035b",
+            "name" : "Количество вакцинаций до добавления",
+            "source" : "5e06ff3f1049035b.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Количество вакцинаций до удаления: 1",
+          "time" : {
+            "start" : 1753842799543,
+            "stop" : 1753842801298,
+            "duration" : 1755
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fddc1503b093bb14",
+            "name" : "Количество_до_удаления_вакцинации",
+            "source" : "fddc1503b093bb14.png",
+            "type" : "image/png",
+            "size" : 75619
+          } ],
+          "parameters" : [ {
+            "name" : "countBefore",
+            "value" : "1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Клик на кнопку удаления для последней вакцинации",
+          "time" : {
+            "start" : 1753842801298,
+            "stop" : 1753842803621,
+            "duration" : 2323
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2fd1502acdfc8d99",
+            "name" : "Удаление_последней_вакцинации",
+            "source" : "2fd1502acdfc8d99.png",
+            "type" : "image/png",
+            "size" : 78067
+          } ],
+          "parameters" : [ {
+            "name" : "vaccinationIndex",
+            "value" : "0"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание появления подтверждения удаления",
+          "time" : {
+            "start" : 1753842803622,
+            "stop" : 1753842805307,
+            "duration" : 1685
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "43181efc8a107b20",
+            "name" : "Ожидание_подтверждения_удаления",
+            "source" : "43181efc8a107b20.png",
+            "type" : "image/png",
+            "size" : 78067
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Подтверждение удаления вакцинации",
+          "time" : {
+            "start" : 1753842805308,
+            "stop" : 1753842807998,
+            "duration" : 2690
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "217b398fabba6ea3",
+            "name" : "Подтверждение_удаления_вакцинации",
+            "source" : "217b398fabba6ea3.png",
+            "type" : "image/png",
+            "size" : 64927
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Закрытие после удаления вакцинации",
+          "time" : {
+            "start" : 1753842807998,
+            "stop" : 1753842809746,
+            "duration" : 1748
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2e338c90b58bf2da",
+            "name" : "Закрытие_после_удаления_вакцинации",
+            "source" : "2e338c90b58bf2da.png",
+            "type" : "image/png",
+            "size" : 85211
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получить количество вакцинаций до добавления",
+          "time" : {
+            "start" : 1753842809746,
+            "stop" : 1753842814124,
+            "duration" : 4378
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "cfa3fb52d519f655",
+            "name" : "Количество вакцинаций до добавления",
+            "source" : "cfa3fb52d519f655.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Количество вакцинаций после удаления: 0",
+          "time" : {
+            "start" : 1753842814126,
+            "stop" : 1753842815858,
+            "duration" : 1732
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4115d02b4c49bd94",
+            "name" : "Количество_после_удаления_вакцинации",
+            "source" : "4115d02b4c49bd94.png",
+            "type" : "image/png",
+            "size" : 85211
+          } ],
+          "parameters" : [ {
+            "name" : "countAfter",
+            "value" : "0"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверить, что количество вакцинаций уменьшилось на 1",
+          "time" : {
+            "start" : 1753842815858,
+            "stop" : 1753842817627,
+            "duration" : 1769
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "bf401b80ccde109",
+            "name" : "Проверка_удаления_вакцинации",
+            "source" : "bf401b80ccde109.png",
+            "type" : "image/png",
+            "size" : 85211
+          } ],
+          "parameters" : [ {
+            "name" : "countBefore",
+            "value" : "1"
+          }, {
+            "name" : "countAfter",
+            "value" : "0"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "713ca43fac63e7bf",
+          "name" : "Количество вакцинаций до удаления",
+          "source" : "713ca43fac63e7bf.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "f9175d925cfd772c",
+          "name" : "Количество вакцинаций после удаления",
+          "source" : "f9175d925cfd772c.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "65880bad43a88bf1",
+          "name" : "После_удаления_вакцинации",
+          "source" : "65880bad43a88bf1.png",
+          "type" : "image/png",
+          "size" : 85211
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 9,
+        "hasContent" : true,
+        "attachmentsCount" : 12,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Добавить вакцинацию вручную",
+        "time" : {
+          "start" : 1753842819332,
+          "stop" : 1753842849772,
+          "duration" : 30440
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание отображения списка вакцинаций",
+          "time" : {
+            "start" : 1753842819332,
+            "stop" : 1753842821105,
+            "duration" : 1773
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "cda4d5b8239a96e1",
+            "name" : "Ожидание_списка_вакцинаций",
+            "source" : "cda4d5b8239a96e1.png",
+            "type" : "image/png",
+            "size" : 85211
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Клик на кнопку 'Добавить вакцинацию'",
+          "time" : {
+            "start" : 1753842825911,
+            "stop" : 1753842827866,
+            "duration" : 1955
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7115b3356a67ec92",
+            "name" : "Клик_по_кнопке_Добавить_вакцинацию",
+            "source" : "7115b3356a67ec92.png",
+            "type" : "image/png",
+            "size" : 135583
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание отображения заголовка 'Указать вакцинацию'",
+          "time" : {
+            "start" : 1753842827866,
+            "stop" : 1753842829640,
+            "duration" : 1774
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7223dbb98b7cd6db",
+            "name" : "Отображение_заголовка_Указать_вакцинацию",
+            "source" : "7223dbb98b7cd6db.png",
+            "type" : "image/png",
+            "size" : 135409
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Поиск и добавление: Нет в списке",
+          "time" : {
+            "start" : 1753842829640,
+            "stop" : 1753842833081,
+            "duration" : 3441
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "87e98890ceae1600",
+            "name" : "Поиск_и_добавление_Нет в списке",
+            "source" : "87e98890ceae1600.png",
+            "type" : "image/png",
+            "size" : 91185
+          } ],
+          "parameters" : [ {
+            "name" : "item",
+            "value" : "Нет в списке"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Заполнение поля даты",
+          "time" : {
+            "start" : 1753842833082,
+            "stop" : 1753842842431,
+            "duration" : 9349
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить поле даты",
+            "time" : {
+              "start" : 1753842833082,
+              "stop" : 1753842840794,
+              "duration" : 7712
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Создание карты дат",
+              "time" : {
+                "start" : 1753842833082,
+                "stop" : 1753842833106,
+                "duration" : 24
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Получить дату в формате dd.MM.yyyy",
+                "time" : {
+                  "start" : 1753842833082,
+                  "stop" : 1753842833083,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:33:53 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy",
+                "time" : {
+                  "start" : 1753842833083,
+                  "stop" : 1753842833105,
+                  "duration" : 22
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:33:53 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753842833105,
+                  "stop" : 1753842833106,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:33:53 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату в формате dd MMM yyyy (русский)",
+                "time" : {
+                  "start" : 1753842833106,
+                  "stop" : 1753842833106,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "modifiedDate",
+                  "value" : "Tue Jul 29 05:33:53 MSK 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              }, {
+                "name" : "Получить дату с сокращённым месяцем (русский)",
+                "time" : {
+                  "start" : 1753842833106,
+                  "stop" : 1753842833106,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "ddMMMMyyyyRussian",
+                  "value" : "29 июля 2025"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "daysToSubtract",
+                "value" : "1"
+              }, {
+                "name" : "monthsToSubtract",
+                "value" : "0"
+              }, {
+                "name" : "yearsToSubtract",
+                "value" : "0"
+              } ],
+              "stepsCount" : 5,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "cc2df7ead3cff762",
+              "name" : "Скриншот_после_заполнения_даты",
+              "source" : "cc2df7ead3cff762.png",
+              "type" : "image/png",
+              "size" : 80308
+            } ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "1"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "stepsCount" : 6,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "8efb54e2fbaef05b",
+            "name" : "Заполнение_поля_даты",
+            "source" : "8efb54e2fbaef05b.png",
+            "type" : "image/png",
+            "size" : 80308
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверка наличия подтверждения вакцинации",
+          "time" : {
+            "start" : 1753842842431,
+            "stop" : 1753842844299,
+            "duration" : 1868
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e549fcc202340f37",
+            "name" : "Подтверждение_вакцинации",
+            "source" : "e549fcc202340f37.png",
+            "type" : "image/png",
+            "size" : 80308
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Закрытие окна после добавления вакцинации",
+          "time" : {
+            "start" : 1753842844299,
+            "stop" : 1753842846069,
+            "duration" : 1770
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8d0dc38b8af3d419",
+            "name" : "Закрытие_окна_после_добавления_вакцинации",
+            "source" : "8d0dc38b8af3d419.png",
+            "type" : "image/png",
+            "size" : 74784
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание отображения списка вакцинаций",
+          "time" : {
+            "start" : 1753842846069,
+            "stop" : 1753842847834,
+            "duration" : 1765
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "909f75037576a59f",
+            "name" : "Ожидание_списка_вакцинаций",
+            "source" : "909f75037576a59f.png",
+            "type" : "image/png",
+            "size" : 74784
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "deb580323c4c1416",
+          "name" : "Добавление_вакцинации_вручную",
+          "source" : "deb580323c4c1416.png",
+          "type" : "image/png",
+          "size" : 74784
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 15,
+        "hasContent" : true,
+        "attachmentsCount" : 10,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Удалить вакцинацию",
+        "time" : {
+          "start" : 1753842849772,
+          "stop" : 1753842869772,
+          "duration" : 20000
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить количество вакцинаций до добавления",
+          "time" : {
+            "start" : 1753842849772,
+            "stop" : 1753842850095,
+            "duration" : 323
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "bc15fe1f504f6d7b",
+            "name" : "Количество вакцинаций до добавления",
+            "source" : "bc15fe1f504f6d7b.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Количество вакцинаций до удаления: 1",
+          "time" : {
+            "start" : 1753842850095,
+            "stop" : 1753842851685,
+            "duration" : 1590
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "87100328e29f24c0",
+            "name" : "Количество_до_удаления_вакцинации",
+            "source" : "87100328e29f24c0.png",
+            "type" : "image/png",
+            "size" : 74784
+          } ],
+          "parameters" : [ {
+            "name" : "countBefore",
+            "value" : "1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Клик на кнопку удаления для последней вакцинации",
+          "time" : {
+            "start" : 1753842851685,
+            "stop" : 1753842853897,
+            "duration" : 2212
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "9c4cbb15c6b1578f",
+            "name" : "Удаление_последней_вакцинации",
+            "source" : "9c4cbb15c6b1578f.png",
+            "type" : "image/png",
+            "size" : 77667
+          } ],
+          "parameters" : [ {
+            "name" : "vaccinationIndex",
+            "value" : "0"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание появления подтверждения удаления",
+          "time" : {
+            "start" : 1753842853897,
+            "stop" : 1753842855583,
+            "duration" : 1686
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c31f39285fa1858f",
+            "name" : "Ожидание_подтверждения_удаления",
+            "source" : "c31f39285fa1858f.png",
+            "type" : "image/png",
+            "size" : 77667
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Подтверждение удаления вакцинации",
+          "time" : {
+            "start" : 1753842855583,
+            "stop" : 1753842858148,
+            "duration" : 2565
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "76900326ea81a34b",
+            "name" : "Подтверждение_удаления_вакцинации",
+            "source" : "76900326ea81a34b.png",
+            "type" : "image/png",
+            "size" : 64535
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Закрытие после удаления вакцинации",
+          "time" : {
+            "start" : 1753842858148,
+            "stop" : 1753842859939,
+            "duration" : 1791
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "881cb325848e0573",
+            "name" : "Закрытие_после_удаления_вакцинации",
+            "source" : "881cb325848e0573.png",
+            "type" : "image/png",
+            "size" : 85572
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Получить количество вакцинаций до добавления",
+          "time" : {
+            "start" : 1753842859940,
+            "stop" : 1753842864623,
+            "duration" : 4683
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "51fad8cd94a4cde0",
+            "name" : "Количество вакцинаций до добавления",
+            "source" : "51fad8cd94a4cde0.txt",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Количество вакцинаций после удаления: 0",
+          "time" : {
+            "start" : 1753842864626,
+            "stop" : 1753842866348,
+            "duration" : 1722
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "bd0c5dd81351d078",
+            "name" : "Количество_после_удаления_вакцинации",
+            "source" : "bd0c5dd81351d078.png",
+            "type" : "image/png",
+            "size" : 85572
+          } ],
+          "parameters" : [ {
+            "name" : "countAfter",
+            "value" : "0"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверить, что количество вакцинаций уменьшилось на 1",
+          "time" : {
+            "start" : 1753842866348,
+            "stop" : 1753842868005,
+            "duration" : 1657
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "3d93f2801298f6a2",
+            "name" : "Проверка_удаления_вакцинации",
+            "source" : "3d93f2801298f6a2.png",
+            "type" : "image/png",
+            "size" : 85572
+          } ],
+          "parameters" : [ {
+            "name" : "countBefore",
+            "value" : "1"
+          }, {
+            "name" : "countAfter",
+            "value" : "0"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "8dcae64672d215a0",
+          "name" : "Количество вакцинаций до удаления",
+          "source" : "8dcae64672d215a0.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "7b16b42e24d0c3bf",
+          "name" : "Количество вакцинаций после удаления",
+          "source" : "7b16b42e24d0c3bf.txt",
+          "type" : "text/plain",
+          "size" : 1
+        }, {
+          "uid" : "9452a954c45f5973",
+          "name" : "После_удаления_вакцинации",
+          "source" : "9452a954c45f5973.png",
+          "type" : "image/png",
+          "size" : 85572
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 9,
+        "hasContent" : true,
+        "attachmentsCount" : 12,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 61,
+      "hasContent" : true,
+      "attachmentsCount" : 49,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 63,
+    "hasContent" : true,
+    "attachmentsCount" : 49,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "75085@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "vaccinationTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "e677b934151a1bf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753764415996,
+          "stop" : 1753764571022,
+          "duration" : 155026
+        }
+      }, {
+        "uid" : "6a6a131e5e9d34f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753272208516,
+          "stop" : 1753272369893,
+          "duration" : 161377
+        }
+      }, {
+        "uid" : "96836e32c84585b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753250220011,
+          "stop" : 1753250380050,
+          "duration" : 160039
+        }
+      }, {
+        "uid" : "78a272a75a5f867d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753094569030,
+          "stop" : 1753094724545,
+          "duration" : 155515
+        }
+      }, {
+        "uid" : "6e292f20e8f6e5da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752633607685,
+          "stop" : 1752633769272,
+          "duration" : 161587
+        }
+      }, {
+        "uid" : "95cb181fd0af438e",
+        "status" : "failed",
+        "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Данные о травме удалены\"]",
+        "time" : {
+          "start" : 1752564273019,
+          "stop" : 1752564374189,
+          "duration" : 101170
+        }
+      }, {
+        "uid" : "33d463845125adae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752499886749,
+          "stop" : 1752500053741,
+          "duration" : 166992
+        }
+      }, {
+        "uid" : "3b9605db8cf8d0a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751639373084,
+          "stop" : 1751639662053,
+          "duration" : 288969
+        }
+      }, {
+        "uid" : "bc4ac77ebfd98f91",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+        "time" : {
+          "start" : 1751472638362,
+          "stop" : 1751472774015,
+          "duration" : 135653
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5887a79a041850f7.json",
+  "parameterValues" : [ ]
+}

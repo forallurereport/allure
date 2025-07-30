@@ -4,11 +4,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "c71f2a8b2366876e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753853156138,
+        "stop" : 1753853314159,
+        "duration" : 158021
+      }
+    }, {
       "uid" : "6e272ab0e801ec2e",
       "status" : "passed",
       "time" : {
@@ -88,12 +96,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "36c95fc5fd462433",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753850262537,
+        "stop" : 1753850262537,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5ac38fbc6799af23",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
@@ -237,11 +254,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "93f7064ff97bcd20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753846753201,
+        "stop" : 1753846934308,
+        "duration" : 181107
+      }
+    }, {
       "uid" : "cbd1a388f903f212",
       "status" : "passed",
       "time" : {
@@ -322,11 +347,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "b3c42b74ebc161b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753846451518,
+        "stop" : 1753846594402,
+        "duration" : 142884
+      }
+    }, {
       "uid" : "9e8d0b4e518ba8ee",
       "status" : "passed",
       "time" : {
@@ -407,11 +440,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "28383d516f9fe8b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753842871806,
+        "stop" : 1753843021150,
+        "duration" : 149344
+      }
+    }, {
       "uid" : "d917f1eb66f91cdf",
       "status" : "passed",
       "time" : {
@@ -490,13 +531,22 @@
   "bab2db8c34b5d7def1516d924c3de591" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "e6b3595eb7d88804",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753854763865,
+        "stop" : 1753854830093,
+        "duration" : 66228
+      }
+    }, {
       "uid" : "e3ab613abddba655",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -557,13 +607,22 @@
   "f806401a4fe5145ec0e282970490ec1" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "3ad7c082564be92a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855614546,
+        "stop" : 1753855671877,
+        "duration" : 57331
+      }
+    }, {
       "uid" : "9e6c02e2c487f6fc",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -651,11 +710,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "5887a79a041850f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753842700524,
+        "stop" : 1753842871790,
+        "duration" : 171266
+      }
+    }, {
       "uid" : "e677b934151a1bf5",
       "status" : "passed",
       "time" : {
@@ -735,12 +802,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "531289a90ceb78ac",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753850262540,
+        "stop" : 1753850262540,
+        "duration" : 0
+      }
+    }, {
       "uid" : "8aff099b94f083a1",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
@@ -826,13 +902,22 @@
   "43654123208c6e7a3c356c0133360b1a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 6,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "7eb32cd5b1db5f38",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/button_text (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753854666932,
+        "stop" : 1753854700078,
+        "duration" : 33146
+      }
+    }, {
       "uid" : "54a91f93785d60f1",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/button_text (tried for 4 second(s) with 500 milliseconds interval)",
@@ -912,13 +997,22 @@
   "18ec24184790bbd2571b088796ff69b0" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "ef6776d742519853",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855844795,
+        "stop" : 1753855900583,
+        "duration" : 55788
+      }
+    }, {
       "uid" : "dd3935c18d24790a",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -1004,13 +1098,22 @@
   "75d4b60cd5c57d88e7622405baf8befb" : {
     "statistic" : {
       "failed" : 3,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "574af573c5f70320",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/popup_menu_button (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753856193835,
+        "stop" : 1753856274161,
+        "duration" : 80326
+      }
+    }, {
       "uid" : "564e40ce482cfde6",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
@@ -1098,11 +1201,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "e92e22db024ffcb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753847220937,
+        "stop" : 1753847331224,
+        "duration" : 110287
+      }
+    }, {
       "uid" : "d4c11bd917cfc0e9",
       "status" : "passed",
       "time" : {
@@ -1181,13 +1292,22 @@
   "31fef632ec4ee88d6e90966532bf9b1b" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "eb175992afe2920e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"На почту\")]/following-sibling::android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753854298767,
+        "stop" : 1753854442488,
+        "duration" : 143721
+      }
+    }, {
       "uid" : "672946f0c13acb87",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/button_text (tried for 4 second(s) with 500 milliseconds interval)",
@@ -1327,11 +1447,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "3c124246c6bcfd58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753842443375,
+        "stop" : 1753842700515,
+        "duration" : 257140
+      }
+    }, {
       "uid" : "13ce788ac9b122b9",
       "status" : "passed",
       "time" : {
@@ -1411,11 +1539,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "dfe6a36c14ba0630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753843021717,
+        "stop" : 1753843142928,
+        "duration" : 121211
+      }
+    }, {
       "uid" : "d9245e3129df4e55",
       "status" : "passed",
       "time" : {
@@ -1496,11 +1632,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "dfe4aa3677bfd9fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753843609050,
+        "stop" : 1753843722310,
+        "duration" : 113260
+      }
+    }, {
       "uid" : "18f45105836cd104",
       "status" : "passed",
       "time" : {
@@ -1584,14 +1728,23 @@
   },
   "894c7f397b07a6c95533ffa69946e188" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "dc5f853036f89a22",
+      "status" : "failed",
+      "statusDetails" : "Should not be able to save conclusion with missing required fields",
+      "time" : {
+        "start" : 1753855046171,
+        "stop" : 1753855115951,
+        "duration" : 69780
+      }
+    }, {
       "uid" : "2568e18b741345de",
       "status" : "failed",
       "statusDetails" : "Should not be able to save conclusion with missing required fields",
@@ -1632,13 +1785,22 @@
   "7d315c9d58b3c2fd361133fc95ee854f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b7c976edda3671f7",
+      "status" : "broken",
+      "statusDetails" : "Registration failed for all available days",
+      "time" : {
+        "start" : 1753855175268,
+        "stop" : 1753855500173,
+        "duration" : 324905
+      }
+    }, {
       "uid" : "d9ea7059530286cb",
       "status" : "broken",
       "statusDetails" : "Registration failed for all available days",
@@ -1700,11 +1862,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "6a1e1ac2dfc2b63b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753842043932,
+        "stop" : 1753842281238,
+        "duration" : 237306
+      }
+    }, {
       "uid" : "2a945c66c2bed337",
       "status" : "passed",
       "time" : {
@@ -1785,11 +1955,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "aabac77cfcde1f5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753846934314,
+        "stop" : 1753847047068,
+        "duration" : 112754
+      }
+    }, {
       "uid" : "c0caf2ba24c5c74c",
       "status" : "passed",
       "time" : {
@@ -1868,13 +2046,22 @@
   "18b983ac3d011f2581b57cffec2c2fc1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "830be73eb36f9d98",
+      "status" : "broken",
+      "statusDetails" : "Failed to verify cancellation: Appointment is still in timeline after cancellation",
+      "time" : {
+        "start" : 1753854967651,
+        "stop" : 1753855046163,
+        "duration" : 78512
+      }
+    }, {
       "uid" : "147aac1a1aad3fa",
       "status" : "passed",
       "time" : {
@@ -1911,13 +2098,22 @@
   "d839064510354c59ad3042a75e06a20e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 9,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "395384fb6d821f11",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753854517233,
+        "stop" : 1753854592542,
+        "duration" : 75309
+      }
+    }, {
       "uid" : "1523bd7a4a5b29c7",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAM() throws java.lang.InterruptedException is @Disabled",
@@ -2005,11 +2201,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "ea0b6cb2b8577baa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753853859722,
+        "stop" : 1753854111125,
+        "duration" : 251403
+      }
+    }, {
       "uid" : "bd73e30792ba36be",
       "status" : "passed",
       "time" : {
@@ -2090,11 +2294,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "69577b8b761408ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753843432895,
+        "stop" : 1753843501223,
+        "duration" : 68328
+      }
+    }, {
       "uid" : "1d8749bd39bd967b",
       "status" : "passed",
       "time" : {
@@ -2189,11 +2401,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "2769d4fd5daa95e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753843885562,
+        "stop" : 1753844089805,
+        "duration" : 204243
+      }
+    }, {
       "uid" : "f04d56a371e5900",
       "status" : "passed",
       "time" : {
@@ -2239,12 +2459,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "f8323da057309416",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753850262543,
+        "stop" : 1753850262543,
+        "duration" : 0
+      }
+    }, {
       "uid" : "eed742d5978999d5",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
@@ -2330,13 +2559,22 @@
   "52cb1388c27fcb104d3bf655780ca1b1" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "42da60304b2b7433",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855557517,
+        "stop" : 1753855614538,
+        "duration" : 57021
+      }
+    }, {
       "uid" : "eca9fa2491d0152b",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -2442,13 +2680,22 @@
   "46a6fd15e128a621c14e8641409600b1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "cbf53bfa0c6f0168",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855115963,
+        "stop" : 1753855175260,
+        "duration" : 59297
+      }
+    }, {
       "uid" : "33036bd4245a766c",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -2491,11 +2738,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "86a18d97bc6bce61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753842281245,
+        "stop" : 1753842443348,
+        "duration" : 162103
+      }
+    }, {
       "uid" : "9305fc921c0f14db",
       "status" : "passed",
       "time" : {
@@ -2574,13 +2829,22 @@
   "fe81c9de9a3b137531503ead196a3e40" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "40390a7502f0fd53",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855983754,
+        "stop" : 1753856040173,
+        "duration" : 56419
+      }
+    }, {
       "uid" : "867ae381543c17fb",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -2668,11 +2932,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "19a733bc5feb2402",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753843722348,
+        "stop" : 1753843885549,
+        "duration" : 163201
+      }
+    }, {
       "uid" : "ee8fe08c2f6190bf",
       "status" : "passed",
       "time" : {
@@ -2719,11 +2991,19 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "885bdc9c46878e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753844505633,
+        "stop" : 1753846451507,
+        "duration" : 1945874
+      }
+    }, {
       "uid" : "8a10538a460f5f37",
       "status" : "passed",
       "time" : {
@@ -2798,11 +3078,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "1507574cdb571813",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753850114930,
+        "stop" : 1753850185599,
+        "duration" : 70669
+      }
+    }, {
       "uid" : "7ec4226421ab31be",
       "status" : "passed",
       "time" : {
@@ -2840,12 +3128,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "697615e07a676b91",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753847839353,
+        "stop" : 1753847839353,
+        "duration" : 0
+      }
+    }, {
       "uid" : "366d80ee1c37d40b",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
@@ -2928,16 +3225,45 @@
       }
     } ]
   },
+  "4781f172fc53ddf6d8b9250d31067a99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9fbc1ac342baa31",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/action_contact (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753856157084,
+        "stop" : 1753856193826,
+        "duration" : 36742
+      }
+    } ]
+  },
   "560ede97c4c2afdae332f33b4e3d1494" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "f0bdb69d09245358",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753847993149,
+        "stop" : 1753847993149,
+        "duration" : 0
+      }
+    }, {
       "uid" : "67330120e50cf515",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
@@ -3025,11 +3351,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "6c4fdca7414c489f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753847515271,
+        "stop" : 1753847694721,
+        "duration" : 179450
+      }
+    }, {
       "uid" : "fd6cf9b69b282ca",
       "status" : "passed",
       "time" : {
@@ -3110,11 +3444,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5d6858aa81af800a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753849357381,
+        "stop" : 1753849435070,
+        "duration" : 77689
+      }
+    }, {
       "uid" : "a193872ad0fd0dd4",
       "status" : "passed",
       "time" : {
@@ -3151,13 +3493,22 @@
   "2898282340b486d23243848ed9820086" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "bdc68ad7d2154eec",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753856099043,
+        "stop" : 1753856157064,
+        "duration" : 58021
+      }
+    }, {
       "uid" : "44e8ce33277ec5fd",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -3245,11 +3596,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "c4a4698403d509f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753847839355,
+        "stop" : 1753847915222,
+        "duration" : 75867
+      }
+    }, {
       "uid" : "7be59c8d28fbff19",
       "status" : "passed",
       "time" : {
@@ -3327,13 +3686,22 @@
   "f7831b04c8295468701941be18dcd5d5" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 9,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "95c0ef6992fc1d52",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Аккаунт удален\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753854111135,
+        "stop" : 1753854298757,
+        "duration" : 187622
+      }
+    }, {
       "uid" : "b7f02bcc8cf811d6",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAV() throws java.lang.InterruptedException is @Disabled",
@@ -3421,11 +3789,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "99c6357a8f81ad69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753847694729,
+        "stop" : 1753847839346,
+        "duration" : 144617
+      }
+    }, {
       "uid" : "1c670a6968fabbb9",
       "status" : "passed",
       "time" : {
@@ -3504,13 +3880,22 @@
   "d69edb2c74d420771efbbb373b3d27e1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f6ee9a55972c48b3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753854700107,
+        "stop" : 1753854763859,
+        "duration" : 63752
+      }
+    }, {
       "uid" : "6649bc5878ead4c9",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -3553,11 +3938,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "7ad6717dd43dd254",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753853314170,
+        "stop" : 1753853617805,
+        "duration" : 303635
+      }
+    }, {
       "uid" : "aca75092009a1ea4",
       "status" : "passed",
       "time" : {
@@ -3636,13 +4029,22 @@
   "601799a9efc28408ce8bde27845aca08" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "e55a40cee92d11c1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855728753,
+        "stop" : 1753855784836,
+        "duration" : 56083
+      }
+    }, {
       "uid" : "e53ab27401b0b0fb",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -3728,13 +4130,22 @@
   "1068dfde36f458b4b76be55e159487e0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "1afb9c5318e9e16e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753854442497,
+        "stop" : 1753854517226,
+        "duration" : 74729
+      }
+    }, {
       "uid" : "3cd64eae482b6584",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
@@ -3816,12 +4227,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "cbe8af5972061f2e",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753850262545,
+        "stop" : 1753850262545,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f90294ef98b81a6c",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
@@ -3909,11 +4329,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "c2ec3a1a8f3685ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753848106433,
+        "stop" : 1753848240723,
+        "duration" : 134290
+      }
+    }, {
       "uid" : "923c51f220c1e3e9",
       "status" : "passed",
       "time" : {
@@ -3993,11 +4421,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "5b58294d04992942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753847993150,
+        "stop" : 1753848106430,
+        "duration" : 113280
+      }
+    }, {
       "uid" : "ab3f1c098b789fb1",
       "status" : "passed",
       "time" : {
@@ -4076,13 +4512,22 @@
   "784bb5000701054f526ae1e00939cbfd" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "188da21f409df2b4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753856040185,
+        "stop" : 1753856099022,
+        "duration" : 58837
+      }
+    }, {
       "uid" : "6c92524ad084d01a",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -4170,11 +4615,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "b6d637aa20577a54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753843142935,
+        "stop" : 1753843288512,
+        "duration" : 145577
+      }
+    }, {
       "uid" : "a63037e84bd86a8b",
       "status" : "passed",
       "time" : {
@@ -4254,12 +4707,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "a9502713eeb008bb",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753850262539,
+        "stop" : 1753850262539,
+        "duration" : 0
+      }
+    }, {
       "uid" : "41b095d81837eac7",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
@@ -4345,13 +4807,22 @@
   "e5afd0724e8caa80e4cfe53484cc03c6" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "de85c59c15c79b5e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855500188,
+        "stop" : 1753855557510,
+        "duration" : 57322
+      }
+    }, {
       "uid" : "53cd1ecf8dd0b060",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -4464,13 +4935,22 @@
   "e03e9d43e0d47c51e5c1200eee81632f" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "886c7ed93e41cd4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855671882,
+        "stop" : 1753855728745,
+        "duration" : 56863
+      }
+    }, {
       "uid" : "21a81dac154f1b26",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -4578,11 +5058,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "aee1a628351130ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753846594432,
+        "stop" : 1753846753193,
+        "duration" : 158761
+      }
+    }, {
       "uid" : "53f10e986315ab7d",
       "status" : "passed",
       "time" : {
@@ -4682,11 +5170,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "a418465c74468976",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753847331230,
+        "stop" : 1753847515258,
+        "duration" : 184028
+      }
+    }, {
       "uid" : "d43ac621500921ff",
       "status" : "passed",
       "time" : {
@@ -4767,11 +5263,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "5f8d46e33d8c3a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753847047086,
+        "stop" : 1753847220843,
+        "duration" : 173757
+      }
+    }, {
       "uid" : "9569bcb027b61aa2",
       "status" : "passed",
       "time" : {
@@ -4852,11 +5356,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "794aabdacb64b623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753849915048,
+        "stop" : 1753849992043,
+        "duration" : 76995
+      }
+    }, {
       "uid" : "16b72162e993efad",
       "status" : "passed",
       "time" : {
@@ -4895,11 +5407,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "3a78ce47d9ac1296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753853733996,
+        "stop" : 1753853859704,
+        "duration" : 125708
+      }
+    }, {
       "uid" : "e73e3fd87717f4cd",
       "status" : "passed",
       "time" : {
@@ -4969,12 +5489,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "21aa9d8dc706afa0",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753850262541,
+        "stop" : 1753850262541,
+        "duration" : 0
+      }
+    }, {
       "uid" : "40cd8e4387fe265e",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
@@ -5060,13 +5589,22 @@
   "56be4d609e04c4a7d34498ed52ca953b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "608d56fc58119416",
+      "status" : "broken",
+      "statusDetails" : "Cannot find registration button",
+      "time" : {
+        "start" : 1753854830102,
+        "stop" : 1753854967637,
+        "duration" : 137535
+      }
+    }, {
       "uid" : "a4c16d187b0ae1fa",
       "status" : "broken",
       "statusDetails" : "Registration failed for all available days",
@@ -5108,12 +5646,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "c3c249b75ef13a5c",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753850262544,
+        "stop" : 1753850262544,
+        "duration" : 0
+      }
+    }, {
       "uid" : "2b40f583a3709f0",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
@@ -5196,16 +5743,43 @@
       }
     } ]
   },
+  "577f086c10e855f56235568ddd8677fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67afc66201939de5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753848699191,
+        "stop" : 1753848723046,
+        "duration" : 23855
+      }
+    } ]
+  },
   "d57ea9efb450c437ffb55e6b3cbb5684" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5f4193ac610f9d43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753849832228,
+        "stop" : 1753849915043,
+        "duration" : 82815
+      }
+    }, {
       "uid" : "9b18207cf5cc38dc",
       "status" : "passed",
       "time" : {
@@ -5244,11 +5818,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "49189de38cbaa3d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753844089942,
+        "stop" : 1753844322899,
+        "duration" : 232957
+      }
+    }, {
       "uid" : "c767c04e038c5ece",
       "status" : "passed",
       "time" : {
@@ -5295,11 +5877,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "92caeeed984ac607",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753844322941,
+        "stop" : 1753844505578,
+        "duration" : 182637
+      }
+    }, {
       "uid" : "e13ae261ccbf2c54",
       "status" : "passed",
       "time" : {
@@ -5364,13 +5954,22 @@
   "196479d062f0019fa7abf131175caed" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 8,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "c7b417a00937387a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753854592564,
+        "stop" : 1753854666923,
+        "duration" : 74359
+      }
+    }, {
       "uid" : "6d8cf3c3c6b29d38",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceCV() throws java.lang.InterruptedException is @Disabled",
@@ -5458,11 +6057,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "94cbcca03feb546c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753848967093,
+        "stop" : 1753849044343,
+        "duration" : 77250
+      }
+    }, {
       "uid" : "1790522ae2474fa6",
       "status" : "passed",
       "time" : {
@@ -5501,11 +6108,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "fc7a7ccfb5800ae5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753850185602,
+        "stop" : 1753850262525,
+        "duration" : 76923
+      }
+    }, {
       "uid" : "4bcdb0a702802ac8",
       "status" : "passed",
       "time" : {
@@ -5599,12 +6214,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "bf4aa68bfbe9d4ea",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1753850262542,
+        "stop" : 1753850262542,
+        "duration" : 0
+      }
+    }, {
       "uid" : "e1a711d1b5b0919c",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
@@ -5710,13 +6334,22 @@
   "6c013786e546045f008ddc8f54b14c10" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "6f0fb4f88d3e3980",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855784840,
+        "stop" : 1753855844788,
+        "duration" : 59948
+      }
+    }, {
       "uid" : "fe719e5577fe9c47",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -5802,13 +6435,22 @@
   "493f4f9d6566967d28d36f973e930190" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "98608f78b3c2a4d0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1753855900592,
+        "stop" : 1753855983743,
+        "duration" : 83151
+      }
+    }, {
       "uid" : "492e4e5203cf8b27",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -5896,11 +6538,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "3dca6725be161b75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753847915226,
+        "stop" : 1753847993145,
+        "duration" : 77919
+      }
+    }, {
       "uid" : "82610a3d41aae269",
       "status" : "passed",
       "time" : {

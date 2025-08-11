@@ -4,11 +4,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "12f7c733b5969c8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754929953663,
+        "stop" : 1754930109608,
+        "duration" : 155945
+      }
+    }, {
       "uid" : "c71f2a8b2366876e",
       "status" : "passed",
       "time" : {
@@ -96,12 +104,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "502dd352aaf537ca",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754934344632,
+        "stop" : 1754934344632,
+        "duration" : 0
+      }
+    }, {
       "uid" : "36c95fc5fd462433",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
@@ -252,13 +269,22 @@
   "877d2ccb612b12db0f1a13f2fbef2991" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "8517797a837188a3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938051572,
+        "stop" : 1754938097527,
+        "duration" : 45955
+      }
+    }, {
       "uid" : "93f7064ff97bcd20",
       "status" : "passed",
       "time" : {
@@ -345,13 +371,22 @@
   "903836de96a677aa4aecee735017c3f6" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "ec91f718ac4f8583",
+      "status" : "broken",
+      "statusDetails" : "Тест модальных окон и товаров провален",
+      "time" : {
+        "start" : 1754939532221,
+        "stop" : 1754939581307,
+        "duration" : 49086
+      }
+    }, {
       "uid" : "b3c42b74ebc161b7",
       "status" : "passed",
       "time" : {
@@ -440,11 +475,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "b0c38bea70e04f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754930939784,
+        "stop" : 1754931084153,
+        "duration" : 144369
+      }
+    }, {
       "uid" : "28383d516f9fe8b3",
       "status" : "passed",
       "time" : {
@@ -531,13 +574,22 @@
   "bab2db8c34b5d7def1516d924c3de591" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "5bd90d315646149b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937497507,
+        "stop" : 1754937542539,
+        "duration" : 45032
+      }
+    }, {
       "uid" : "e6b3595eb7d88804",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -607,13 +659,22 @@
   "f806401a4fe5145ec0e282970490ec1" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "87761ce53d09f6d1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939346775,
+        "stop" : 1754939391709,
+        "duration" : 44934
+      }
+    }, {
       "uid" : "3ad7c082564be92a",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -710,11 +771,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "f2c611bf2ef6a5f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754930773919,
+        "stop" : 1754930939779,
+        "duration" : 165860
+      }
+    }, {
       "uid" : "5887a79a041850f7",
       "status" : "passed",
       "time" : {
@@ -802,12 +871,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "8a71a76c90dba852",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754934344634,
+        "stop" : 1754934344634,
+        "duration" : 0
+      }
+    }, {
       "uid" : "531289a90ceb78ac",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
@@ -901,14 +979,23 @@
   },
   "43654123208c6e7a3c356c0133360b1a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 4,
       "skipped" : 0,
       "passed" : 6,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "fac8faa547891541",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')]",
+      "time" : {
+        "start" : 1754938931777,
+        "stop" : 1754939023463,
+        "duration" : 91686
+      }
+    }, {
       "uid" : "7eb32cd5b1db5f38",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/button_text (tried for 4 second(s) with 500 milliseconds interval)",
@@ -997,13 +1084,22 @@
   "18ec24184790bbd2571b088796ff69b0" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "4866e7c3f32ca512",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939069287,
+        "stop" : 1754939114147,
+        "duration" : 44860
+      }
+    }, {
       "uid" : "ef6776d742519853",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -1098,13 +1194,22 @@
   "75d4b60cd5c57d88e7622405baf8befb" : {
     "statistic" : {
       "failed" : 3,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "1b4d5eaa5795864d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939804588,
+        "stop" : 1754939849307,
+        "duration" : 44719
+      }
+    }, {
       "uid" : "574af573c5f70320",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/popup_menu_button (tried for 15 second(s) with 500 milliseconds interval)",
@@ -1199,13 +1304,22 @@
   "d7a09ac00e6080db4671a69b7f8f8d8b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "f3e99318c62131a3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938514458,
+        "stop" : 1754938561684,
+        "duration" : 47226
+      }
+    }, {
       "uid" : "e92e22db024ffcb4",
       "status" : "passed",
       "time" : {
@@ -1292,13 +1406,22 @@
   "31fef632ec4ee88d6e90966532bf9b1b" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "1415a167bb0c3305",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938860124,
+        "stop" : 1754938931773,
+        "duration" : 71649
+      }
+    }, {
       "uid" : "eb175992afe2920e",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"На почту\")]/following-sibling::android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText (tried for 15 second(s) with 500 milliseconds interval)",
@@ -1447,11 +1570,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "38360f4f59838b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754930497619,
+        "stop" : 1754930773911,
+        "duration" : 276292
+      }
+    }, {
       "uid" : "3c124246c6bcfd58",
       "status" : "passed",
       "time" : {
@@ -1539,11 +1670,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "f78f5cf17ff4e9d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754931084158,
+        "stop" : 1754931198918,
+        "duration" : 114760
+      }
+    }, {
       "uid" : "dfe6a36c14ba0630",
       "status" : "passed",
       "time" : {
@@ -1630,13 +1769,22 @@
   "b76a326bd49d768ca63850901cbb024d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "2ac9fd04581ae63",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939675247,
+        "stop" : 1754939723931,
+        "duration" : 48684
+      }
+    }, {
       "uid" : "dfe4aa3677bfd9fb",
       "status" : "passed",
       "time" : {
@@ -1729,13 +1877,22 @@
   "894c7f397b07a6c95533ffa69946e188" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "3eccc1878974bd2a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937542546,
+        "stop" : 1754937589401,
+        "duration" : 46855
+      }
+    }, {
       "uid" : "dc5f853036f89a22",
       "status" : "failed",
       "statusDetails" : "Should not be able to save conclusion with missing required fields",
@@ -1785,13 +1942,22 @@
   "7d315c9d58b3c2fd361133fc95ee854f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "7c43f375c8506f2e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937681301,
+        "stop" : 1754937728451,
+        "duration" : 47150
+      }
+    }, {
       "uid" : "b7c976edda3671f7",
       "status" : "broken",
       "statusDetails" : "Registration failed for all available days",
@@ -1862,11 +2028,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "dcb5bbbb96f9e738",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754930109665,
+        "stop" : 1754930342633,
+        "duration" : 232968
+      }
+    }, {
       "uid" : "6a1e1ac2dfc2b63b",
       "status" : "passed",
       "time" : {
@@ -1953,13 +2127,22 @@
   "171f22ce60306c9f366a7b5a1d834ae4" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "329bfe625e36af02",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938006022,
+        "stop" : 1754938051565,
+        "duration" : 45543
+      }
+    }, {
       "uid" : "aabac77cfcde1f5a",
       "status" : "passed",
       "time" : {
@@ -2046,13 +2229,22 @@
   "18b983ac3d011f2581b57cffec2c2fc1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "bde7b9df2c73bb13",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937912973,
+        "stop" : 1754937959393,
+        "duration" : 46420
+      }
+    }, {
       "uid" : "830be73eb36f9d98",
       "status" : "broken",
       "statusDetails" : "Failed to verify cancellation: Appointment is still in timeline after cancellation",
@@ -2098,13 +2290,22 @@
   "d839064510354c59ad3042a75e06a20e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 9,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "228c1375b771b53c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/button_text (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938684975,
+        "stop" : 1754938716145,
+        "duration" : 31170
+      }
+    }, {
       "uid" : "395384fb6d821f11",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
@@ -2199,13 +2400,22 @@
   "e9ea1acc5a05ef13141367b5be0fa5" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "36ad974c4c98acd2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938788656,
+        "stop" : 1754938860120,
+        "duration" : 71464
+      }
+    }, {
       "uid" : "ea0b6cb2b8577baa",
       "status" : "passed",
       "time" : {
@@ -2292,13 +2502,22 @@
   "97960b3265d6a8cb0001717f51777f6b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f4b2e0f6e775a3d4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939630520,
+        "stop" : 1754939675237,
+        "duration" : 44717
+      }
+    }, {
       "uid" : "69577b8b761408ad",
       "status" : "passed",
       "time" : {
@@ -2401,11 +2620,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "984e7f7da518ad02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754931912951,
+        "stop" : 1754932072509,
+        "duration" : 159558
+      }
+    }, {
       "uid" : "2769d4fd5daa95e",
       "status" : "passed",
       "time" : {
@@ -2459,12 +2686,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "e14d9bf7c988029d",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754934344637,
+        "stop" : 1754934344637,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f8323da057309416",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
@@ -2559,13 +2795,22 @@
   "52cb1388c27fcb104d3bf655780ca1b1" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "7e7c1b692df93459",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939299640,
+        "stop" : 1754939346770,
+        "duration" : 47130
+      }
+    }, {
       "uid" : "42da60304b2b7433",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -2680,13 +2925,22 @@
   "46a6fd15e128a621c14e8641409600b1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "9743d0c9c9bac9e0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937635774,
+        "stop" : 1754937681181,
+        "duration" : 45407
+      }
+    }, {
       "uid" : "cbf53bfa0c6f0168",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -2738,11 +2992,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "e0e386e8780c41b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754930342644,
+        "stop" : 1754930497611,
+        "duration" : 154967
+      }
+    }, {
       "uid" : "86a18d97bc6bce61",
       "status" : "passed",
       "time" : {
@@ -2829,13 +3091,22 @@
   "fe81c9de9a3b137531503ead196a3e40" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "df1edb67ce28ae3e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939483904,
+        "stop" : 1754939532213,
+        "duration" : 48309
+      }
+    }, {
       "uid" : "40390a7502f0fd53",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -2932,11 +3203,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "644a873793da87bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754931776214,
+        "stop" : 1754931912946,
+        "duration" : 136732
+      }
+    }, {
       "uid" : "19a733bc5feb2402",
       "status" : "passed",
       "time" : {
@@ -2989,13 +3268,22 @@
   "b045c964eb716a32b5421d102b3035a1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "12ef27733b12a39c",
+      "status" : "broken",
+      "statusDetails" : "Тест навигации по слайдеру провален",
+      "time" : {
+        "start" : 1754939581313,
+        "stop" : 1754939630509,
+        "duration" : 49196
+      }
+    }, {
       "uid" : "885bdc9c46878e8",
       "status" : "passed",
       "time" : {
@@ -3076,13 +3364,22 @@
   "d851832cd2ceb5f3bbf56aa23bb8576" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "77f81ea83997d414",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937728457,
+        "stop" : 1754937776141,
+        "duration" : 47684
+      }
+    }, {
       "uid" : "1507574cdb571813",
       "status" : "passed",
       "time" : {
@@ -3128,12 +3425,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "eb718f183ed48a4",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754932878715,
+        "stop" : 1754932878715,
+        "duration" : 0
+      }
+    }, {
       "uid" : "697615e07a676b91",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
@@ -3228,13 +3534,22 @@
   "4781f172fc53ddf6d8b9250d31067a99" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d9c737f19d182a00",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/action_contact (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939771768,
+        "stop" : 1754939804583,
+        "duration" : 32815
+      }
+    }, {
       "uid" : "b9fbc1ac342baa31",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/action_contact (tried for 15 second(s) with 500 milliseconds interval)",
@@ -3249,12 +3564,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "15403c7c1d73249b",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754932971598,
+        "stop" : 1754932971598,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f0bdb69d09245358",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
@@ -3349,13 +3673,22 @@
   "3b75c42caae7b8bda70cb5b50052d65" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "d9b1261db7417db4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938287203,
+        "stop" : 1754938332985,
+        "duration" : 45782
+      }
+    }, {
       "uid" : "6c4fdca7414c489f",
       "status" : "passed",
       "time" : {
@@ -3442,13 +3775,22 @@
   "e0ae6fe56703946367c86442216294b5" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "c070e8b8de291234",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937776146,
+        "stop" : 1754937822410,
+        "duration" : 46264
+      }
+    }, {
       "uid" : "5d6858aa81af800a",
       "status" : "passed",
       "time" : {
@@ -3493,13 +3835,22 @@
   "2898282340b486d23243848ed9820086" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "20eb0acc2d7ca2b0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939207885,
+        "stop" : 1754939253884,
+        "duration" : 45999
+      }
+    }, {
       "uid" : "bdc68ad7d2154eec",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -3594,13 +3945,22 @@
   "ba6a924fce26128c6ee2510e73e8a21d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "c4ce6e9ddd29541d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938332991,
+        "stop" : 1754938377040,
+        "duration" : 44049
+      }
+    }, {
       "uid" : "c4a4698403d509f7",
       "status" : "passed",
       "time" : {
@@ -3686,13 +4046,22 @@
   "f7831b04c8295468701941be18dcd5d5" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 9,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "8ee80cd73dba6fc3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/button_text (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938561692,
+        "stop" : 1754938592448,
+        "duration" : 30756
+      }
+    }, {
       "uid" : "95c0ef6992fc1d52",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Аккаунт удален\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -3787,13 +4156,22 @@
   "1861d2113478472056474c95422ed11b" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "9c035d3a519fedb",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938422738,
+        "stop" : 1754938469115,
+        "duration" : 46377
+      }
+    }, {
       "uid" : "99c6357a8f81ad69",
       "status" : "passed",
       "time" : {
@@ -3880,13 +4258,22 @@
   "d69edb2c74d420771efbbb373b3d27e1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "ccd6f060bc1ecbd7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937451270,
+        "stop" : 1754937497502,
+        "duration" : 46232
+      }
+    }, {
       "uid" : "f6ee9a55972c48b3",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -3938,11 +4325,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "8a1c4c4cb1e05944",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754931339200,
+        "stop" : 1754931636733,
+        "duration" : 297533
+      }
+    }, {
       "uid" : "7ad6717dd43dd254",
       "status" : "passed",
       "time" : {
@@ -4029,13 +4424,22 @@
   "601799a9efc28408ce8bde27845aca08" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "beb41222dd02211",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939023471,
+        "stop" : 1754939069279,
+        "duration" : 45808
+      }
+    }, {
       "uid" : "e55a40cee92d11c1",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -4129,14 +4533,23 @@
   },
   "1068dfde36f458b4b76be55e159487e0" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 5,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "2aa0f47494402e9f",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')]",
+      "time" : {
+        "start" : 1754938592454,
+        "stop" : 1754938684970,
+        "duration" : 92516
+      }
+    }, {
       "uid" : "1afb9c5318e9e16e",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
@@ -4227,12 +4640,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "4d77ee3c739bed14",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754934344639,
+        "stop" : 1754934344639,
+        "duration" : 0
+      }
+    }, {
       "uid" : "cbe8af5972061f2e",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
@@ -4327,13 +4749,22 @@
   "4d7588b6ca974609f15c061aa465fe80" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "e7b58093ee6cde31",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938190234,
+        "stop" : 1754938236633,
+        "duration" : 46399
+      }
+    }, {
       "uid" : "c2ec3a1a8f3685ac",
       "status" : "passed",
       "time" : {
@@ -4419,13 +4850,22 @@
   "91a94f66aeb0558dc939814d48ff7247" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "3ebda34649998378",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938469124,
+        "stop" : 1754938514449,
+        "duration" : 45325
+      }
+    }, {
       "uid" : "5b58294d04992942",
       "status" : "passed",
       "time" : {
@@ -4512,13 +4952,22 @@
   "784bb5000701054f526ae1e00939cbfd" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "3447159c2121ef84",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939159548,
+        "stop" : 1754939207879,
+        "duration" : 48331
+      }
+    }, {
       "uid" : "188da21f409df2b4",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -4615,11 +5064,19 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "95f315f3cde1441f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754931198921,
+        "stop" : 1754931339190,
+        "duration" : 140269
+      }
+    }, {
       "uid" : "b6d637aa20577a54",
       "status" : "passed",
       "time" : {
@@ -4707,12 +5164,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "a3d6e49ca9469ff1",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754934344633,
+        "stop" : 1754934344633,
+        "duration" : 0
+      }
+    }, {
       "uid" : "a9502713eeb008bb",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
@@ -4807,13 +5273,22 @@
   "e5afd0724e8caa80e4cfe53484cc03c6" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "40481fcd561e532f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939253889,
+        "stop" : 1754939299631,
+        "duration" : 45742
+      }
+    }, {
       "uid" : "de85c59c15c79b5e",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -4935,13 +5410,22 @@
   "e03e9d43e0d47c51e5c1200eee81632f" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "2fa6b69393ada029",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939391714,
+        "stop" : 1754939436222,
+        "duration" : 44508
+      }
+    }, {
       "uid" : "886c7ed93e41cd4",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -5056,13 +5540,22 @@
   "10c432b313dbf8f39c2d405907abdbdb" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "7a60b81005770bf4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938377047,
+        "stop" : 1754938422729,
+        "duration" : 45682
+      }
+    }, {
       "uid" : "aee1a628351130ab",
       "status" : "passed",
       "time" : {
@@ -5168,13 +5661,22 @@
   "1b75182e7b1e73cf5ae6d416e279d785" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "8dc52133895371d3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938097535,
+        "stop" : 1754938144705,
+        "duration" : 47170
+      }
+    }, {
       "uid" : "a418465c74468976",
       "status" : "passed",
       "time" : {
@@ -5261,13 +5763,22 @@
   "4286382df6cd5e81a6cfd8becf94837c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "c4e6a62db3ac52a3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938144712,
+        "stop" : 1754938190228,
+        "duration" : 45516
+      }
+    }, {
       "uid" : "5f8d46e33d8c3a6a",
       "status" : "passed",
       "time" : {
@@ -5354,13 +5865,22 @@
   "c2cc612905f07f77e2f38a980c3ef85e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "e8826b7673eccab6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937959400,
+        "stop" : 1754938006014,
+        "duration" : 46614
+      }
+    }, {
       "uid" : "794aabdacb64b623",
       "status" : "passed",
       "time" : {
@@ -5405,13 +5925,22 @@
   "fc22756d4ffb455bde934fd0a795811d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "f733db98d9ae3ceb",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939723936,
+        "stop" : 1754939771762,
+        "duration" : 47826
+      }
+    }, {
       "uid" : "3a78ce47d9ac1296",
       "status" : "passed",
       "time" : {
@@ -5489,12 +6018,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "293abe53363a8e",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754934344635,
+        "stop" : 1754934344635,
+        "duration" : 0
+      }
+    }, {
       "uid" : "21aa9d8dc706afa0",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
@@ -5589,13 +6127,22 @@
   "56be4d609e04c4a7d34498ed52ca953b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "a427c19797e042b2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937822417,
+        "stop" : 1754937867352,
+        "duration" : 44935
+      }
+    }, {
       "uid" : "608d56fc58119416",
       "status" : "broken",
       "statusDetails" : "Cannot find registration button",
@@ -5646,12 +6193,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "665e735301edbe5b",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754934344638,
+        "stop" : 1754934344638,
+        "duration" : 0
+      }
+    }, {
       "uid" : "c3c249b75ef13a5c",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
@@ -5748,11 +6304,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "95f570cea2f0b865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754933646309,
+        "stop" : 1754933669303,
+        "duration" : 22994
+      }
+    }, {
       "uid" : "67afc66201939de5",
       "status" : "passed",
       "time" : {
@@ -5765,13 +6329,22 @@
   "d57ea9efb450c437ffb55e6b3cbb5684" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "c5c9f10e4b7d2874",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937867360,
+        "stop" : 1754937912965,
+        "duration" : 45605
+      }
+    }, {
       "uid" : "5f4193ac610f9d43",
       "status" : "passed",
       "time" : {
@@ -5818,11 +6391,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "3fcc3f32dae0d8c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754932072513,
+        "stop" : 1754932255183,
+        "duration" : 182670
+      }
+    }, {
       "uid" : "49189de38cbaa3d1",
       "status" : "passed",
       "time" : {
@@ -5877,11 +6458,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "4f6b9dc3097b5bee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754932255188,
+        "stop" : 1754932412370,
+        "duration" : 157182
+      }
+    }, {
       "uid" : "92caeeed984ac607",
       "status" : "passed",
       "time" : {
@@ -5954,13 +6543,22 @@
   "196479d062f0019fa7abf131175caed" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 8,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "95e851febc3d3815",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938716150,
+        "stop" : 1754938788651,
+        "duration" : 72501
+      }
+    }, {
       "uid" : "c7b417a00937387a",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/input_code (tried for 15 second(s) with 500 milliseconds interval)",
@@ -6055,13 +6653,22 @@
   "3cb01562409746a91b163867edc81753" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "3f76458b8b67dda0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937405382,
+        "stop" : 1754937451264,
+        "duration" : 45882
+      }
+    }, {
       "uid" : "94cbcca03feb546c",
       "status" : "passed",
       "time" : {
@@ -6106,13 +6713,22 @@
   "781dd596a177ed31b84c12cd7ae3a5b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "934cac8a6812768",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754937589406,
+        "stop" : 1754937635767,
+        "duration" : 46361
+      }
+    }, {
       "uid" : "fc7a7ccfb5800ae5",
       "status" : "passed",
       "time" : {
@@ -6214,12 +6830,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 10,
+      "skipped" : 11,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "f1e80715d8840c47",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1754934344636,
+        "stop" : 1754934344636,
+        "duration" : 0
+      }
+    }, {
       "uid" : "bf4aa68bfbe9d4ea",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
@@ -6334,13 +6959,22 @@
   "6c013786e546045f008ddc8f54b14c10" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "58f3a5ec234b03ea",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939436229,
+        "stop" : 1754939483899,
+        "duration" : 47670
+      }
+    }, {
       "uid" : "6f0fb4f88d3e3980",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -6435,13 +7069,22 @@
   "493f4f9d6566967d28d36f973e930190" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "7172cf60a8e51874",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754939114155,
+        "stop" : 1754939159544,
+        "duration" : 45389
+      }
+    }, {
       "uid" : "98608f78b3c2a4d0",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 4 second(s) with 500 milliseconds interval)",
@@ -6536,13 +7179,22 @@
   "68b47b537cfcf9d4ef3daef0137ef71f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "c4f5f5afb7252ec6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1754938236638,
+        "stop" : 1754938287197,
+        "duration" : 50559
+      }
+    }, {
       "uid" : "3dca6725be161b75",
       "status" : "passed",
       "time" : {

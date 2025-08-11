@@ -1,0 +1,254 @@
+{
+  "uid" : "644a873793da87bd",
+  "name" : "adminSchedulesTest()",
+  "fullName" : "MobileTesting.tests.LKAdminTestsWEB.adminSchedulesTest",
+  "historyId" : "c27df41bb59a32b46295d4057ae0ee70",
+  "time" : {
+    "start" : 1754931776214,
+    "stop" : 1754931912946,
+    "duration" : 136732
+  },
+  "description" : "Тест клика на Расписание в меню",
+  "descriptionHtml" : "<p>Тест клика на Расписание в меню</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест клика на Расписание в меню",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Тест расписания",
+      "time" : {
+        "start" : 1754931827678,
+        "stop" : 1754931912800,
+        "duration" : 85122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу входа в админ панель",
+        "time" : {
+          "start" : 1754931827679,
+          "stop" : 1754931856942,
+          "duration" : 29263
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Открыть страницу входа в админ панель",
+        "time" : {
+          "start" : 1754931872022,
+          "stop" : 1754931893636,
+          "duration" : 21614
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Ввести email в поле входа",
+        "time" : {
+          "start" : 1754931893763,
+          "stop" : 1754931894773,
+          "duration" : 1010
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "lara.movsisyan+admin@overteam.ru"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Ввести пароль в поле входа",
+        "time" : {
+          "start" : 1754931894773,
+          "stop" : 1754931895481,
+          "duration" : 708
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "cNQCRNsje5NVAqG3"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Нажать кнопку входа",
+        "time" : {
+          "start" : 1754931895481,
+          "stop" : 1754931899734,
+          "duration" : 4253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверить заголовок консультаций",
+        "time" : {
+          "start" : 1754931899734,
+          "stop" : 1754931912800,
+          "duration" : 13066
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //h1[contains(text(), 'Консультации') or contains(text(), 'Consultations')]\") get text()",
+          "time" : {
+            "start" : 1754931906212,
+            "stop" : 1754931906308,
+            "duration" : 96
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "74251@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.LKAdminTestsWEB"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.LKAdminTestsWEB"
+  }, {
+    "name" : "testMethod",
+    "value" : "adminSchedulesTest"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.LKAdminTestsWEB"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "19a733bc5feb2402",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753843722348,
+          "stop" : 1753843885549,
+          "duration" : 163201
+        }
+      }, {
+        "uid" : "ee8fe08c2f6190bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753765516939,
+          "stop" : 1753765691306,
+          "duration" : 174367
+        }
+      }, {
+        "uid" : "9c22b7ae06931c96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753273332284,
+          "stop" : 1753273453965,
+          "duration" : 121681
+        }
+      }, {
+        "uid" : "b561c924229af982",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753251326175,
+          "stop" : 1753251507998,
+          "duration" : 181823
+        }
+      }, {
+        "uid" : "5b162b2cd480d51c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753095661284,
+          "stop" : 1753095778702,
+          "duration" : 117418
+        }
+      }, {
+        "uid" : "9f5c19367bc18b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752634557928,
+          "stop" : 1752634758021,
+          "duration" : 200093
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "644a873793da87bd.json",
+  "parameterValues" : [ ]
+}

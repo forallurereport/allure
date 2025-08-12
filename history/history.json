@@ -1,14 +1,23 @@
 {
   "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 2,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c705cad11b0bc923",
+      "status" : "failed",
+      "statusDetails" : "Element not found with accessibility ID: By.xpath: //XCUIElementTypeStaticText[@name=\"Заключения врачей\"]",
+      "time" : {
+        "start" : 1755005305592,
+        "stop" : 1755008496285,
+        "duration" : 3190693
+      }
+    }, {
       "uid" : "c16ba9ece67c1f12",
       "status" : "broken",
       "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c43:85cc:75f9:3193%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: AndroidDevice, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceName: 8ALX0UWHU, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, warnings: {}, webStorageEnabled: false}\nSession ID: e04a167d-e0f7-4510-acf2-3dd4be5f7878\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]}",
@@ -832,13 +841,22 @@
   "f67134439d58a9cfb24d3a9c728841eb" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "12059aadad34bab1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[contains(@name,\"медкарту\")] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1755014924495,
+        "stop" : 1755018015621,
+        "duration" : 3091126
+      }
+    }, {
       "uid" : "cfdf353a5eaff43",
       "status" : "broken",
       "statusDetails" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c43:85cc:75f9:3193%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: AndroidDevice, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c913f67f-6d30-40e8-bcc9-511a49e2e943\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]}",
@@ -1694,13 +1712,22 @@
   "26bac62248ca4bd68ebe8c33827f49f7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 10,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "325fec6073a93e83",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Original error: unexpected end of stream on http://0.0.0.0:4724/...\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c43:85cc:75f9:3193%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: driver.version: IOSDriver",
+      "time" : {
+        "start" : 1755031843055,
+        "stop" : 1755032443122,
+        "duration" : 600067
+      }
+    }, {
       "uid" : "b93802b9acfa36cf",
       "status" : "broken",
       "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c43:85cc:75f9:3193%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: AndroidDevice, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a32df5c5-a3d7-4011-ad87-80b562bad81c\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]}",
@@ -2197,13 +2224,22 @@
   "5e94fe62b62986319f169be63613673" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "160fe45869d1552a",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Original error: unexpected end of stream on http://0.0.0.0:4724/...\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c43:85cc:75f9:3193%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: driver.version: IOSDriver",
+      "time" : {
+        "start" : 1755031242870,
+        "stop" : 1755031843016,
+        "duration" : 600146
+      }
+    }, {
       "uid" : "f68205de501fcff9",
       "status" : "broken",
       "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c43:85cc:75f9:3193%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: AndroidDevice, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b446bfae-5f1f-4481-9c76-139c832909b7\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]}",
@@ -3250,13 +3286,22 @@
   "8c176700601bd05c1972864a7d482183" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "36da63602547c390",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Original error: unexpected end of stream on http://0.0.0.0:4724/...\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c43:85cc:75f9:3193%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: driver.version: IOSDriver",
+      "time" : {
+        "start" : 1755030642734,
+        "stop" : 1755031242844,
+        "duration" : 600110
+      }
+    }, {
       "uid" : "53738dfe4759fd59",
       "status" : "broken",
       "statusDetails" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c43:85cc:75f9:3193%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: AndroidDevice, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 4e542a86-c4b1-4360-9986-10b8544d3671\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]}",
